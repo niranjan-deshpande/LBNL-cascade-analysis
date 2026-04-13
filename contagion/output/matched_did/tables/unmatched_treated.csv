@@ -1,0 +1,46 @@
+entity_poi,event_quarter,n_wd_in_event,n_active_at_event,entity,dominant_type
+PSCo||pawnee substation,2004Q1,1,4,PSCo,Wind
+PJM||lumberton 69 kv,2011Q3,2,5,PJM,Solar
+ISO-NE||bhe keene road substation,2014Q3,1,5,ISO-NE,Wind
+CAISO||mendota substation 115 kv bus,2012Q2,1,4,CAISO,Solar
+PSCo||lamar substation,2005Q1,1,4,PSCo,Wind
+CAISO||red bluff substation 230 kv,2010Q4,1,4,CAISO,Solar+Battery
+SOCO||vidalia wadley primary (black) 230 kv line,2024Q2,1,5,SOCO,Solar+Battery
+CAISO||highwind substation 230 kv,2012Q2,1,1,CAISO,Solar+Wind+Battery
+ISO-NE||cl&p millstone 345 kv substation,2011Q2,1,1,ISO-NE,Nuclear
+CAISO||santa clara substation 230 kv,2017Q2,1,1,CAISO,Gas+Battery
+PSCo||comanche substation,2009Q4,1,7,PSCo,Solar
+CAISO||hoodoo wash switchyard 500 kv,2016Q1,1,3,CAISO,Solar
+SOCO||farley raccoon creek 500 kv line,2006Q2,1,1,SOCO,Coal
+CAISO||whirlwind substation 230 kv,2008Q4,2,4,CAISO,Solar+Battery
+ERCOT||44200 hillje 345 kv,2022Q1,1,7,ERCOT,Solar
+CAISO||midway wheeler ridge #2 230 kv line,2017Q1,1,3,CAISO,Solar
+CAISO||moorpark substation 230 kv,2022Q3,1,6,CAISO,Battery
+PSCo||san luis substation,2010Q2,1,12,PSCo,Solar
+CAISO||devers substation 220 kv,2018Q1,1,1,CAISO,Solar+Wind+Battery
+PJM||nelson electric junction 345 kv,2021Q1,1,6,PJM,Battery
+SOCO||east watkinsville russell dam (usa) 230 kv line,2024Q2,1,7,SOCO,Solar
+ERCOT||42110 angleton 138 kv,2021Q3,1,5,ERCOT,Gas
+CAISO||control substation 115 kv bus,2011Q1,4,6,CAISO,Geothermal
+"ISO-NE||cmp larrabee road station,345 kv",2018Q2,1,2,ISO-NE,Wind+Battery
+PJM||locks 345 kv,2022Q3,1,1,PJM,Other+Diesel
+PJM||rockport 765 kv,2010Q2,1,1,PJM,Solar+Battery
+CAISO||stroud switching station 70 kv,2012Q2,1,6,CAISO,Solar
+CAISO||otay mesa switchyard 230 kv,2014Q2,1,3,CAISO,Gas
+CAISO||schindler substation 115 kv bus,2012Q1,1,5,CAISO,Solar
+PSCo||lamar 230 kv substation,2020Q1,2,2,PSCo,Wind
+PJM||burlington 26 kv,2013Q1,2,4,PJM,Solar
+PSCo||missile site substation,2013Q1,4,6,PSCo,Wind
+CAISO||imperial valley substation 230 kv,2008Q4,1,3,CAISO,Solar
+PJM||oak hall,2010Q3,1,4,PJM,Solar
+CAISO||vincent substation 230 kv,2019Q2,1,6,CAISO,Battery
+SOCO||demopolis selma 115 kv line,2016Q4,1,3,SOCO,Solar
+PSCo||keenesburg 230 kv substation,2020Q1,4,1,PSCo,Wind
+PJM||hopewell surry 230 kv,2017Q4,1,7,PJM,Solar
+PJM||morrisville 230 kv,2024Q4,1,5,PJM,Battery
+PJM||olive dequine 345 kv,2008Q2,1,7,PJM,Wind
+PJM||marysville sorenson 765 kv,2023Q3,1,7,PJM,Solar
+PJM||indian river 230 kv i,2024Q2,1,3,PJM,Offshore Wind
+CAISO||pisgah substation 230 kv,2008Q4,3,3,CAISO,Solar
+CAISO||boulevard east substation 138 kv,2013Q1,1,5,CAISO,Solar
+CAISO||mendota substation 115 kv,2018Q1,2,4,CAISO,Solar

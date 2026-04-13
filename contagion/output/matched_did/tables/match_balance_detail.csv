@@ -1,0 +1,1953 @@
+pair_id,role,entity_poi,depth,pre_wd_count,mean_mw,mean_q_year,dominant_type,n_types
+0,treated,PJM||hawkins gate / oak grove 230 kv,1,0,450.0,1999.0,Gas,1
+0,control,PJM||bayonne,1,0,60.0,1999.0,Gas,1
+1,treated,PJM||lasalle,1,0,350.0,2012.0,Nuclear,1
+1,control,PJM||beaver valley #1,1,0,48.0,2008.0,Nuclear,1
+2,treated,PJM||heartsease dp mayo dunbar 115 kv,1,0,75.0,2016.0,Solar,1
+2,control,PJM||64th st 13 kv,1,0,0.54,2018.0,Solar,1
+3,treated,CAISO||colorado river substation 230 kv bus,1,0,224.0,2010.0,Solar,1
+3,control,CAISO||angiola substation 70 kv bus,1,0,150.0,2010.0,Solar,1
+4,treated,PJM||lexington dooms 230 kv,1,0,50.0,2023.0,Solar,1
+4,control,PJM||abw tap alexandria 46 kv,1,0,20.0,2019.0,Solar,1
+5,treated,PJM||keystone conemaugh 500 kv,1,0,646.0,2001.0,Gas,1
+5,control,PJM||bald eagle 46 kv,1,0,88.0,2000.0,Gas,1
+6,treated,PJM||dresden,1,0,3.0,2011.0,Nuclear,1
+6,control,PJM||braidwood 1,1,0,20.0,2009.0,Nuclear,1
+7,treated,PJM||possum point 230 kv,2,0,505.0,2008.0,Battery,1
+7,control,PJM||arnold 115 kv,1,0,10.4,1999.0,Battery,1
+8,treated,CAISO||henrietta gwf 115 kv line,2,0,56.75,2011.5,Solar,1
+8,control,CAISO||cottonwind whirlwind 230 kv line,2,0,293.0,2008.0,Solar,1
+9,treated,PJM||cowen 138 kv,1,0,210.0,2021.0,Solar,1
+9,control,PJM||abw tap williamsburg 46 kv,1,0,20.0,2019.0,Solar,1
+10,treated,PJM||jenkins harwood #2 69 kv,1,0,51.0,2005.0,Wind,1
+10,control,PJM||arnold (green mountain) 115 kv,1,0,2.08,2003.0,Wind,1
+11,treated,CAISO||giffen substation 70 kv,1,0,20.0,2011.0,Solar,1
+11,control,CAISO||alpaugh smyrna 115 kv line,1,0,40.0,2012.0,Solar,1
+12,treated,PJM||motion ridgeway 46 kv,1,0,20.0,2019.0,Solar,1
+12,control,PJM||adkins atlanta 345 kv,1,0,200.0,2021.0,Solar,1
+13,treated,CAISO||lugo pisgah 230 kv line,3,0,220.33333333333334,2006.3333333333333,Wind,2
+13,control,CAISO||crestwood,2,0,76.5,2004.0,Wind,1
+14,treated,PJM||wrightstown 345 kv,1,0,6.0,2010.0,Solar,1
+14,control,PJM||absecon 12 kv,1,0,2.3,2015.0,Solar,1
+15,treated,PJM||bayview,1,0,20.0,2009.0,Solar,1
+15,control,PJM||allenwood larabee 345 kv,1,0,7.0,2010.0,Solar,1
+16,treated,PSCo||pawnee daniels park 230 kv line,2,0,160.0,2004.0,Wind,1
+16,control,PSCo||keenesburg substation,2,0,125.0,,Wind,1
+17,treated,PJM||davis creek 345 kv,2,0,390.0,2016.5,Wind,2
+17,control,PJM||fostoria central greenlawn howard 138 kv,2,0,100.0,2008.0,Wind,1
+18,treated,CAISO||loop tesla stagg and tesla eight mile 230 kv lines,1,0,315.0,2008.0,Gas,1
+18,control,CAISO||115 kv panoche substation,1,0,49.9000015258789,2004.0,Gas,1
+19,treated,PSCo||badger hill 230 kv substation,1,0,200.0,2018.0,Battery,1
+19,control,PSCo||badger hill 230 kv,1,0,50.0,2020.0,Battery,1
+20,treated,ISO-NE||eversource north bloomfield 2a,1,0,26.0,2021.0,Battery,1
+20,control,ISO-NE||115 kv b128 line; 1888 miles from barre b128 and 53 miles from french king,1,0,105.0,2021.0,Battery,1
+21,treated,PJM||calvert cliffs,1,0,1640.0,2006.0,Nuclear,1
+21,control,PJM||north anna 500 kv,1,0,1594.0,2006.0,Nuclear,1
+22,treated,PJM||hector 115 kv,1,0,19.95,2023.0,Wind,1
+22,control,PJM||ada dunkirk 69 kv,1,0,31.7,2023.0,Wind,1
+23,treated,PJM||north salisbury 25 kv,1,0,5.3,2016.0,Other,1
+23,control,PJM||4 quad c18 kv qc 1 981 cres 138 kv providwf,1,0,2.0,2015.0,Other,1
+24,treated,PJM||cashie trowbridge 230 kv,1,0,80.0,2017.0,Solar,1
+24,control,PJM||academia 138 kv,1,0,150.0,2021.0,Solar,1
+25,treated,PJM||lena 138 kv,4,0,40.0,2019.75,Solar,2
+25,control,PJM||bluff point randolph 138 kv,4,0,73.0,2021.0,Solar,2
+26,treated,PJM||white marsh 345 kv,1,0,12.84,2023.0,Battery,1
+26,control,PJM||airey golden hill 69 kv,1,0,28.0,2021.0,Battery,1
+27,treated,PJM||perth crystal hill 115 kv,1,0,65.0,2021.0,Solar,1
+27,control,PJM||ac1 053 tap 345 kv (cir increase),1,0,48.0,2023.0,Solar,1
+28,treated,PJM||frazeysburg 138 kv,1,0,150.0,2017.0,Solar,1
+28,control,PJM||altavista mount airy 69 kv,1,0,42.0,2016.0,Solar,1
+29,treated,PJM||north orwell 1247 kv,1,0,7.5,2020.0,Solar,1
+29,control,PJM||airey vienna 69 kv,1,0,100.0,2020.0,Solar,1
+30,treated,SOCO||smith sinai cemetary 230 kv line,1,0,54.175,2017.0,Solar,1
+30,control,SOCO||acipco boyles 115 kv line,1,0,50.0,2016.0,Solar,1
+31,treated,PJM||summer shade 161 kv,1,0,106.0,2020.0,Solar,1
+31,control,PJM||albright mount zion 138 kv,1,0,175.0,2020.0,Solar,1
+32,treated,PJM||cooper 345 kv,1,0,3.0,2021.0,Solar,1
+32,control,PJM||allegheny somerset 115 kv,1,0,70.0,2021.0,Solar,1
+33,treated,PJM||quinton 12 kv,1,0,2.0,2006.0,Other,1
+33,control,PJM||beecher energy distribution cener #36,1,0,2.1,2006.0,Other,1
+34,treated,ERCOT||8189 tungsten 138 kv,1,0,346.0,2022.0,Solar,1
+34,control,ERCOT||#1058 longshore_5 345 kv,1,0,401.6,2024.0,Solar,1
+35,treated,PJM||kincaid 345 kv,1,0,600.0,2009.0,Coal,1
+35,control,PJM||brunner island #1,1,0,14.0,2001.0,Coal,1
+36,treated,PJM||cedar 69 kv,1,0,0.12,2003.0,Battery,1
+36,control,PJM||airey vienna 69 kv ii,1,0,25.0,2020.0,Battery,1
+37,treated,ERCOT||68090 sam switch 345 kv,1,0,202.0,2018.0,Wind,1
+37,control,ERCOT||11305 dermott 345 kv,1,0,242.6,2015.0,Wind,1
+38,treated,PJM||madison tanners creek 138 kv,3,0,118.06666666666666,2011.6666666666667,Wind,1
+38,control,PJM||brokaw lanesville,3,0,95.43333333333334,2012.6666666666667,Wind,1
+39,treated,PJM||lumberton 13 kv,1,0,11.0,2010.0,Solar,1
+39,control,PJM||alpha gilbert 34 kv,1,0,12.0,2011.0,Solar,1
+40,treated,PJM||tazewell ab1 122 345 kv,1,0,66.95,2023.0,Wind,1
+40,control,PJM||baker 138 kv,1,0,80.0,2017.0,Wind,1
+41,treated,PJM||campbell kiesters 138 kv,1,0,20.3,2023.0,Solar,1
+41,control,PJM||allegheny somerset 115 kv ii,1,0,20.0,2021.0,Solar,1
+42,treated,PJM||branchville holiday lakes 345 kv,2,0,13.5,2010.0,Solar,1
+42,control,PJM||broadway stewartsville 345 kv,2,0,9.4,2010.0,Solar,1
+43,treated,SOCO||greenville snowdoun 230 kv line,1,0,80.0,2018.0,Solar,1
+43,control,SOCO||barneyville douglas 115 kv line,1,0,100.0,2017.0,Solar,1
+44,treated,PJM||titusville oil creek 345 kv,1,0,10.0,2020.0,Solar,1
+44,control,PJM||allenwood larrabee 2 345 kv,1,0,3.05,2023.0,Solar,1
+45,treated,PJM||arnold's corner dahlgren 230 kv,1,0,100.0,2019.0,Battery,1
+45,control,PJM||allenwood larrabee 345 kv ii,1,0,0.7,2021.0,Battery,1
+46,treated,PJM||atlantic 230 kv,1,0,24.0,2000.0,Gas,1
+46,control,PJM||9th st (substation 117) 13 kv,1,0,10.0,2000.0,Gas,1
+47,treated,PJM||ladysmith ct st johns 230 kv,1,0,120.0,2018.0,Solar,1
+47,control,PJM||almena valley 69 kv,1,0,40.0,2021.0,Solar,1
+48,treated,PJM||rogers road 500 kv,2,0,77.0,2022.0,Battery,2
+48,control,PJM||baker broadford 765 kv,2,0,450.0,2021.0,Battery,2
+49,treated,CAISO||elk creek 60 kv tap,1,0,20.0,2010.0,Solar,1
+49,control,CAISO||antelope neenach 66 kv line,1,0,20.0,2009.0,Solar,1
+50,treated,PJM||linden 230 kv,1,0,61.0,2013.0,Gas,1
+50,control,PJM||adkins 345 kv,1,0,30.0,2013.0,Gas,1
+51,treated,PJM||birdsboro 69 kv,1,0,10.0,2001.0,Gas,1
+51,control,PJM||bergen 138 kv,1,0,51.1,,Gas,1
+52,treated,CAISO||arco substation 70 kv,2,0,40.0,2014.0,Solar,1
+52,control,CAISO||eldorado ivanpah 230 kv line,2,0,125.0,2008.5,Solar,2
+53,treated,ERCOT||tap 345 kv 8905 n edinb 8455 lon hill,3,0,286.46666666666664,2016.6666666666667,Wind,1
+53,control,ERCOT||71050 bitter creek 345 kv,3,0,64.23333333333333,2017.0,Wind,1
+54,treated,PJM||branchville sussex 34 kv,1,0,6.0,2011.0,Battery,1
+54,control,PJM||beckjord 2 mw 1,1,0,2.0,2013.0,Battery,1
+55,treated,PJM||olive reynolds 345 kv,2,0,200.0,2018.0,Solar,2
+55,control,PJM||beatty london 138 kv,2,0,98.0,2016.5,Solar,1
+56,treated,CAISO||imperial valley substation 230 kv bus,1,0,300.0,2005.0,Solar,1
+56,control,CAISO||antelope magunden 230 kv,1,0,231.0,2007.0,Solar,1
+57,treated,PJM||stockton 345 kv,1,0,20.0,2016.0,Solar,1
+57,control,PJM||alta haute tuscarora 69 kv,1,0,20.0,2020.0,Solar,1
+58,treated,ERCOT||1338 eskota 138 kv,1,0,6.4,2017.0,Solar,1
+58,control,ERCOT||110471 formosa 138 kv,1,0,206.31,2020.0,Solar,1
+59,treated,PJM||biers run circleville 138 kv,4,0,96.0,2017.25,Solar,1
+59,control,PJM||hardin switch 345 kv,4,0,113.75,2018.0,Solar,2
+60,treated,PJM||edgemoor 230 kv,1,0,10.0,2001.0,Gas,1
+60,control,PJM||black oak 500 kv,1,0,500.0,2001.0,Gas,1
+61,treated,ERCOT||tap 138 kv 177 bosque 181 cayote,1,0,112.0,2017.0,Solar,1
+61,control,ERCOT||1032 morgan creek 138 kv,1,0,200.0,2016.0,Solar,1
+62,treated,CAISO||colorado river substation 230 kv,4,0,259.75,2011.0,Solar,1
+62,control,CAISO||jacobs corner substation 70 kv bus,3,0,20.0,2008.0,Solar,1
+63,treated,PJM||hopkins 138 kv,6,0,89.64,2022.0,Solar,2
+63,control,PJM||meadow lake 345 kv,6,0,98.5,2021.1666666666667,Solar,3
+64,treated,PJM||missouri ave,1,0,110.0,2008.0,Oil,1
+64,control,PJM||carlls corner 69 kv,1,0,18.0,,Oil,1
+65,treated,CAISO||el dorado 220 kv switchyard,1,0,5.0,2007.0,Solar,1
+65,control,CAISO||antelope substation,1,0,250.0,2008.0,Solar,1
+66,treated,CAISO||bridgeville substation 115 kv,1,0,97.2,2020.0,Wind+Battery,1
+66,control,CAISO||new switchyard to loop the eco miguel 500 kv line,1,0,205.8,2020.0,Wind+Battery,1
+67,treated,ISO-NE||cvps 46 kv circuit in springfield area,1,0,30.0,2009.0,Other,1
+67,control,ISO-NE||115 kv line near e springfield substation,1,0,36.7000007629394,2008.0,Other,1
+68,treated,PJM||earleys 230 kv,1,0,80.0,2014.0,Solar,1
+68,control,PJM||anaconda mayo dunbar 115 kv,1,0,80.0,2015.0,Solar,1
+69,treated,CAISO||antelope substation 220 kv,2,0,361.5,2018.0,Battery,2
+69,control,CAISO||antelope substation 230 kv,2,0,237.2963,2021.0,Battery,1
+70,treated,PJM||thompson 115 kv,2,0,85.0,2006.0,Wind,1
+70,control,PJM||greenland gap 500 kv,2,0,180.0,2002.5,Wind,1
+71,treated,PJM||hughesville 12 kv,1,0,3.0,2022.0,Solar,1
+71,control,PJM||allen rp mone 345 kv,1,0,180.0,2021.0,Solar,1
+72,treated,PJM||mainesburg 115 kv,1,0,100.0,2020.0,Battery,1
+72,control,PJM||allenwood larrabee 34 kv,1,0,7.0,2015.0,Battery,1
+73,treated,PJM||fentress 345 kv,1,0,16.7,2017.0,Solar,1
+73,control,PJM||antietam 345 kv,1,0,10.0,2016.0,Solar,1
+74,treated,SOCO||claxton ludowici primary 115 kv line,1,0,80.0,2018.0,Solar,1
+74,control,SOCO||augusta newsprint vogtle switching 230 kv line,1,0,150.0,2019.0,Solar,1
+75,treated,PJM||minonk 345 kv,1,0,50.0,2021.0,Battery,1
+75,control,PJM||amherst riverville 138 kv,1,0,40.0,2021.0,Battery,1
+76,treated,PJM||harmony village 230 kv,3,0,49.333333333333336,2019.6666666666667,Battery,1
+76,control,PJM||blue mound 345 kv,3,0,133.33333333333334,2020.0,Battery,2
+77,treated,SOCO||county line road gaston 230 kv line,1,1,80.0,2020.0,Solar+Battery,1
+77,control,SOCO||anniston weaver (radial) 115 kv line,1,0,80.0,2019.0,Solar+Battery,1
+78,treated,SOCO||calvert substation ellicott substation no 2 230 kv line,1,0,80.0,2023.0,Solar+Battery,1
+78,control,SOCO||burkville substation hunter station substation 115 kv line,1,0,80.0,2023.0,Solar+Battery,1
+79,treated,SOCO||greene county octagon 115 kv line,1,0,80.0,2016.0,Solar,1
+79,control,SOCO||aultman road perry 115 kv line,1,0,49.9,2016.0,Solar,1
+80,treated,PJM||keeney steele 230 kv,1,0,202.0,2016.0,Solar,1
+80,control,PJM||allegheny 115 kv,1,0,85.0,2019.0,Solar,1
+81,treated,PJM||hillsboro 138 kv,4,1,108.5,2016.75,Solar,1
+81,control,PJM||brink trego 115 kv,3,0,19.866666666666667,2015.3333333333333,Solar,1
+82,treated,ERCOT||8601 cebolla 345 kv,2,0,150.0,2022.0,Battery,1
+82,control,ERCOT||#6564 illn4a 138 kv,2,0,77.05000000000001,2023.0,Battery,2
+83,treated,PJM||powhatan 345 kv,2,0,17.5,2019.0,Solar,2
+83,control,PJM||amsden fremont center 69 kv,2,0,79.0,2021.0,Solar,1
+84,treated,SOCO||plant wansley substation 500 kv bus,4,0,603.5,2023.5,Gas,3
+84,control,SOCO||yates 6 & 7 substation 230 kv bus,3,0,548.0,2023.0,Gas,1
+85,treated,PJM||parlin 230 kv,1,0,114.0,,Gas,1
+85,control,PJM||bethesda (substation 6),1,0,2.0,2002.0,Gas,1
+86,treated,PJM||montour 230 kv,10,0,38.9964,2021.4,Solar,1
+86,control,PJM||harmony village shackleford 115 kv,11,0,35.53636363636363,2018.6363636363637,Solar,1
+87,treated,CAISO||coolwater substation 115 kv,1,0,113.5,2016.0,Battery,1
+87,control,CAISO||antelope 220 kv bus,1,0,412.0,2015.0,Battery,1
+88,treated,ERCOT||tap 345 kv 76002 bakersfield 76000 nmccamey,1,0,255.0,2017.0,Solar,1
+88,control,ERCOT||11083 riverton 138 kv,1,0,100.0,2013.0,Solar,1
+89,treated,PJM||geneva 115 kv,2,0,97.0,2020.5,Solar,2
+89,control,PJM||bartonsville meadow brook 138 kv,2,0,40.0,2019.0,Solar,1
+90,treated,PJM||olive reynolds #2 345 kv,3,0,186.66666666666666,2020.0,Solar,1
+90,control,PJM||allen 345 kv,3,0,83.33333333333333,2020.0,Solar,2
+91,treated,SOCO||east chelsea lay dam 115 kv line,1,0,150.0,2018.0,Solar,1
+91,control,SOCO||achord road dirt road 115 kv line,1,0,150.0,2022.0,Solar,1
+92,treated,CAISO||gates midway 230 kv line,1,0,500.0,2019.0,Solar+Battery,1
+92,control,CAISO||arco midway 230 kv line,1,0,312.96,2020.0,Solar+Battery,1
+93,treated,PJM||bakers pond ivor 115 kv,1,0,68.0,2017.0,Solar,1
+93,control,PJM||arnold's corner 345 kv,1,0,18.0,2016.0,Solar,1
+94,treated,CAISO||gates substation 230 kv,3,0,140.0,2014.0,Solar+Battery,3
+94,control,CAISO||kramer 230 kv,3,0,122.10000000000001,2016.0,Solar+Battery,1
+95,treated,PJM||fitchville new london 69 kv,1,0,40.0,2021.0,Solar,1
+95,control,PJM||american can basf 345 kv,1,0,19.6,2021.0,Solar,1
+96,treated,PJM||braidwood cook,1,0,250.0,2012.0,Other,1
+96,control,PJM||4 quad cities 1 ni hub,1,0,250.0,2012.0,Other,1
+97,treated,SOCO||snowdoun south montgomery 230 kv line,1,0,80.0,2016.0,Solar,1
+97,control,SOCO||baxley vidalia 115 kv line,1,0,120.0,2016.0,Solar,1
+98,treated,SOCO||hatch offerman 230 kv line,1,0,100.0,2016.0,Solar,1
+98,control,SOCO||bio substation 115 kv bus,1,0,150.0,2017.0,Solar,1
+99,treated,PJM||burlington 138 kv,1,0,336.0,1999.0,Gas,1
+99,control,PJM||atlantic,1,0,471.0,2001.0,Gas,1
+100,treated,PJM||barterbrook stuarts draft 115 kv,2,0,79.0,2019.0,Battery,2
+100,control,PJM||brandon shores 230 kv,2,0,212.5,2021.0,Battery,1
+101,treated,PJM||martins creekcherry hill 69 kv,1,0,22.0,2023.0,Solar,1
+101,control,PJM||altoona raystown 230 kv iii,1,0,30.16,2023.0,Solar,1
+102,treated,PJM||belvidere,1,0,11.15,2011.0,Gas,1
+102,control,PJM||ak steel middletown ak steel 1c 138 kv,1,0,134.5,2010.0,Gas,1
+103,treated,PJM||union city cambridge springs 345 kv,1,0,20.0,2019.0,Solar,1
+103,control,PJM||altamont tuscarora 69 kv,1,0,20.0,2020.0,Solar,1
+104,treated,PJM||greene beatty 345 kv,1,0,56.1,2023.0,Solar,1
+104,control,PJM||amherst riverville138 kv,1,0,18.0,2023.0,Solar,1
+105,treated,PJM||barbadoes 34 kv,1,0,1.0,2012.0,Battery,1
+105,control,PJM||alpha 345 kv,1,0,20.0,2015.0,Battery,1
+106,treated,PJM||westmoreland 345 kv,1,0,20.0,2016.0,Battery,1
+106,control,PJM||atlantic oceanview 34 kv,1,0,3.0,2015.0,Battery,1
+107,treated,PJM||montgomery 12 kv,1,0,5.1,2021.0,Solar,1
+107,control,PJM||amherst 69 kv,1,0,65.0,2020.0,Solar,1
+108,treated,CAISO||lugo pisgah 230 kv,3,0,243.33333333333334,2023.0,Solar+Battery,2
+108,control,CAISO||arco substation 230 kv,3,0,263.6666666666667,2023.0,Solar+Battery,1
+109,treated,CAISO||johanna substation 230 kv,1,0,305.0,2019.0,Battery,1
+109,control,CAISO||avocado substation 69 kv,1,0,69.6,2015.0,Battery,1
+110,treated,CAISO||etiwanda substation 230 kv,3,0,252.88113733333333,2020.3333333333333,Battery,1
+110,control,CAISO||lamont 115 kv,3,0,98.11833333333334,2017.3333333333333,Battery,3
+111,treated,PJM||todds tavern spotsylvania/goldsdale 115 kv,1,0,50.0,2021.0,Battery,1
+111,control,PJM||appomattox esc,1,0,100.0,2022.0,Battery,1
+112,treated,PJM||williamstown 12 kv,1,0,12.0,2011.0,Solar,1
+112,control,PJM||andover kittatinny #2 345 kv,1,0,10.0,2010.0,Solar,1
+113,treated,CAISO||rio hondo substation 230 kv,1,0,200.0,2019.0,Battery,1
+113,control,CAISO||atlantic 60 kv,1,0,102.0,2020.0,Battery,1
+114,treated,PJM||robinson 69 kv,1,0,55.0,2021.0,Solar+Battery,1
+114,control,PJM||adams seaman 69 kv,1,0,87.2,2022.0,Solar+Battery,1
+115,treated,PJM||lexington 115 kv,1,0,100.0,2021.0,Battery,1
+115,control,PJM||arnolds corner 345 kv,1,0,7.0,2020.0,Battery,1
+116,treated,PJM||goddard plumville 138 kv,1,0,35.0,2023.0,Solar,1
+116,control,PJM||apple valley 138 kv,1,0,150.0,2023.0,Solar,1
+117,treated,PJM||monterey 69 kv,1,0,35.0,2004.0,Wind,1
+117,control,PJM||baileyville wind farm,1,0,80.0,2003.0,Wind,1
+118,treated,PJM||keystone 500 kv,2,0,450.0,1999.0,Gas,1
+118,control,PJM||bergen,2,0,275.0,1999.0,Gas,1
+119,treated,CAISO||mesa 230 kv,1,0,106.2,2018.0,Battery,1
+119,control,CAISO||belotta 115 kv,1,0,132.0,2015.0,Battery,1
+120,treated,PJM||mcdowell 138 kv,1,0,100.0,2022.0,Solar,1
+120,control,PJM||altoona raystown 230 kv,1,0,80.0,2019.0,Solar,1
+121,treated,PJM||heritage wake 500 kv,2,0,125.0,2020.0,Solar,1
+121,control,PJM||ad1 100 345 kv (cir increase),2,0,42.0,2023.0,Solar,1
+122,treated,PJM||dresden pontiac midpoint 345 kv,2,0,175.0,2021.5,Solar,2
+122,control,PJM||apple grove 138 kv,2,0,64.3,2021.5,Solar,2
+123,treated,PJM||laurel mountain 138 kv,2,0,34.6,2023.0,Battery,2
+123,control,PJM||boxwood riverville 138 kv,2,0,40.0,2021.5,Battery,1
+124,treated,PJM||surry hopewell 230 kv,2,0,84.5,2020.5,Solar+Battery,1
+124,control,PJM||cashie 230 kv,2,0,55.0,2021.0,Solar+Battery,1
+125,treated,PJM||hamilton 115 kv,1,0,20.0,2020.0,Solar,1
+125,control,PJM||anaconda dunbar 115 kv,1,0,40.0,2019.0,Solar,1
+126,treated,PJM||reynolds olive #1 345 kv,3,0,226.66666666666666,2019.6666666666667,Solar,2
+126,control,PJM||cherry ridge 66 kv,3,0,48.333333333333336,2021.0,Solar,2
+127,treated,CAISO||vincent substation,1,0,33.1,2006.0,Solar,1
+127,control,CAISO||blm west kramer 230 kv line,1,0,450.0,2007.0,Solar,1
+128,treated,PJM||berry hill 138 kv,2,0,90.0,2020.0,Battery,2
+128,control,PJM||chinquapin 230 kv,2,0,165.0,2020.0,Battery,2
+129,treated,PJM||boykins 345 kv,3,0,11.0,2014.6666666666667,Solar,1
+129,control,PJM||s cumberland 69 kv,3,0,16.633333333333333,2010.0,Solar,1
+130,treated,SOCO||sylvania waynesboro primary 115 kv line,1,0,40.0,2018.0,Solar,1
+130,control,SOCO||claxton statesboro primary 115 kv line,1,0,58.8,2017.0,Solar,1
+131,treated,SOCO||anniston (apc) hammond 230 kv line,2,0,225.0,2019.0,Solar,2
+131,control,SOCO||bonaire primary butler 230 kv line,2,0,165.0,2021.0,Solar,2
+132,treated,ISO-NE||cmp section 3023 345 kv line (via johnson mountain substation),1,0,89.6999969482421,2018.0,Wind,1
+132,control,ISO-NE||115 kv line 229,1,0,33.0,2008.0,Wind,1
+133,treated,ISO-NE||pittsfield 345 kv,1,0,250.0,2013.0,Wind,1
+133,control,ISO-NE||115 kv rumford substation,1,0,50.599998474121,2007.0,Wind,1
+134,treated,PSCo||boone 115 kv substation,2,0,125.0,2017.0,Solar,2
+134,control,PSCo||green valley substation 230 kv,2,0,100.0,2016.0,Solar,1
+135,treated,ERCOT||46220 peters 138 kv,1,0,205.31,2021.0,Battery,1
+135,control,ERCOT||10002 ns crane switch 138 kv,1,0,121.56,2020.0,Battery,1
+136,treated,PJM||kewanee 138 kv,1,0,105.0,2006.0,Wind,1
+136,control,PJM||adams allen 138 kv,1,0,130.0,2006.0,Wind,1
+137,treated,PJM||millville old chapel 138 kv,1,0,99.0,2019.0,Solar,1
+137,control,PJM||arrington circuit 1247 kv,1,0,10.0,2022.0,Solar,1
+138,treated,PJM||wye mills 25 kv,1,0,8.0,2016.0,Battery,1
+138,control,PJM||balls gap 345 kv,1,0,2.0,2015.0,Battery,1
+139,treated,ERCOT||79506 abernathy 345 kv,1,0,122.0,2013.0,Wind,1
+139,control,ERCOT||11319 scosw scurrycounty 138 kv,1,0,308.82,2016.0,Wind,1
+140,treated,CAISO||windhub substation 230 kv,2,0,449.0,2007.5,Solar+Battery,2
+140,control,CAISO||midway temblor 115 kv line,2,0,20.0,,Solar+Battery,1
+141,treated,PJM||watkins corner 345 kv,1,0,20.0,2021.0,Solar,1
+141,control,PJM||ashfield 12 kv,1,0,1.5,2021.0,Solar,1
+142,treated,PJM||adams 138 kv,4,0,57.45,2020.25,Solar,3
+142,control,PJM||cashie earleys 230 kv,4,0,67.5,2020.0,Solar,2
+143,treated,PJM||hillsboro wye mills 138 kv,1,0,11.9,2023.0,Solar,1
+143,control,PJM||ashtabula county pv project 1,1,0,10.0,2022.0,Solar,1
+144,treated,CAISO||eldorado baker cool water dunn siding mountain pass 115 kv line,3,0,202.66666666666666,2007.0,Solar,1
+144,control,CAISO||camino iron mountain 230 kv line,2,0,49.5,2008.0,Solar,1
+145,treated,CAISO||mustang switching station 230 kv,2,0,230.9075,2016.0,Solar+Battery,1
+145,control,CAISO||colorado river substation 220 kv,2,0,317.5,2011.5,Solar+Battery,1
+146,treated,PJM||hunterstown 500 kv,1,0,679.0,1999.0,Gas,1
+146,control,PJM||basin 230 kv,1,0,22.0,2007.0,Gas,1
+147,treated,CAISO||cameron substation 69 kv,1,0,20.0,2014.0,Solar,1
+147,control,CAISO||arco twisselman 70 kv,1,0,15.0,2011.0,Solar,1
+148,treated,CAISO||harquahala substation 500 kv,1,0,300.0,2011.0,Solar,1
+148,control,CAISO||66 kv windhub substation,1,0,35.3,2011.0,Solar,1
+149,treated,PJM||hillcrest 138 kv,1,0,125.0,2015.0,Solar,1
+149,control,PJM||andover kittatinny 34 kv,1,0,10.0,2011.0,Solar,1
+150,treated,CAISO||delaney substation 500 kv,2,0,1190.723,2020.0,Solar+Battery,1
+150,control,CAISO||midway 115 kv,2,0,205.7,2018.5,Solar+Battery,1
+151,treated,PJM||gladstone 138 kv,2,0,53.5,2021.5,Solar,1
+151,control,PJM||argenta twin branch 345 kv,2,0,185.0,2022.0,Solar,1
+152,treated,ERCOT||68008 latimer 345 kv,1,0,350.0,2018.0,Wind,1
+152,control,ERCOT||1064 sun 138 kv,1,0,22.4,2020.0,Wind,1
+153,treated,PJM||chesterfield 230 kv,4,0,349.5,2020.0,Battery,2
+153,control,PJM||buckingham farmville 230 kv,4,0,45.85,2021.5,Battery,2
+154,treated,PJM||birchwood nug 230 kv,2,0,101.15,2022.0,Battery,1
+154,control,PJM||bridgeport 230 kv,2,0,109.5,2021.5,Battery,1
+155,treated,PJM||pendleton tanners creek 138 kv,1,0,100.0,2022.0,Solar,1
+155,control,PJM||ashtabula county pv project 2,1,0,10.0,2022.0,Solar,1
+156,treated,ERCOT||79503 tule canyon 345 kv,2,0,200.0,2011.0,Wind,1
+156,control,ERCOT||42400 refuge 345 kv,2,0,196.2,2016.5,Wind,1
+157,treated,PJM||phillipsburg,1,0,4.8,2011.0,Solar,1
+157,control,PJM||applegarth 125 kv,1,0,9.0,2010.0,Solar,1
+158,treated,PSCo||midway substation 115 kv,1,0,100.0,2016.0,Solar,1
+158,control,PSCo||alamosa substation,1,0,40.0,2009.0,Solar,1
+159,treated,PJM||hickory 345 kv,1,0,20.0,2016.0,Solar,1
+159,control,PJM||argonne new lisbon 345 kv,1,0,13.0,2014.0,Solar,1
+160,treated,PJM||north temple 230 kv,1,0,560.0,2001.0,Gas,1
+160,control,PJM||big sandy 138 kv,1,0,20.0,2007.0,Gas,1
+161,treated,PJM||laurel 69 kv,1,0,85.0,2016.0,Solar,1
+161,control,PJM||absecon 1247 kv,1,0,2.4,2019.0,Solar,1
+162,treated,PJM||kincaid pana,1,0,200.0,2019.0,Battery,1
+162,control,PJM||athenia 26 kv,1,0,20.0,2021.0,Battery,1
+163,treated,PJM||avon north clark 345 kv,2,0,175.0,2019.0,Solar,1
+163,control,PJM||bearrock johnstown 230 kv,2,0,75.0,2019.0,Solar,1
+164,treated,SOCO||colerain thalmann 230 kv line,1,0,280.0,2018.0,Solar,1
+164,control,SOCO||baxley jesup 115 kv line,1,0,85.0,2018.0,Solar,1
+165,treated,PJM||branchville sussex 345 kv,1,0,10.0,2011.0,Solar,1
+165,control,PJM||asbury,1,0,9.7,2011.0,Solar,1
+166,treated,ERCOT||80219 lobo 345 kv,2,0,201.95,2019.0,Solar,1
+166,control,ERCOT||11406 central bluff 345 kv,2,0,102.06,2017.5,Solar,2
+167,treated,PJM||brunswick gasburg 69 kv,1,0,52.65,2022.0,Solar,1
+167,control,PJM||atlanta 69 kv iii,1,0,49.9,2016.0,Solar,1
+168,treated,CAISO||encina substation 138 kv,1,0,105.8,2007.0,Battery,1
+168,control,CAISO||115 kv rosedale substation,1,0,20.0,2015.0,Battery,1
+169,treated,PJM||buckskin 69 kv,4,0,63.125,2017.0,Solar,1
+169,control,PJM||buggs island chase city 115 kv,3,0,20.0,2016.0,Solar,1
+170,treated,PJM||windsor 138 kv,1,0,300.0,2001.0,Gas,1
+170,control,PJM||bayonne 138 kv,1,0,46.0,2005.0,Gas,1
+171,treated,PJM||palmer springs 115 kv,3,0,70.66666666666667,2021.6666666666667,Battery,2
+171,control,PJM||eagle road 138 kv,3,0,116.66666666666667,2022.0,Battery,3
+172,treated,PJM||elm st 115 kv,1,0,70.0,2000.0,Gas,1
+172,control,PJM||bethlehem steel 33 kv,1,0,2.5,2000.0,Gas,1
+173,treated,PJM||davis creek 138 kv,1,0,50.0,2017.0,Solar,1
+173,control,PJM||atlanta 69 kv iv,1,0,49.9,2016.0,Solar,1
+174,treated,ISO-NE||eversource 345 kv west barnstable (921),2,0,252.5,2021.0,Offshore Wind,1
+174,control,ISO-NE||eversource (cl&p) millstone 345 kv substation,2,0,1200.0,2020.0,Offshore Wind,1
+175,treated,PJM||smithfield 345 kv,1,0,20.0,2018.0,Solar,1
+175,control,PJM||allentown booster 138 kv,1,0,1.86,2018.0,Solar,1
+176,treated,PJM||cookstown 345 kv,1,0,5.0,2010.0,Solar,1
+176,control,PJM||baptistown 12 kv,1,0,6.0,2010.0,Solar,1
+177,treated,PJM||sorenson 345 kv,5,0,246.6,2022.4,Solar,3
+177,control,PJM||delaware van buren 138 kv,5,0,52.384,2020.4,Solar,2
+178,treated,PJM||sapony 345 kv,3,0,30.900000000000002,2021.3333333333333,Solar,3
+178,control,PJM||cole 345 kv,3,0,103.33333333333333,2019.6666666666667,Solar,2
+179,treated,PJM||frackville siegfried 230 kv,1,0,500.0,2018.0,Hydro,1
+179,control,PJM||albright cross school 138 kv,1,0,15.0,2017.0,Hydro,1
+180,treated,PJM||heidelberg 69 kv,1,0,5.8,2023.0,Solar,1
+180,control,PJM||auburn 69 kv,1,0,11.0,2023.0,Solar,1
+181,treated,PJM||sunbury 500 kv,1,0,206.0,2019.0,Gas,1
+181,control,PJM||aurora 345 kv,1,0,30.0,2016.0,Gas,1
+182,treated,SOCO||ray place road union point primary 115 kv line,1,0,150.0,2022.0,Solar,1
+182,control,SOCO||anthony shoals washington 115 kv line,1,0,105.0,2023.0,Solar,1
+183,treated,SOCO||east bainbridge spring creek (black) 115 kv line,1,0,78.6,2016.0,Solar,1
+183,control,SOCO||bouldin dam forbes road 115 kv line,1,0,79.2,2016.0,Solar,1
+184,treated,CAISO||mesa substation 230 kv,1,0,632.44,2020.0,Battery,1
+184,control,CAISO||alamitos 220 kv,1,0,241.5,2021.0,Battery,1
+185,treated,SOCO||north tifton pitts 230 kv line,4,0,194.625,2017.25,Solar,1
+185,control,SOCO||fortson north tifton 500 kv line,4,0,495.0,2017.75,Solar,1
+186,treated,PJM||imperial joffre 138 kv,1,0,215.0,2020.0,Battery,1
+186,control,PJM||aurora ec 138 kv,1,0,250.0,2021.0,Battery,1
+187,treated,PJM||southampton handsom 115 kv,2,0,100.0,2021.0,Solar,1
+187,control,PJM||beatty greene 345 kv,2,0,366.0,2019.0,Solar,1
+188,treated,SOCO||athena center primary 230 kv line,1,0,761.0,2007.0,Gas,1
+188,control,SOCO||center primary 230 kv substation,1,0,890.0,2003.0,Gas,1
+189,treated,PSCo||mirasol 230 kv substation,3,0,170.5,2020.3333333333333,Solar,1
+189,control,PSCo||missile site 230 kv substation,2,0,189.5,2021.5,Solar,1
+190,treated,SOCO||barry lucedale 115 kv line,2,0,74.0,2021.0,Solar,1
+190,control,SOCO||eatonton primary porterdale primary 230 kv line,2,0,250.0,2021.0,Solar,2
+191,treated,PJM||bismark doubs 500 kv,1,0,100.0,2021.0,Solar,1
+191,control,PJM||arrowhead 12 kv,1,0,10.0,2021.0,Solar,1
+192,treated,PJM||hanging rock 765 kv,1,0,10.0,2014.0,Gas,1
+192,control,PJM||andrew shaft 84 junction 25 kv,1,0,19.9,2015.0,Gas,1
+193,treated,PJM||eagle point 230 kv,1,0,22.9,2011.0,Gas,1
+193,control,PJM||alabama 138 kv,1,0,20.0,2010.0,Gas,1
+194,treated,PJM||snake spring 115 kv iii,1,0,5.8,2023.0,Solar,1
+194,control,PJM||avon renaker 138 kv,1,0,40.0,2021.0,Solar,1
+195,treated,PJM||kings dominion dp 115 kv,3,0,72.5,2018.3333333333333,Solar,2
+195,control,PJM||campbelltown millars quarry 69 kv,3,0,15.0,2019.0,Solar,1
+196,treated,PSCo||comanche daniels park 345 kv line,1,0,483.0,,Gas,1
+196,control,PSCo||cherokee substation,1,0,687.0,,Gas,1
+197,treated,PJM||raritan river 230 kv,2,0,392.5,2010.5,Gas,1
+197,control,PJM||chalk point bowie 230 kv,2,0,275.0,2008.0,Gas,1
+198,treated,CAISO||red bluff substation 500 kv,4,0,675.7,2020.0,Solar+Battery,2
+198,control,CAISO||calcite 230 kv,4,0,402.812475,2023.0,Solar+Battery,2
+199,treated,PJM||st johns 115 kv,4,0,52.75,2019.5,Solar,2
+199,control,PJM||kincaid pana 345 kv,4,0,147.25,2018.75,Solar,2
+200,treated,SOCO||aliceville cochrane ds 46 kv line,1,0,19.5,2016.0,Solar,1
+200,control,SOCO||albany sowega 230 kv line,1,0,74.9,2017.0,Solar,1
+201,treated,PJM||tait 69 kv,2,0,10.0,2012.5,Gas,1
+201,control,PJM||aurora 138 kv,2,0,33.0,2016.0,Gas,1
+202,treated,PJM||salem east windsor 500 kv,1,0,550.0,2000.0,Gas,1
+202,control,PJM||blueball 69 kv,1,0,8.0,2000.0,Gas,1
+203,treated,ISO-NE||grid l 190 line via new station,2,0,25.0,2018.0,Solar,1
+203,control,ISO-NE||cmp 115 kv line section 80,2,0,117.25,2021.0,Solar,2
+204,treated,PJM||jay 69 kv,1,0,12.0,2023.0,Solar,1
+204,control,PJM||axton danville 138 kv,1,0,201.1,2019.0,Solar,1
+205,treated,PJM||tbd 345 kv,3,0,14.333333333333334,2021.6666666666667,Solar,1
+205,control,PJM||clover sedge hill 230 kv,3,0,54.333333333333336,2017.3333333333333,Solar,1
+206,treated,PJM||chickahominy 500 kv,2,0,1330.0,2016.0,Gas,1
+206,control,PJM||cook east elkhart 345 kv,2,0,542.5,2015.5,Gas,1
+207,treated,PJM||bremo scottsville 138 kv,1,0,149.5,2018.0,Battery,1
+207,control,PJM||avon 138 kv,1,0,40.0,2019.0,Battery,1
+208,treated,PJM||hickory shawboro 230 kv,1,0,120.0,2014.0,Solar,1
+208,control,PJM||ashley millbrook park 69 kv,1,0,18.3,2017.0,Solar,1
+209,treated,PJM||cambria slope 115 kv,1,0,125.0,2004.0,Coal,1
+209,control,PJM||brunner island #2,1,0,14.0,2001.0,Coal,1
+210,treated,PJM||somerset 23 kv,1,0,4.5,2000.0,Solar,1
+210,control,PJM||atco 12 kv,1,0,2.57,2018.0,Solar,1
+211,treated,PJM||east carbondale lackawanna 69 kv,1,0,10.0,2014.0,Battery,1
+211,control,PJM||beach glen 48 kv,1,0,0.2,2017.0,Battery,1
+212,treated,CAISO||cielo azul substation 500 kv,2,0,1211.07525,2021.0,Solar+Battery,1
+212,control,CAISO||crescent 70 kv,2,0,36.0768,2020.5,Solar+Battery,1
+213,treated,PJM||pamplin 345 kv,1,0,15.7,2017.0,Solar,1
+213,control,PJM||64th street 13 kv,1,0,3.6,2018.0,Solar,1
+214,treated,ISO-NE||ui singer substation,2,0,336.0,2015.0,Gas,1
+214,control,ISO-NE||grid 115 kv franklin substation,2,0,252.0,2010.0,Gas,1
+215,treated,PJM||middleburg 12 kv,1,0,2.0,2022.0,Solar,1
+215,control,PJM||bane 69 kv,1,0,8.0,2021.0,Solar,1
+216,treated,PJM||bellefontaine 69 kv,1,0,10.0,2008.0,Other,1
+216,control,PJM||bustelton 13 kv,1,0,7.0,2005.0,Other,1
+217,treated,CAISO||whirlwind substation 230 kv bus,4,0,123.575,2007.5,Solar,3
+217,control,CAISO||henrietta tulare 70 kv line,3,0,17.583333333333332,2010.0,Solar,1
+218,treated,PJM||sussex,3,0,9.733333333333334,2010.6666666666667,Solar,1
+218,control,PJM||st thomas guilford 345 kv,3,0,20.0,2010.6666666666667,Solar,1
+219,treated,ERCOT||177 bosque 138 kv,1,0,161.54,2018.0,Solar,1
+219,control,ERCOT||11260 dune switch,1,0,250.0,2017.0,Solar,1
+220,treated,PJM||franklin 138 kv,2,0,30.625,2023.0,Solar+Battery,1
+220,control,PJM||new castle 69 kv,2,0,25.0,2022.0,Solar+Battery,1
+221,treated,CAISO||gamebird substation 230 kv,2,0,383.198,2015.0,Solar,2
+221,control,CAISO||kent switching station 70 kv,2,0,35.0,2015.0,Solar,1
+222,treated,PJM||desoto tanners creek #1 345 kv,1,0,200.0,2009.0,Wind,1
+222,control,PJM||antwerp payne 69 kv,1,0,48.3,2006.0,Wind,1
+223,treated,PJM||haviland 138 kv,1,0,3.15,,Wind,1
+223,control,PJM||albright 138 kv,1,0,80.0,2006.0,Wind,1
+224,treated,PJM||tower hill 345 kv,1,0,20.0,2021.0,Solar,1
+224,control,PJM||atlanta stuart 345 kv,1,0,200.0,2019.0,Solar,1
+225,treated,PJM||cumberland w shore #2 69 kv,1,0,20.0,2011.0,Solar,1
+225,control,PJM||baptistown frenchtown #2 34 kv,1,0,10.0,2011.0,Solar,1
+226,treated,PJM||cook 345 kv,1,0,84.0,2005.0,Gas,1
+226,control,PJM||belle 46 kv,1,0,14.0,2005.0,Gas,1
+227,treated,PJM||mount storm 500 kv,1,0,38.0,2007.0,Coal,1
+227,control,PJM||chesterfield 230 kv 5,1,0,14.0,,Coal,1
+228,treated,"ISO-NE||maine public service system, upgrades include tap",1,0,250.0,2008.0,Wind,1
+228,control,ISO-NE||115 kv line between enfield and james river substation,1,0,34.9000015258789,2007.0,Wind,1
+229,treated,PJM||west newton lynn 138 kv,2,0,68.215,2020.5,Solar,1
+229,control,PJM||bernville 345 kv 1,2,0,12.9,2022.0,Solar,1
+230,treated,PJM||backbone mountain 138 kv,1,0,20.0,2015.0,Battery,1
+230,control,PJM||beckjord 138 kv,1,0,19.8,2016.0,Battery,1
+231,treated,ERCOT||tap 138 kv 7336 gillie 3650 elgin,1,0,120.0,2018.0,Solar,1
+231,control,ERCOT||(3707) cannon switch 138 kv,1,0,206.75,2021.0,Solar,1
+232,treated,PJM||tasley kellam 69 kv,2,0,20.0,2010.0,Solar,1
+232,control,PJM||brunswick 264 kv,2,0,2.0,2009.0,Solar,1
+233,treated,ERCOT||tap 345 kv 8164 coleto 8455 lon hill,1,0,220.0,2017.0,Solar,1
+233,control,ERCOT||1163 lamesa 138 kv,1,0,140.0,2018.0,Solar,1
+234,treated,PJM||hayden 345 kv,2,0,92.5,2020.0,Solar,1
+234,control,PJM||bon ayr 69 kv,2,0,50.0,2020.0,Solar,1
+235,treated,ERCOT||60501 tesla 345 kv,2,0,183.20999999999998,2017.0,Solar,1
+235,control,ERCOT||60393 pig creek 138 kv,2,0,229.435,2018.0,Solar,1
+236,treated,PJM||blue jacket 138 kv,1,0,40.0,2020.0,Solar+Battery,1
+236,control,PJM||3 bridges road 345 kv,1,0,40.0,2021.0,Solar+Battery,1
+237,treated,CAISO||diablo gates 500 kv line,1,0,1190.0,2021.0,Wind+Battery,1
+237,control,CAISO||harry allen eldorado 500 kv,2,0,996.1899999999999,2021.0,Wind+Battery,1
+238,treated,PJM||woodsdale 345 kv,1,0,49.0,2019.0,Solar,1
+238,control,PJM||athens milan 345 kv,1,0,20.0,2020.0,Solar,1
+239,treated,CAISO||antelope neenach 66 kv,2,0,20.0,2010.0,Solar,1
+239,control,CAISO||henrietta tulare lake 70 kv,2,0,20.0,2010.0,Solar,2
+240,treated,PJM||sussex 12 kv,1,0,3.0,2011.0,Solar,1
+240,control,PJM||barbertonseiberling 23 kv,1,0,14.0,2011.0,Solar,1
+241,treated,PJM||central hardin 138 kv,1,0,110.0,2020.0,Solar,1
+241,control,PJM||avon 345 kv,1,0,80.0,2019.0,Solar,1
+242,treated,PSCo||missile site 345 kv substation,1,0,575.0,2017.0,Solar,1
+242,control,PSCo||boone 230 kv switchyard,1,0,53.0,2020.0,Solar,1
+243,treated,ISO-NE||cmp 115 kv rumford substation,1,0,1.29999995231628,2009.0,Hydro,1
+243,control,ISO-NE||115 kv connection to chester 115 kv substation,1,0,126.0,2001.0,Hydro,1
+244,treated,PJM||hornertown 345 kv,1,0,10.0,2015.0,Solar,1
+244,control,PJM||atlantic red bank 34 kv,1,0,20.0,2015.0,Solar,1
+245,treated,PJM||dequine eugene 345 kv,5,0,245.6,2021.4,Wind,3
+245,control,PJM||powerton nevada 345 kv,5,0,150.0,2019.0,Wind,3
+246,treated,SOCO||tiger creek wadley primary 230 kv line,1,0,250.0,2017.0,Solar,1
+246,control,SOCO||blakely primary george dam (usa) 115 kv line,1,0,60.0,2017.0,Solar,1
+247,treated,PJM||greene clark 138 kv,1,0,175.0,2017.0,Solar,1
+247,control,PJM||belvidere 34 kv,1,0,12.5,2017.0,Solar,1
+248,treated,CAISO||colorado river substation 500 kv bus,1,0,520.0,2003.0,Solar,1
+248,control,CAISO||arco 70 kv,1,0,61.3,2018.0,Solar,1
+249,treated,ERCOT||76635 king mount 138 kv,2,0,151.055,2018.0,Other,2
+249,control,ERCOT||78255 pinto creek 138 kv,2,0,101.7,2018.0,Other,2
+250,treated,PJM||wilson 345 kv,1,0,3.5,2014.0,Solar,1
+250,control,PJM||bernardsville 12 kv,1,0,3.0,2011.0,Solar,1
+251,treated,PJM||killen 345 kv,1,0,12.0,2008.0,Coal,1
+251,control,PJM||fort martin 500 kv,1,0,500.0,2001.0,Coal,1
+252,treated,PJM||poolesville winchester 230 kv,1,0,54.0,2020.0,Solar,1
+252,control,PJM||bakers pond bell ave 115 kv,1,0,75.0,2018.0,Solar,1
+253,treated,CAISO||highwind substation 220 kv bus,1,0,19.5,2009.0,Wind,1
+253,control,CAISO||birds landing switching station 230 kv bus,1,0,30.0,2006.0,Wind,1
+254,treated,CAISO||imperial valley substation 12 kv bus,1,0,20.0,2010.0,Solar,1
+254,control,CAISO||antlelope substation 66 kv bus,1,0,20.0,2010.0,Solar,1
+255,treated,PJM||beechwood dp palmer springs 115 kv,1,0,45.0,2017.0,Solar,1
+255,control,PJM||airey 69 kv,1,0,56.0,2019.0,Solar,1
+256,treated,CAISO||huntington beach switching station 230 kv,1,0,938.612,2012.0,Gas,1
+256,control,CAISO||115 kv tesla stockton cogen transmission line,1,0,99.9000015258789,2004.0,Gas,1
+257,treated,PJM||dunnsville 345 kv,2,0,20.0,2021.0,Solar,1
+257,control,PJM||braidwood davis creek,2,0,175.0,2019.0,Solar,2
+258,treated,SOCO||o'hara ts 230 kv bus,1,0,200.0,2019.0,Battery,1
+258,control,SOCO||branch substation 230 kv bus,1,0,150.0,2020.0,Battery,1
+259,treated,PJM||reybold,1,0,20.0,2008.0,Battery,1
+259,control,PJM||calumet,1,0,27.0,2008.0,Battery,1
+260,treated,PJM||henry 138 kv,1,0,30.0,2003.0,Wind,1
+260,control,PJM||amboy,1,0,3.3,2004.0,Wind,1
+261,treated,PJM||blue mound chestnut 345 kv,2,0,235.0,2020.0,Battery,1
+261,control,PJM||central va chase city 115 kv,2,0,125.0,2022.0,Battery,2
+262,treated,PJM||george washington 138 kv,1,0,394.0,2016.0,Gas,1
+262,control,PJM||athenia 480 v,1,0,0.21,2017.0,Gas,1
+263,treated,CAISO||antelope substation 230 kv bus,1,0,320.0,2011.0,Solar+Battery,1
+263,control,CAISO||belridge temblor 115 kv,1,0,20.0,,Solar+Battery,1
+264,treated,PJM||dawson south justice 115 kv,3,0,46.666666666666664,2016.3333333333333,Solar,1
+264,control,PJM||fields 345 kv,3,0,15.466666666666667,2019.6666666666667,Solar,1
+265,treated,PJM||gainesville loudoun 230 kv,1,0,120.0,2023.0,Battery,1
+265,control,PJM||avon 345 kv ii,1,0,200.0,2022.0,Battery,1
+266,treated,CAISO||los esteros 230 kv,1,0,200.0,2019.0,Battery,1
+266,control,CAISO||alberhill substation 500 kv,1,0,518.0,2023.0,Battery,1
+267,treated,SOCO||west mcintosh substation 115 kv bus,1,0,80.0,2019.0,Solar,1
+267,control,SOCO||barry monroeville 115 kv line,1,0,80.0,2019.0,Solar,1
+268,treated,PJM||curdsville willis mountain 115 kv,1,0,100.0,2019.0,Solar,1
+268,control,PJM||airey 12 kv,1,0,19.5,2019.0,Solar,1
+269,treated,PJM||whitely 138 kv,1,0,8.0,2023.0,Solar+Battery,1
+269,control,PJM||albion kendallville 138 kv,1,0,125.0,2022.0,Solar+Battery,1
+270,treated,PJM||afton 138 kv,1,0,60.0,2005.0,Wind,1
+270,control,PJM||allen junction lyons 138 kv,1,0,97.6,2010.0,Wind,1
+271,treated,ISO-NE||montville substation,1,0,94.0,2007.0,Gas,1
+271,control,ISO-NE||115 kv tiverton substation,1,0,285.0,2007.0,Gas,1
+272,treated,PJM||double toll gate 345 kv,1,0,10.0,2014.0,Solar,1
+272,control,PJM||benson dunbar 115 kv,1,0,100.0,2016.0,Solar,1
+273,treated,PJM||reams 115 kv,1,0,80.0,2016.0,Solar,1
+273,control,PJM||atlantic red bank 34 kv ii,1,0,8.4,2019.0,Solar,1
+274,treated,PJM||church 25 kv,1,0,5.0,2014.0,Solar,1
+274,control,PJM||berkshire solar 12 kv,1,0,1.6,2017.0,Solar,1
+275,treated,PJM||north longview 500 kv,1,0,1270.0,2018.0,Coal,1
+275,control,PJM||frackville 69 kv,1,0,51.6,2001.0,Coal,1
+276,treated,PJM||wright 69 kv,2,0,16.9,2000.0,Gas,1
+276,control,PJM||chichester 230 kv,2,0,375.0,1999.5,Gas,1
+277,treated,PJM||hickman river bend 69 kv,1,0,50.0,2020.0,Solar,1
+277,control,PJM||bartonsville meadow brook 138 kv iii,1,0,50.0,2020.0,Solar,1
+278,treated,CAISO||morro bay 230 kv,2,0,462.7,2020.5,Battery,2
+278,control,CAISO||bailey station,2,0,157.0,2023.0,Battery,1
+279,treated,PJM||claytor lake edgemont 138 kv,1,0,30.43,2023.0,Solar,1
+279,control,PJM||banister bear skin 138 kv,1,0,150.0,2021.0,Solar,1
+280,treated,"ISO-NE||cmp 345 kv, section 182",1,0,16.4249992370605,2020.0,Solar,1
+280,control,ISO-NE||101105 augusta east w new breaker,1,0,20.0,2020.0,Solar,1
+281,treated,SOCO||bassett creek mcintosh 115 kv line,1,0,80.0,2019.0,Solar,1
+281,control,SOCO||blackbear solar farm substation 230 kv bus,1,0,80.0,2022.0,Solar,1
+282,treated,PJM||east flemington 345 kv,1,0,20.0,2019.0,Solar,1
+282,control,PJM||barren summer shade 161 kv,1,0,35.0,2021.0,Solar,1
+283,treated,CAISO||arco substation 230 kv bus,1,0,540.0,2011.0,Solar,1
+283,control,CAISO||alpaugh 115 kv substation,1,0,20.0,2009.0,Solar,1
+284,treated,ERCOT||6444 red creek 345 kv,1,0,177.09,2019.0,Other,1
+284,control,ERCOT||1048 tonkawas 345 kv,1,0,30.2,2019.0,Other,1
+285,treated,PJM||lick run 115 kv,1,0,100.0,2019.0,Solar,1
+285,control,PJM||bartonsville meadowbrook 138 kv,1,0,50.0,2021.0,Solar,1
+286,treated,PJM||college corner 138 kv,2,0,49.0,2018.0,Solar,1
+286,control,PJM||brookville squab hollow 138 kv,2,0,66.0,2019.0,Solar,1
+287,treated,PJM||goose lake 345 kv,1,0,2.1,2011.0,Hydro,1
+287,control,PJM||montgomery hydroelectric 23 kv,1,0,20.0,2021.0,Hydro,1
+288,treated,PJM||maddox creek 345 kv,1,0,20.0,2017.0,Solar,1
+288,control,PJM||anaconda tar river 115 kv,1,0,75.0,2018.0,Solar,1
+289,treated,"ISO-NE||115 kv line 1302 between buck pond and pochassic substations, approximately 1 mile south of buck pond",1,0,431.0,2015.0,Gas+Oil,1
+289,control,ISO-NE||115 kv f19 and e20 lines,1,0,332.0,2006.0,Gas+Oil,1
+290,treated,PJM||bernville 345 kv 2,1,0,5.8,2023.0,Solar,1
+290,control,PJM||bascom 69 kv,1,0,49.9,2022.0,Solar,1
+291,treated,ERCOT||80220 cenizo 345 kv,1,0,209.4,2015.0,Wind,1
+291,control,ERCOT||1134 littman 138 kv,1,0,160.0,2016.0,Wind,1
+292,treated,PJM||thompson 345 kv,2,0,18.45,2017.5,Solar,2
+292,control,PJM||carroll monocacy 345 kv,2,0,17.5,2015.0,Solar,1
+293,treated,PJM||chickahominy 230 kv,1,0,320.0,,Battery,1
+293,control,PJM||beckjord 2 mw 2,1,0,2.0,2013.0,Battery,1
+294,treated,PJM||larrabee 230 kv,1,0,661.0,2000.0,Offshore Wind,1
+294,control,PJM||bethany 138 kv,1,0,152.0,2018.0,Offshore Wind,1
+295,treated,ERCOT||tap 345 kv 5915 stp 5133 elm creek ckt 1,2,0,126.9,2020.0,Solar,2
+295,control,ERCOT||138 kv 59909 wett nova prime,2,0,227.325,2017.0,Solar,1
+296,treated,PJM||west berwick 12 kv,1,0,2.0,2021.0,Solar,1
+296,control,PJM||bartonsville meadowbrook 138 kv iv,1,0,40.0,2020.0,Solar,1
+297,treated,PJM||cartanza 230 kv,1,0,309.2,2010.0,Gas,1
+297,control,PJM||atlantic south river 230 kv,1,0,738.4,2010.0,Gas,1
+298,treated,PJM||susquehanna 230 kv,2,0,25.0,1997.0,Nuclear,1
+298,control,PJM||hope creek 500 kv,1,0,69.0,2000.0,Nuclear,1
+299,treated,ERCOT||1444 brown 345 kv,2,0,315.37,2018.0,Solar,1
+299,control,ERCOT||60506 avogadro 345 kv,2,0,188.95999999999998,2018.5,Solar,2
+300,treated,SOCO||north americus perry 115 kv line,3,0,59.36666666666667,2016.6666666666667,Solar,1
+300,control,SOCO||north opelika goat rock (gpc) 230 kv line,2,0,80.0,2016.0,Solar,1
+301,treated,PJM||ringoes 12 kv,1,0,3.0,2010.0,Solar,1
+301,control,PJM||aulander 345 kv,1,0,15.0,2012.0,Solar,1
+302,treated,PJM||gateway 69 kv,2,0,12.0,2023.0,Solar,1
+302,control,PJM||briery substation 294 kv,2,0,12.5,2022.0,Solar,1
+303,treated,PJM||bridgeton 12 kv,1,0,0.625,2010.0,Solar,1
+303,control,PJM||baptistown east flemington 345 kv,1,0,10.0,2010.0,Solar,1
+304,treated,PJM||worcester 25 kv,1,0,10.0,2010.0,Solar,1
+304,control,PJM||beasley 23 kv,1,0,4.0,2009.0,Solar,1
+305,treated,CAISO||antelope substation 66 kv bus,5,0,18.0,2010.2,Solar,1
+305,control,CAISO||smyrna alpaugh 115 kv line,6,0,24.958333333333332,2008.6666666666667,Solar,1
+306,treated,CAISO||valley substation 138 kv,2,0,50.0,2013.0,Solar,2
+306,control,CAISO||merchant switchyard 230 kv,2,0,123.5,2010.0,Solar,1
+307,treated,PJM||todd 69 kv,2,0,35.0,2013.5,Solar,1
+307,control,PJM||carolina jackson 115 kv,2,0,39.95,2015.0,Solar,1
+308,treated,PJM||remington gordonsville 230 kv,3,0,119.66666666666667,2020.0,Battery,2
+308,control,PJM||garden prairie 345 kv,3,0,116.66666666666667,2021.6666666666667,Battery,2
+309,treated,SOCO||barry conecuh (nextera) 230 kv line,2,0,170.0,2024.0,Solar,1
+309,control,SOCO||farley pinckard 230 kv line,2,0,100.0,2021.5,Solar,2
+310,treated,PJM||frackville,1,0,56.0,2008.0,Coal,1
+310,control,PJM||curwensville 345 kv,1,0,10.0,2006.0,Coal,1
+311,treated,PJM||trexlertown 12 kv,1,0,2.0,2022.0,Solar+Battery,1
+311,control,PJM||andover (maysville) 69 kv i,1,0,19.9,2018.0,Solar+Battery,1
+312,treated,PJM||red oak 230 kv,2,0,175.0,2006.0,Gas,1
+312,control,PJM||friedensburg 69 kv,2,0,5.0,1999.5,Gas,1
+313,treated,PSCo||boone substation,1,0,500.0,2008.0,Solar,1
+313,control,PSCo||comanche fuller midway 230 kv line,1,0,30.0,2010.0,Solar,1
+314,treated,PJM||kings creek 25 kv,1,0,4.0,2016.0,Other,1
+314,control,PJM||bridge south park 12 kv,1,0,3.18,2013.0,Other,1
+315,treated,SOCO||butler talbot county #1 230 kv line,1,0,100.0,2014.0,Solar,1
+315,control,SOCO||arlington primary calhoun county prison 46 kv line,1,0,20.0,2013.0,Solar,1
+316,treated,PJM||kenzie creek colby 138 kv,1,0,150.0,2018.0,Solar,1
+316,control,PJM||beavertown tap beavertown weaving tap 69 kv,1,0,20.0,2019.0,Solar,1
+317,treated,PJM||disputanta poe 115 kv,2,0,68.4,2020.5,Solar,1
+317,control,PJM||buckskin worley 69 kv,2,0,34.5,2022.0,Solar,1
+318,treated,PJM||homer city,1,0,547.5,2001.0,Gas,1
+318,control,PJM||bluestone dam 46 kv,1,0,41.0,2002.0,Gas,1
+319,treated,PJM||kyger creek pierce 345 kv,1,0,53.2,2022.0,Solar,1
+319,control,PJM||basf washburn solar 345 kv,1,0,19.25,2021.0,Solar,1
+320,treated,PJM||pine grove frailey 69 kv,1,0,28.0,2005.0,Wind,1
+320,control,PJM||bayview 26 kv (wind),1,0,8.0,2001.0,Wind,1
+321,treated,PJM||mount eagle 345 kv,1,0,12.5,2016.0,Solar,1
+321,control,PJM||bergen 13 kv,1,0,1.5,2017.0,Solar,1
+322,treated,PJM||fentress sligo 230 kv,1,0,192.0,2020.0,Battery,1
+322,control,PJM||backbone mountain 138 kv ii,1,0,40.0,2021.0,Battery,1
+323,treated,ERCOT||tap 345 kv 60515 clear crossing 1421 willow creek,1,0,499.14,2019.0,Solar,1
+323,control,ERCOT||107 prairie hill 69 kv,1,0,50.34,2021.0,Solar,1
+324,treated,PJM||susquehanna alburtis 500 kv,1,0,940.0,2006.0,Coal,1
+324,control,PJM||beaver creek hazard 138 kv,1,0,535.0,2007.0,Coal,1
+325,treated,ERCOT||80355 del sol 345 kv,4,0,177.05,2018.5,Solar,3
+325,control,ERCOT||tap 345 kv 1906 venus 68091 navarro,4,0,321.355,2019.75,Solar,2
+326,treated,CAISO||highwind substation 230 kv bus,1,0,162.0,2006.0,Wind,1
+326,control,CAISO||between rio del junction and bridgeville,1,0,100.0,2006.0,Wind,1
+327,treated,CAISO||suncrest ocotillo 500 kv line,1,0,400.0,2017.0,Wind,1
+327,control,CAISO||altamont midway 230 kv,1,0,5.0,2015.0,Wind,1
+328,treated,PJM||beaver creek 138 kv,1,0,200.0,2021.0,Solar,1
+328,control,PJM||beatty biers run 345 kv,1,0,160.0,2022.0,Solar,1
+329,treated,PJM||carolina earleys 115 kv,1,0,75.0,2021.0,Battery,1
+329,control,PJM||bayview 69 kv,1,0,20.0,2021.0,Battery,1
+330,treated,PJM||delco tap 230 kv,1,0,330.0,2000.0,Gas,1
+330,control,PJM||bremo 230 kv,1,0,675.0,2005.0,Gas,1
+331,treated,PJM||harrington 69 kv,5,0,20.2,2019.8,Solar,1
+331,control,PJM||givens mechanicsburg 138 kv,5,0,39.72,2020.6,Solar,2
+332,treated,PJM||catoctin 345 kv,1,0,20.0,2015.0,Solar,1
+332,control,PJM||berlin 12 kv,1,0,4.5,2015.0,Solar,1
+333,treated,PJM||kittatinny 230 kv,1,0,50.0,2020.0,Hydro,1
+333,control,PJM||pine creek 23 kv,1,0,9.5,2020.0,Hydro,1
+334,treated,PJM||carson rogers road 500 kv,4,0,323.5,2018.5,Solar,2
+334,control,PJM||laurelton mifflinburg 69 kv,4,0,20.0,2019.0,Solar,1
+335,treated,CAISO||pittsburg kirker columbia steel 115 kv line,1,0,20.0,2011.0,Battery,1
+335,control,CAISO||borden 70 kv,1,0,50.0,2011.0,Battery,1
+336,treated,PJM||tazewell kendall 345 kv,1,0,300.3,2007.0,Wind,1
+336,control,PJM||amsterdam 138 kv,1,0,50.0,2010.0,Wind,1
+337,treated,PJM||bethelboro 1247 kv,1,0,2.5,2020.0,Solar,1
+337,control,PJM||beatty london 138 kv iii,1,0,38.4,2021.0,Solar,1
+338,treated,PJM||linden,2,0,12.0,2001.0,Gas,1
+338,control,PJM||conastone peach bottom 500 kv,2,0,550.0,2000.0,Gas,1
+339,treated,PJM||electric junction nelson,1,0,175.0,2019.0,Solar,1
+339,control,PJM||bedford north pennsylvania hollow 23 kv,1,0,16.6,2019.0,Solar,1
+340,treated,SOCO||north americus palmyra 230 kv line,2,0,200.0,2020.5,Solar,2
+340,control,SOCO||fulton springs gorgas no 2 115 kv line,2,0,80.0,2022.0,Solar,1
+341,treated,CAISO||7th standard 115 kv,1,0,90.0,2023.0,Battery,1
+341,control,CAISO||antelope 66 kv,1,0,220.0,2023.0,Battery,1
+342,treated,PJM||birdneck landstown 230 kv,1,0,800.1,2019.0,Offshore Wind,1
+342,control,PJM||cardiff 230 kv i,1,0,604.8,2018.0,Offshore Wind,1
+343,treated,PJM||pilesgrove 12 kv,1,0,10.0,2009.0,Solar,1
+343,control,PJM||baptistown frenchtown #2 345 kv,1,0,10.0,2010.0,Solar,1
+344,treated,PJM||indian river 230 kv,1,0,150.0,2022.0,Battery,1
+344,control,PJM||bedforth north 115 kv,1,0,50.0,2022.0,Battery,1
+345,treated,PJM||central hardin 69 kv,1,0,120.0,2020.0,Solar+Battery,1
+345,control,PJM||andover (maysville) 69 kv ii,1,0,17.9,2019.0,Solar+Battery,1
+346,treated,PJM||hopewell 230 kv,2,0,19.0,2009.0,Gas,2
+346,control,PJM||front royal 500 kv,2,0,712.5,2009.0,Gas,1
+347,treated,PJM||twin branch guardian 138 kv,2,0,80.0,2020.0,Battery,2
+347,control,PJM||chambers 230 kv,2,0,120.0,2021.5,Battery,1
+348,treated,PJM||clubhouse lakeview 230 kv,1,0,100.0,2016.0,Solar,1
+348,control,PJM||bethel carolina 125 kv,1,0,3.0,2016.0,Solar,1
+349,treated,ERCOT||11306 dermott 138 kv,1,0,158.0,2017.0,Other,1
+349,control,ERCOT||132943 sptx12b 138 kv,1,0,25.12,,Other,1
+350,treated,CAISO||palo verde devers #2 line,1,0,250.0,2008.0,Solar,1
+350,control,CAISO||coolwater kramer 230 kv line,1,0,250.0,2006.0,Solar,1
+351,treated,PJM||zion energy center,1,0,90.0,2012.0,Gas,1
+351,control,PJM||bayshore gm powertrain 138 kv & lallendorf 345 kv,1,0,955.0,2015.0,Gas,1
+352,treated,PJM||kenney 25 kv,1,0,15.0,2014.0,Solar,1
+352,control,PJM||biers run 138 kv,1,0,100.0,2017.0,Solar,1
+353,treated,SOCO||bonaire primary eastman primary 115 kv line,2,0,44.25,2016.5,Solar,1
+353,control,SOCO||bassett creek greene county 230 kv line,1,0,80.0,2018.0,Solar,1
+354,treated,PSCo||missile site 345 kv,1,0,200.0,2016.0,Solar,1
+354,control,PSCo||barr lake 230 kv substation,1,1,110.0,2018.0,Solar,1
+355,treated,CAISO||kramer 230 kv substation,1,0,309.28,2016.0,Solar,1
+355,control,CAISO||arco tulare lake 70 kv line,1,0,21.7,2015.0,Solar,1
+356,treated,SOCO||eastman primary vidalia 115 kv line,1,0,80.0,2020.0,Solar,1
+356,control,SOCO||blakely primary spring creek 115 kv line,1,0,80.0,2020.0,Solar,1
+357,treated,ERCOT||43190 south lane city 138 kv,1,0,100.63,2020.0,Battery,1
+357,control,ERCOT||11016 quail switch 345 kv,1,0,51.56,2021.0,Battery,1
+358,treated,PJM||cavett switch west van wert 69 kv,1,0,49.9,2019.0,Solar,1
+358,control,PJM||beatty mount hope 345 kv,1,0,185.0,2022.0,Solar,1
+359,treated,ISO-NE||orrington albion road 345 kv line (3023) near the town of pittsfield (approximately 19 miles from albion road substation),2,0,500.0,2022.0,Wind,1
+359,control,ISO-NE||cmp woodstock substation,2,0,10.0,2009.5,Wind,1
+360,treated,PSCo||green valley 230 kv substation,3,0,433.3333333333333,2018.0,Solar,2
+360,control,PSCo||comanche midway 230 kv line,4,0,181.225,2017.75,Solar,2
+361,treated,CAISO||gates templeton 230 kv line,1,0,303.678,2021.0,Solar+Battery,1
+361,control,CAISO||alpaugh 115 kv,1,0,172.835,2021.0,Solar+Battery,1
+362,treated,PJM||axton 138 kv,1,0,572.0,2016.0,Gas,1
+362,control,PJM||bay shore fostoria 345 kv & bay shore monroe 345 kv,1,0,161.0,2014.0,Gas,1
+363,treated,CAISO||pit #3 round mountain 230 kv line,1,0,102.0,2005.0,Wind,1
+363,control,CAISO||500 kv imperial valley miguel transmission line,1,0,300.0,2006.0,Wind,1
+364,treated,PJM||bear creek,1,0,26.0,2004.0,Wind,1
+364,control,PJM||benson wind farm,1,0,158.0,2003.0,Wind,1
+365,treated,PJM||dumont stillwell 345 kv,1,0,309.0,2018.0,Other,1
+365,control,PJM||byron 2 ni hub,1,0,350.0,2009.0,Other,1
+366,treated,PJM||boydton plank road 115 kv,2,0,87.0,2021.5,Battery,2
+366,control,PJM||cloverdale burlington height 138 kv,2,0,80.0,2021.5,Battery,1
+367,treated,CAISO||sloan canyon switching station 230 kv,2,0,384.77,2017.5,Solar+Battery,2
+367,control,CAISO||panoche substation 230 kv,2,0,307.4,2019.0,Solar+Battery,2
+368,treated,PJM||hudson 230 kv,2,0,19.5,2006.0,Gas,2
+368,control,PJM||four rivers 115 kv,2,0,16.65,2012.0,Gas,1
+369,treated,PJM||kittatinny blairstown 345 kv,1,0,20.0,2021.0,Solar,1
+369,control,PJM||bedington 138 kv,1,0,100.0,2019.0,Solar,1
+370,treated,PJM||metuchen 230 kv,1,0,675.0,2013.0,Gas,1
+370,control,PJM||babcock & wilcox 69 kv,1,0,12.0,2017.0,Gas,1
+371,treated,CAISO||red bluff substation 220 kv,2,0,161.2606,2014.5,Solar+Battery,1
+371,control,CAISO||midway 500 kv,2,0,588.1,2020.0,Solar+Battery,1
+372,treated,PJM||deptford 13 kv,2,0,4.8,2010.5,Solar,1
+372,control,PJM||flemington,2,0,8.0,2010.5,Solar,1
+373,treated,CAISO||chino substation 230 kv,1,0,403.4,2021.0,Battery,1
+373,control,CAISO||antelope valleysubstation 230 kv,1,0,302.4,2021.0,Battery,1
+374,treated,PJM||kidds store sherwood 115 kv,2,0,84.0,2020.0,Battery,2
+374,control,PJM||danieltown dpbrunswick 69 kv,2,0,32.75,2020.5,Battery,2
+375,treated,ERCOT||60515 clear crossing 345 kv,1,0,228.4,2019.0,Solar,1
+375,control,ERCOT||11270 dog house switch 345 kv,1,0,250.0,2018.0,Solar,1
+376,treated,PJM||south bend 500 kv,2,0,8.0,2013.0,Gas,1
+376,control,PJM||burches hill chalk point 500 kv,2,0,400.0,2012.5,Gas,1
+377,treated,PJM||mehoopany 115 kv,1,0,150.0,2005.0,Wind,1
+377,control,PJM||bedford 115 kv,1,0,90.0,2007.0,Wind,1
+378,treated,CAISO||windhub substation 230 kv bus,1,0,500.0,2006.0,Other Storage,1
+378,control,CAISO||lake hodges metering switchyard 69 kv,1,0,40.0,2003.0,Other Storage,1
+379,treated,PJM||guilford 345 kv,1,0,9.7,2011.0,Solar,1
+379,control,PJM||andover,1,0,1.0,2011.0,Solar,1
+380,treated,CAISO||round mountain 230 kv,1,0,313.0,2023.0,Battery,1
+380,control,CAISO||at switch 125 outside harter substation,1,0,50.5,2021.0,Battery,1
+381,treated,ERCOT||1324 big spring west 138 kv,1,0,98.0,2022.0,Other,1
+381,control,ERCOT||1163 lamesa substation 138 kv,1,0,103.1,2022.0,Other,1
+382,treated,CAISO||antelope substation 66 kv,2,0,100.0,2008.0,Solar,1
+382,control,CAISO||pisgah substation,2,0,975.0,2006.0,Solar,1
+383,treated,PJM||mickleton 230 kv,1,0,803.0,1997.0,Gas,1
+383,control,PJM||brunner island 230 kv,1,0,1200.0,2001.0,Gas,1
+384,treated,SOCO||dothan road 230 kv substation,1,0,400.0,2020.0,Solar+Battery,1
+384,control,SOCO||danway goatrock 230 kv line,1,0,80.0,2020.0,Solar+Battery,1
+385,treated,CAISO||hassayampa common bus 500 kv,2,0,175.95,2019.0,Solar,1
+385,control,CAISO||henrietta 230 kv,2,0,154.31705,2023.0,Solar,2
+386,treated,PJM||roxbury blain 23 kv,1,0,6.4,2007.0,Other,1
+386,control,PJM||archbald 69 kv,1,0,9.2,2007.0,Other,1
+387,treated,PJM||mercersburg 345 kv,1,0,20.0,2010.0,Solar,1
+387,control,PJM||beaver brook 13 kv,1,0,7.3,2010.0,Solar,1
+388,treated,ISO-NE||115 kv bus at millbury substation,1,0,187.5,2008.0,Gas,1
+388,control,ISO-NE||anp blackstone 345 kv substation,1,0,159.0,2007.0,Gas,1
+389,treated,CAISO||springville substation 230 kv,1,0,464.42,2021.0,Solar+Battery,1
+389,control,CAISO||antelope magunden #2 230 kv line,1,0,113.832,2021.0,Solar+Battery,1
+390,treated,PJM||sullivan rockport 765 kv,5,0,300.0,2020.2,Solar,2
+390,control,PJM||inez 138 kv,5,0,109.35999999999999,2020.6,Solar,2
+391,treated,ERCOT||tap 345 kv 8123 blessing 5915 stp,1,0,198.63,2021.0,Solar,1
+391,control,ERCOT||11165 sloan switch 138 kv,1,0,17.7,2021.0,Solar,1
+392,treated,ERCOT||tap 138 kv 44190 east bernard 44130 caney,1,0,233.52,2019.0,Solar,1
+392,control,ERCOT||11319 scurry county 138 kv,1,0,182.2,2021.0,Solar,1
+393,treated,PJM||gold sabinsville 115 kv,1,0,50.0,2005.0,Wind,1
+393,control,PJM||benson 345 kv,1,0,100.0,2005.0,Wind,1
+394,treated,PJM||morris park 12 kv,1,0,1.82,2011.0,Solar,1
+394,control,PJM||beckett,1,0,5.0,2011.0,Solar,1
+395,treated,CAISO||pit 1 cottonwood 230 kv line,1,0,206.0,2015.0,Solar+Battery,1
+395,control,CAISO||antelope whirlwind,1,0,43.3898,2023.0,Solar+Battery,1
+396,treated,SOCO||thomaston substation 230 kv bus,1,0,968.0,2011.0,Gas,1
+396,control,SOCO||first ave (columbus) goat rock 230 kv line and goat rock lee road 230 kv line,1,0,968.0,2011.0,Gas,1
+397,treated,PJM||derry 1247 kv,1,0,2.0,2020.0,Solar,1
+397,control,PJM||beccaria 345 kv,1,0,10.0,2020.0,Solar,1
+398,treated,PJM||morgantown 230 kv,2,0,616.0,2022.0,Battery,2
+398,control,PJM||delaware royerton 138 kv,2,0,60.0,2020.0,Battery,2
+399,treated,ERCOT||47150 ho clarke 138 kv,3,0,237.75333333333333,2021.0,Other,2
+399,control,ERCOT||3687 bell country east 345 kv,2,0,271.81,2021.0,Other,2
+400,treated,CAISO||creelman substation 69 kv,1,0,52.0,2020.0,Battery,1
+400,control,CAISO||atwater 115 kv,1,0,128.0,2023.0,Battery,1
+401,treated,PJM||lopatcong,1,0,10.0,2011.0,Solar,1
+401,control,PJM||beckett 12 kv,1,0,5.2,2011.0,Solar,1
+402,treated,CAISO||merced #1 70 kv,1,0,20.0,2010.0,Solar,1
+402,control,CAISO||220 kv red bluff substation,1,0,300.0,2011.0,Solar,1
+403,treated,PJM||lasalle 1,1,0,20.0,2009.0,Nuclear,1
+403,control,PJM||beaver valley #2,1,0,43.0,2008.0,Nuclear,1
+404,treated,CAISO||eldorado substation 220 kv bus,2,0,300.0,2011.0,Solar,1
+404,control,CAISO||wheeler ridge lamont 115 kv,2,0,40.0,2010.0,Solar,1
+405,treated,PJM||delano 138 kv,2,0,27.45,2021.0,Solar,2
+405,control,PJM||cedar creek 138 kv i,2,0,19.9,2016.5,Solar,1
+406,treated,PJM||endless caverns 115 kv,1,0,200.0,2019.0,Battery,1
+406,control,PJM||beatty 345 kv,1,0,400.0,2021.0,Battery,1
+407,treated,PJM||kelson ridge 230 kv,1,0,60.0,2011.0,Gas,1
+407,control,PJM||albright,1,0,464.0,2013.0,Gas,1
+408,treated,PJM||west manchester crown 69 kv,1,0,19.2,2023.0,Solar,1
+408,control,PJM||belford keansburg 345 kv,1,0,19.25,2021.0,Solar,1
+409,treated,CAISO||calcite substation 230 kv,1,0,200.0,2015.0,Solar+Battery,1
+409,control,CAISO||arco midway & gates midway 230 kv,1,0,153.5,2015.0,Solar+Battery,1
+410,treated,PJM||dixon cherry valley 138 kv,2,0,100.0,2005.5,Wind,1
+410,control,PJM||convoy east lima 345 kv,2,0,295.0,2007.0,Wind,1
+411,treated,PJM||westvaco 138 kv,1,0,8.0,2007.0,Coal,1
+411,control,PJM||conemaugh unit 1,1,0,20.0,2010.0,Coal,1
+412,treated,PJM||hooversville 115 kv,2,0,17.64,2002.5,Wind,1
+412,control,PJM||kelso gap 138 kv,2,0,60.0,2002.5,Wind,1
+413,treated,PJM||mackeys creswell 115 kv,1,0,150.0,2021.0,Battery,1
+413,control,PJM||bell avenue 115 kv,1,0,100.0,2023.0,Battery,1
+414,treated,PJM||tbd 12 kv,1,0,3.0,2022.0,Solar+Battery,1
+414,control,PJM||axton danville #2 138 kv,1,0,60.0,2021.0,Solar+Battery,1
+415,treated,SOCO||bellamy demopolis 115 kv line,1,0,80.0,2022.0,Solar+Battery,1
+415,control,SOCO||conyers 115 kv ts,1,0,0.0,2022.0,Solar+Battery,1
+416,treated,PJM||brody 138 kv,1,0,24.0,2023.0,Solar,1
+416,control,PJM||bell township vandergrift 25 kv,1,0,19.9,2022.0,Solar,1
+417,treated,CAISO||east county substation 138 kv,1,0,20.0,2010.0,Battery,1
+417,control,CAISO||115 kv tap on woodland davis 115 kv line,1,0,25.0,2015.0,Battery,1
+418,treated,PJM||churchtown 69 kv,3,0,24.166666666666668,2019.3333333333333,Battery,1
+418,control,PJM||eugene dequine 345 kv,3,0,200.0,2020.6666666666667,Battery,2
+419,treated,PJM||heath 69 kv,1,0,13.44,2023.0,Battery,1
+419,control,PJM||beaumeade 230 kv,1,0,150.0,2021.0,Battery,1
+420,treated,SOCO||atmore flomaton 115 kv line,1,0,75.0,2016.0,Solar,1
+420,control,SOCO||bellamy epes 115 kv line,1,0,80.0,2016.0,Solar,1
+421,treated,PJM||william 138 kv,1,0,10.0,2018.0,Battery,1
+421,control,PJM||belvidere marengo,1,0,52.2,2019.0,Battery,1
+422,treated,ISO-NE||johnston substation distribution system,1,0,4.19999980926513,2003.0,Other,1
+422,control,ISO-NE||blanford southwick elm 115 kv line,1,0,55.0,2005.0,Other,1
+423,treated,PJM||hosensack 500 kv,2,0,550.0,1999.5,Gas,1
+423,control,PJM||colora tap,2,0,465.0,1998.0,Gas,1
+424,treated,PSCo||hartsel substation,1,0,54.3,,Solar,1
+424,control,PSCo||fuller 230 kv substation,1,0,36.0,,Solar,1
+425,treated,PJM||oak grove saunders dp 230 kv,1,0,100.0,2021.0,Solar,1
+425,control,PJM||bear peak antrim 345 kv,1,0,20.0,2022.0,Solar,1
+426,treated,PJM||clubhouse purdy 115 kv,5,0,83.0,2022.2,Solar,2
+426,control,PJM||lone pine 115 kv,5,0,15.0,2020.0,Solar,1
+427,treated,PJM||hegins,1,0,10.5,2007.0,Other,1
+427,control,PJM||belmont brighton,1,0,500.0,2008.0,Other,1
+428,treated,PJM||wattsville 12 kv,1,0,9.0,2020.0,Battery,1
+428,control,PJM||bergen 26 kv,1,0,10.0,2020.0,Battery,1
+429,treated,CAISO||border substation 69 kv,2,0,37.2,2006.0,Battery,2
+429,control,CAISO||julian hinds substation 230 kv,1,0,520.0,2002.0,Battery,1
+430,treated,PJM||portland 230 kv,1,0,472.0,1999.0,Gas,1
+430,control,PJM||burches hill 230 kv,1,0,550.0,2000.0,Gas,1
+431,treated,PJM||mount holly 26 kv,1,0,2.25,2011.0,Solar,1
+431,control,PJM||andover 12 kv,1,0,4.0,2011.0,Solar,1
+432,treated,PJM||kerr dam ridge road 115 kv,1,0,90.0,2018.0,Battery,1
+432,control,PJM||bennett farmingdale 345 kv,1,0,1.2,2023.0,Battery,1
+433,treated,SOCO||goat rock substation 230 kv bus,3,0,626.6666666666666,2003.0,Gas,1
+433,control,SOCO||s bessemer to snowdoun 500 kv line,2,0,920.0,2004.0,Gas,1
+434,treated,PJM||cedarville ford 138 kv,1,0,52.2,2019.0,Battery,1
+434,control,PJM||bergen 345 kv,1,0,300.0,2020.0,Battery,1
+435,treated,CAISO||imperial valley 230 kv substation,1,0,510.0,2011.0,Solar,1
+435,control,CAISO||antelope rosamond 66 kv line,1,0,45.0,2011.0,Solar,1
+436,treated,CAISO||escondido substation 69 kv,1,0,33.0,2014.0,Battery,1
+436,control,CAISO||avocado 69 kv,1,0,50.25,2023.0,Battery,1
+437,treated,PJM||todd 25 kv,1,0,3.0,2016.0,Solar,1
+437,control,PJM||boykins handsome 115 kv,1,0,100.0,2015.0,Solar,1
+438,treated,ISO-NE||nstar chelsea substation,1,0,29.0,2006.0,Oil,1
+438,control,ISO-NE||cl&p 276 kv distribution system/norwalk 115 kv,1,0,6.0,2004.0,Oil,1
+439,treated,PJM||andover kittatinny 345 kv,1,0,10.0,2010.0,Solar,1
+439,control,PJM||bellefonte 12 kv,1,0,0.65,2010.0,Solar,1
+440,treated,PJM||carville 138 kv,1,0,49.0,2018.0,Solar,1
+440,control,PJM||bellefonte 46 kv,1,0,20.0,2018.0,Solar,1
+441,treated,PJM||carlls corner,1,0,4.8,2007.0,Gas,1
+441,control,PJM||barbados,1,0,700.0,2008.0,Gas,1
+442,treated,PJM||ford cedarville 138 kv,1,0,100.0,2019.0,Solar,1
+442,control,PJM||belvidere marengo 138 kv,1,0,100.0,2019.0,Solar,1
+443,treated,ISO-NE||waterside 115 kv,1,0,69.3000030517578,2003.0,Gas+Oil,1
+443,control,ISO-NE||115 kv line 875 539 to nstar 875 substation,1,0,7.5,2010.0,Gas+Oil,1
+444,treated,CAISO||bay boulevard 230 kv,1,0,200.0,2019.0,Battery,1
+444,control,CAISO||caliente 230 kv,1,0,75.0,2020.0,Battery,1
+445,treated,PJM||centerburg 138 kv,4,0,148.025,2020.25,Solar,1
+445,control,PJM||louisa north anna 230 kv,4,0,89.25,2020.0,Solar,2
+446,treated,PJM||landstown 230 kv,1,0,100.0,2021.0,Battery,1
+446,control,PJM||bethelboro 138 kv,1,0,60.0,2021.0,Battery,1
+447,treated,PJM||lycoming lock haven 69 kv,2,0,60.7,2023.0,Solar,1
+447,control,PJM||camden crystal 69 kv,2,0,20.37,2022.0,Solar,1
+448,treated,ERCOT||tap 138 kv 8510 falfurrias 8695 crestonio,2,0,120.745,2020.5,Solar,1
+448,control,ERCOT||23908 deaf smith station 345 kv this inr has a 600 mw pun load at the medium voltage side of the mpts for a total of 1800 mw pun load (refer to the substation sld),2,0,445.4,2023.0,Solar,1
+449,treated,SOCO||eaton lucedale 115 kv line,2,0,117.5,2021.5,Solar,2
+449,control,SOCO||hatch vidalia 230 kv line,2,0,200.0,2021.0,Solar,2
+450,treated,PJM||passyunk 230 kv,1,0,550.0,2000.0,Gas,1
+450,control,PJM||burches hill 500 kv,1,0,960.0,2000.0,Gas,1
+451,treated,PJM||shenango hoytdale 345 kv,1,0,1000.0,2012.0,Gas,1
+451,control,PJM||aldene 230 kv,1,0,17.9,2012.0,Gas,1
+452,treated,PJM||huron 69 kv,2,0,12.5,2009.5,Gas,1
+452,control,PJM||dumont olive 345 kv,2,0,357.5,2013.0,Gas,1
+453,treated,PJM||electric junction nelson 345 kv,1,0,175.0,2020.0,Solar,1
+453,control,PJM||belleville 46 kv,1,0,10.0,2021.0,Solar,1
+454,treated,PJM||ladysmith ct 230 kv,2,0,40.0,2020.5,Gas,1
+454,control,PJM||beaver 138 kv,2,0,9.65,2019.5,Gas,1
+455,treated,PJM||ontelaunee 230 kv,1,0,34.1,2014.0,Gas,1
+455,control,PJM||bayonne 345 kv,1,0,1041.4,2016.0,Gas,1
+456,treated,ERCOT||1440 comanche 345 kv,2,0,409.65,2019.5,Solar,2
+456,control,ERCOT||4 iola 138 kv,2,0,105.0,2019.0,Solar,1
+457,treated,PJM||nelson 345 kv,1,0,600.0,2006.0,Gas,1
+457,control,PJM||bergen 230 kv,1,0,10.0,2009.0,Gas,1
+458,treated,PJM||union city 345 kv,3,0,8.206666666666667,2020.3333333333333,Solar,1
+458,control,PJM||effort mountain gilbert 138 kv,3,0,15.066666666666668,2020.6666666666667,Solar,1
+459,treated,SOCO||carriere poplarville 115 kv line,1,0,80.0,2020.0,Solar,1
+459,control,SOCO||bremen sewell creek 230 kv line,1,0,200.0,2020.0,Solar,1
+460,treated,PJM||east lima marysville 345 kv,3,0,133.33333333333334,2011.0,Solar,2
+460,control,PJM||germantown 115 kv,3,0,25.0,2017.0,Solar,1
+461,treated,PJM||heritage 500 kv,2,0,60.0,2020.5,Battery,1
+461,control,PJM||dorothy lewis 138 kv,2,0,150.0,2023.0,Battery,1
+462,treated,PJM||clubhouse 230 kv,1,1,200.0,2019.0,Solar+Battery,1
+462,control,PJM||bedford north wills mounain 115 kv,1,0,120.0,2018.0,Solar+Battery,1
+463,treated,CAISO||whirlwind substation 220 kv,2,0,162.5,2013.5,Solar+Battery,1
+463,control,CAISO||arco 230 kv,3,0,106.72466666666666,2018.6666666666667,Solar+Battery,1
+464,treated,ISO-NE||cmp 115 kv,1,0,25.0,2010.0,Other,1
+464,control,ISO-NE||345 kv circuit from psnh peniwagewassett substat,1,0,16.5,2007.0,Other,1
+465,treated,PJM||mcconnellsburg 138 kv,1,0,70.0,2017.0,Solar,1
+465,control,PJM||brandy remington 115 kv,1,0,60.0,2016.0,Solar,1
+466,treated,PSCo||boone comanche 230 kv,1,0,200.0,2016.0,Solar,1
+466,control,PSCo||boone comanche 230 kv line,1,0,199.0,2020.0,Solar,1
+467,treated,PJM||nelson lee county 345 kv,3,0,100.0,2022.0,Battery,1
+467,control,PJM||gretna mount airy 69 kv,3,0,20.0,2021.0,Battery,1
+468,treated,PJM||chavies bonnyman 69 kv,1,0,55.0,2018.0,Battery,1
+468,control,PJM||branchville sussex #1 34 kv,1,0,6.0,2015.0,Battery,1
+469,treated,PJM||crescent ridge,1,0,79.4,2016.0,Wind,1
+469,control,PJM||albright garrett 138 kv,1,0,80.0,2017.0,Wind,1
+470,treated,CAISO||helm kerman 70 kv line,1,0,73.2699966430664,2005.0,Gas,1
+470,control,CAISO||230/138/69 kv south bay (650 mw cc),1,0,650.0,2004.0,Gas,1
+471,treated,CAISO||midway wheeler ridge #1 & #2 230 kv,1,0,150.0,2011.0,Solar,1
+471,control,CAISO||arco substation 69 kv bus,1,0,20.0,2009.0,Solar,1
+472,treated,PJM||keystone 345 kv,1,0,300.0,2009.0,Gas,1
+472,control,PJM||aquasco 230 kv,1,0,792.0,2011.0,Gas,1
+473,treated,PJM||kankakee 138 kv,2,0,175.0,2007.0,Wind,1
+473,control,PJM||mendota 345 kv,2,0,20.0,2005.0,Wind,1
+474,treated,PJM||clinton stuart 345 kv,1,2,300.0,2019.0,Solar,1
+474,control,PJM||belle haven tasley 69 kv,1,0,70.0,2018.0,Solar,1
+475,treated,CAISO||mendota dairyland 115 kv,1,0,200.0,2010.0,Solar,1
+475,control,CAISO||barrett cameron 69 kv line,1,0,0.1,2011.0,Solar,1
+476,treated,PJM||crystal hill perth 115 kv,1,0,149.0,2021.0,Solar,1
+476,control,PJM||benner 12 kv,1,0,4.0,2021.0,Solar,1
+477,treated,PJM||morgan street cochranton 345 kv,1,0,15.0,2020.0,Solar,1
+477,control,PJM||benn's church smithfield 345 kv,1,0,20.0,2021.0,Solar,1
+478,treated,PJM||east lima south kenton 138 kv,2,0,85.9,2009.0,Wind,2
+478,control,PJM||powerton dresden 345 kv,2,0,250.0,2005.0,Wind,1
+479,treated,PJM||cordova 345 kv,3,0,206.33333333333334,2020.3333333333333,Solar,2
+479,control,PJM||crown new lebanon 69 kv,3,0,37.666666666666664,2021.6666666666667,Solar,2
+480,treated,CAISO||kramer substation 230 kv,1,0,245.0,2013.0,Solar+Battery,1
+480,control,CAISO||calcite substation 220 kv,1,0,60.0,2010.0,Solar+Battery,1
+481,treated,PJM||sussex county 12 kv,1,0,2.0,2012.0,Solar,1
+481,control,PJM||bennett 12 kv,1,0,1.0,2010.0,Solar,1
+482,treated,CAISO||kelso 230 kv,1,0,70.0,2023.0,Battery,1
+482,control,CAISO||bear mountain 115 kv,1,0,66.0,2023.0,Battery,1
+483,treated,PJM||brink 115 kv,1,0,80.0,2016.0,Solar,1
+483,control,PJM||belleville 1247 kv,1,0,5.0,2020.0,Solar,1
+484,treated,SOCO||sun hill wadley primary 230 kv line,1,0,200.0,2023.0,Solar,1
+484,control,SOCO||bartlett's ferry west point 115 kv line,1,0,157.0,2024.0,Solar,1
+485,treated,SOCO||autaugaville substation 230 kv bus,1,0,655.0,2003.0,Gas,1
+485,control,SOCO||ellicott north brewton 230 kv line,1,0,300.0,2020.0,Gas,1
+486,treated,SOCO||butler ds substation 230 kv bus,1,0,225.0,2022.0,Solar,1
+486,control,SOCO||blakely primary webb 115 kv line,1,0,80.0,2021.0,Solar,1
+487,treated,PJM||white,1,0,10.0,2010.0,Solar,1
+487,control,PJM||bennett farmingdale 34 kv,1,0,2.0,2011.0,Solar,1
+488,treated,PJM||lincoln 132 kv,1,0,3.0,2010.0,Solar,1
+488,control,PJM||berlin 69 kv,1,0,18.0,2010.0,Solar,1
+489,treated,PJM||sorenson desoto 345 kv,3,0,203.0,2019.3333333333333,Solar+Battery,2
+489,control,PJM||jeffersonville south charleston 69 kv,3,0,26.666666666666668,2021.0,Solar+Battery,2
+490,treated,PJM||loretto wilton center,2,0,202.5,2018.0,Wind,2
+490,control,PJM||williams 138 kv,2,0,104.5,2016.0,Wind,2
+491,treated,CAISO||laguna bell substation 230 kv,3,0,252.09666666666666,2020.0,Battery,1
+491,control,CAISO||pittsburg 230 kv,3,0,452.8,2020.6666666666667,Battery,1
+492,treated,CAISO||arco substation 70 kv bus,4,0,20.0,2010.25,Solar,1
+492,control,CAISO||gates coalinga #1 70 kv,4,0,15.75,2011.0,Solar,1
+493,treated,PJM||clubhouse sapony 230 kv,2,0,132.0,2020.0,Solar,1
+493,control,PJM||carbondale 138 kv,2,0,65.1,2022.0,Solar,2
+494,treated,PJM||hopewell 345 kv,2,0,15.0,2021.0,Battery,1
+494,control,PJM||edwards kewanee east 138 kv,2,0,196.0,2022.0,Battery,2
+495,treated,CAISO||delaney colorado river 500 kv line,2,0,1850.0,2017.5,Solar+Battery,1
+495,control,CAISO||calcite substation 220 kv bus,1,0,200.0,2012.0,Solar+Battery,1
+496,treated,CAISO||crescent switching station 70 kv,1,0,40.69,2017.0,Solar,1
+496,control,CAISO||blackwell substation 70 kv,1,0,16.35,2017.0,Solar,1
+497,treated,CAISO||windhub substation 220 kv bus,2,0,385.0,2006.0,Wind,1
+497,control,CAISO||east county (eco) substation 230 kv,2,0,360.0,2007.0,Wind,1
+498,treated,PJM||cromby 230 kv,1,0,870.0,2002.0,Gas,1
+498,control,PJM||burlington,1,0,16.0,2001.0,Gas,1
+499,treated,PJM||west manchester 69 kv,1,0,9.6,2023.0,Solar,1
+499,control,PJM||bentley farms 69 kv,1,0,35.5,2022.0,Solar,1
+500,treated,PJM||deans 500 kv,1,0,1310.0,2022.0,Offshore Wind,1
+500,control,PJM||cardiff 230 kv ii,1,0,604.8,2018.0,Offshore Wind,1
+501,treated,PSCo||ault substation,3,0,266.6666666666667,2007.3333333333333,Wind,1
+501,control,PSCo||calumet substation,2,0,250.0,2009.5,Wind,1
+502,treated,SOCO||greenville pintlala 115 kv line,2,0,69.0,2021.0,Solar+Battery,1
+502,control,SOCO||belleville lowman 230 kv line,2,0,80.0,2019.0,Solar+Battery,1
+503,treated,SOCO||gadsden weiss dam 115 kv line,1,0,80.0,2021.0,Solar+Battery,1
+503,control,SOCO||dothan pinckard 115 kv line,1,0,79.0,2021.0,Solar+Battery,1
+504,treated,PJM||new road 230 kv,2,0,85.0,2018.5,Battery,1
+504,control,PJM||four rivers hanover 230 kv,2,0,217.5,2018.5,Battery,2
+505,treated,"ISO-NE||eversource (cl&p) 345 kv montville, alternatively eversource (cl&p) 345 kv millstone",1,0,805.0,2018.0,Offshore Wind,1
+505,control,ISO-NE||115 kv barnstable substation,1,0,800.0,2016.0,Offshore Wind,1
+506,treated,PJM||briery clover 230 kv,2,0,160.0,2016.5,Solar,1
+506,control,PJM||cedar creek 138 kv ii,2,0,19.9,2016.5,Solar,1
+507,treated,CAISO||birds landing substation 230 kv,1,0,250.0,2011.0,Wind,1
+507,control,CAISO||birds landing switching station 230 kv,1,0,200.0,2004.0,Wind,1
+508,treated,PJM||marysville 345 kv,3,0,96.66666666666667,2018.0,Solar,2
+508,control,PJM||halifax person 230 kv,3,0,41.699999999999996,2016.6666666666667,Solar,1
+509,treated,PJM||blue mound latham,1,0,306.0,2010.0,Wind,1
+509,control,PJM||chestertown millington 69 kv,1,0,100.0,2013.0,Wind,1
+510,treated,PJM||sewaren,1,0,300.0,2001.0,Gas,1
+510,control,PJM||camden richmond 230 kv,1,0,727.0,2000.0,Gas,1
+511,treated,ERCOT||tap 138 kv 8125 lolita 8172 victoria,1,0,152.0,2022.0,Battery,1
+511,control,ERCOT||11189 quarry field switching 1074 wink 138 kv,1,0,206.88,2020.0,Battery,1
+512,treated,ERCOT||3413 knob creek 345 kv,1,0,67.0,2021.0,Gas,1
+512,control,ERCOT||13430 sandow switch 138 kv,1,0,1264.34,2024.0,Gas,1
+513,treated,SOCO||sinai cemetery farley 230 kv line,1,0,212.7,2016.0,Solar,1
+513,control,SOCO||calvert substation west mcintosh 230 kv line,1,0,80.0,2016.0,Solar,1
+514,treated,PJM||hatfield 500 kv,3,0,558.3333333333334,2015.3333333333333,Gas,1
+514,control,PJM||burches hill brandywine 230 kv,3,0,373.7,2013.3333333333333,Gas,1
+515,treated,CAISO||boulevard substation 138 kv bus,1,0,66.0,2010.0,Solar,1
+515,control,CAISO||antelope cal cement 66 kv,1,0,50.0,2010.0,Solar,1
+516,treated,PJM||carson rawlings 500 kv,1,0,314.0,2019.0,Solar,1
+516,control,PJM||bear peak east providence ii,1,0,5.0,2021.0,Solar,1
+517,treated,SOCO||danway goat rock (gpco) 230 kv line,1,0,80.0,2020.0,Solar,1
+517,control,SOCO||burkville substation 115 kv bus,1,0,120.0,2023.0,Solar,1
+518,treated,PSCo||comanche 230 kv line,1,0,240.0,,Solar,1
+518,control,PSCo||comanche substation 115 kv,1,0,50.0,2016.0,Solar,1
+519,treated,PJM||brunner west hempfield 230 kv,1,0,550.0,2000.0,Gas,1
+519,control,PJM||camden,1,0,258.0,1999.0,Gas,1
+520,treated,PJM||dequine 345 kv,1,0,64.0,2012.0,Wind,1
+520,control,PJM||ashtabula 138 kv,1,0,50.0,2010.0,Wind,1
+521,treated,PJM||sedgehill person 230 kv,2,0,62.5,2021.5,Solar+Battery,1
+521,control,PJM||oak green 115 kv,2,0,50.0,2020.0,Solar+Battery,1
+522,treated,PJM||twin branch meridian 345 kv,1,0,75.0,2021.0,Battery,1
+522,control,PJM||birchwood fines corner 230 kv,1,0,150.0,2023.0,Battery,1
+523,treated,ERCOT||76005 schneeman draw 345 kv,2,0,400.0,2016.0,Wind,1
+523,control,ERCOT||345 kv aspire station (68011),2,0,85.17500000000001,2019.0,Wind,2
+524,treated,PSCo||midway comanche 230 kv line,1,0,150.0,2016.0,Solar,1
+524,control,PSCo||parachute substation 249 kv bus,1,0,19.9,,Solar,1
+525,treated,CAISO||la cienega substation 230 kv,1,0,405.750886,2021.0,Battery,1
+525,control,CAISO||chowchilla 115 kv,1,0,79.5871,2021.0,Battery,1
+526,treated,PJM||jubal early pipers gap 138 kv,1,0,40.0,2021.0,Solar+Battery,1
+526,control,PJM||beaver valley crescent 138 kv,1,0,70.0,2022.0,Solar+Battery,1
+527,treated,CAISO||gates substation 230 kv bus,1,0,600.0,2007.0,Gas,1
+527,control,CAISO||arco gen #1 & #2 230 kv lines,1,0,85.0,2008.0,Gas,1
+528,treated,PJM||richmond,1,0,575.0,2001.0,Gas,1
+528,control,PJM||burlington 230 kv,1,0,316.0,2001.0,Gas,1
+529,treated,PJM||allen junction 345 kv,1,0,100.0,2021.0,Battery,1
+529,control,PJM||bixby 345 kv,1,0,50.0,2021.0,Battery,1
+530,treated,PSCo||rmec green valley 230 kv line,1,0,300.0,,Wind,1
+530,control,PSCo||1 mile south of ault,1,0,275.0,,Wind,1
+531,treated,PJM||derry tap derry bus 69 kv iii,1,0,4.1,2021.0,Solar,1
+531,control,PJM||bethelboro connellsville 25 kv,1,0,14.0,2023.0,Solar,1
+532,treated,CAISO||tranquility 230 kv,5,0,223.21800000000002,2016.2,Solar+Battery,2
+532,control,CAISO||gates 230 kv,5,0,208.05599999999998,2015.8,Solar+Battery,1
+533,treated,CAISO||helm substation 70 kv bus,1,0,23.0,2011.0,Solar,1
+533,control,CAISO||border 69 kv substation,1,0,20.0,2013.0,Solar,1
+534,treated,PJM||red house dp 115 kv,1,0,100.0,2021.0,Solar,1
+534,control,PJM||bethelboro 25 kv 1,1,0,12.0,2021.0,Solar,1
+535,treated,PJM||dumont 345 kv,1,0,150.0,2021.0,Solar,1
+535,control,PJM||bennett farmingdale 2 345 kv,1,1,0.7,2020.0,Solar,1
+536,treated,ERCOT||59904 cottonwood 345 kv,2,0,200.35,2015.5,Solar,2
+536,control,ERCOT||7077 amos cr 345 kv,2,0,184.4,2017.5,Solar,2
+537,treated,ISO-NE||nstar brighton substation,2,0,28.0749998092651,2009.5,Gas+Oil,1
+537,control,ISO-NE||cl&p windsor locks substation,2,0,26.25,2008.5,Gas+Oil,2
+538,treated,ERCOT||tap 345 kv 8689 tango 8606 goddard,2,0,231.0,2022.0,Solar,2
+538,control,ERCOT||138 kv ash creek switch (#3473),2,0,40.115,2022.0,Solar,1
+539,treated,PJM||frenchtown rosemont 345 kv,1,0,17.0,2010.0,Solar,1
+539,control,PJM||broadway stewartsville #3 345 kv,1,0,10.0,2010.0,Solar,1
+540,treated,PJM||timber switch 138 kv,1,0,50.0,2020.0,Battery,1
+540,control,PJM||branchville sussex #2 345 kv,1,0,8.0,2015.0,Battery,1
+541,treated,PJM||grit dp perth 115 kv,1,0,102.0,2019.0,Solar,1
+541,control,PJM||bethelboro 25 kv 2,1,0,12.0,2021.0,Solar,1
+542,treated,SOCO||thomasville west valdosta 230 kv line,1,0,150.0,2017.0,Solar,1
+542,control,SOCO||branch warrenton primary 230 kv line,1,0,100.0,2017.0,Solar,1
+543,treated,PJM||nevada 345 kv,1,0,150.0,2020.0,Solar,1
+543,control,PJM||bear peak east st clair 23 kv,1,0,15.0,2022.0,Solar,1
+544,treated,CAISO||panoche oro loma 115 kv tap,1,0,20.0,2010.0,Solar,1
+544,control,CAISO||brighton davis 115 kv,1,0,20.0,2010.0,Solar,1
+545,treated,CAISO||mohave substation 500 kv,3,0,483.3666666666666,2017.6666666666667,Solar+Battery,2
+545,control,CAISO||trout canyon substation 230 kv,3,0,302.318,2019.0,Solar+Battery,1
+546,treated,PJM||everetts 345 kv,1,0,15.0,2014.0,Solar,1
+546,control,PJM||boykins 115 kv,1,0,60.0,2015.0,Solar,1
+547,treated,PJM||orchard 230 kv,1,0,70.0,2010.0,Solar,1
+547,control,PJM||bayonne 13 kv,1,0,1.4,2010.0,Solar,1
+548,treated,CAISO||eldorado substation 230 kv,1,0,92.0,2009.0,Battery,1
+548,control,CAISO||los esteros 115 kv,1,0,120.0,2008.0,Battery,1
+549,treated,PJM||nittany zion 46 kv,1,0,20.0,2018.0,Solar,1
+549,control,PJM||beth 33 lilly 46 kv,1,0,20.0,2020.0,Solar,1
+550,treated,PJM||central chase city 115 kv,1,0,55.0,2023.0,Solar,1
+550,control,PJM||bear peak rostraver 1247 kv,1,0,7.5,2022.0,Solar,1
+551,treated,ISO-NE||ngrid 115 kv s171 line,1,0,27.8999996185302,2007.0,Other,1
+551,control,ISO-NE||clp fry brook substation,1,0,37.5,2006.0,Other,1
+552,treated,PJM||byron wayne 345 kv,7,0,127.905,2021.5714285714287,Solar,2
+552,control,PJM||garner dp lancaster 115 kv,7,0,54.60285714285715,2020.142857142857,Solar,1
+553,treated,ERCOT||6216 bluff creek 138 kv,2,0,137.905,2020.0,Wind,1
+553,control,ERCOT||345 kv rapido substation (new ett substation) tapping the existing 345 kv line from cenizo7c (#80225) to delsol7c (#80307),2,0,197.75,2023.0,Wind,1
+554,treated,SOCO||west montgomery lowndesboro ds 46 kv line,1,0,20.0,2016.0,Solar,1
+554,control,SOCO||belleville (powersouth) greenville 230 kv line,1,0,80.0,2016.0,Solar,1
+555,treated,PJM||twombly road 138 kv,1,0,40.0,2017.0,Solar,1
+555,control,PJM||baldy wesnberg 69 kv,1,0,20.0,2019.0,Solar,1
+556,treated,PJM||olive university park 345 kv,3,0,101.66666666666667,2020.0,Battery,2
+556,control,PJM||nelson dixon 138 kv,3,0,99.66666666666667,2020.0,Battery,2
+557,treated,PJM||reynolds meadow lake #1 345 kv,1,0,84.0,2021.0,Battery,1
+557,control,PJM||blaine roanoke 138 kv,1,0,200.0,2022.0,Battery,1
+558,treated,ISO-NE||j162 115 kv line between tewksbury and perry street,1,0,74.0,2007.0,Gas,1
+558,control,ISO-NE||bhe powersville substation,1,0,35.0,2008.0,Gas,1
+559,treated,PJM||doubs 230 kv,1,0,80.0,2016.0,Solar,1
+559,control,PJM||bremo powhatan 230 kv,1,0,99.9,2017.0,Solar,1
+560,treated,"SOCO||claxton vidalia 115 kv line, ohoopee river tap",1,0,52.0,2016.0,Solar,1
+560,control,SOCO||callaway sinai 115 kv line,1,0,75.0,2018.0,Solar,1
+561,treated,PJM||bedford north central city west 115 kv,1,0,17.64,2023.0,Solar,1
+561,control,PJM||bethelboro 25 kv 3,1,0,12.0,2021.0,Solar,1
+562,treated,PJM||brunot island 138 kv,2,0,11.75,2020.0,Gas,2
+562,control,PJM||elwood 345 kv,2,0,127.5,2018.0,Gas,1
+563,treated,PJM||lewis 138 kv,1,0,350.0,2008.0,Offshore Wind,1
+563,control,PJM||corson 138 kv,1,0,350.0,2007.0,Offshore Wind,1
+564,treated,SOCO||jackson shoals sylacauga 115 kv line,1,0,100.0,2023.0,Solar,1
+564,control,SOCO||collins newton 115 kv line,1,0,100.0,2020.0,Solar,1
+565,treated,CAISO||suncrest substation 230 kv,1,0,312.96,2021.0,Battery,1
+565,control,CAISO||border border tap 69 kv,1,0,100.8,2021.0,Battery,1
+566,treated,CAISO||otay substation 69 kv,2,0,38.0,2018.5,Battery,1
+566,control,CAISO||bellota tesla #2,2,0,354.05,2023.0,Battery,1
+567,treated,PJM||stillman valley,1,0,15.3,2011.0,Solar,1
+567,control,PJM||branchville 12 kv,1,0,4.0,2011.0,Solar,1
+568,treated,PJM||wayne byron 345 kv,1,0,72.0,2023.0,Solar,1
+568,control,PJM||bethelboro 25 kv 4,1,0,12.0,2021.0,Solar,1
+569,treated,CAISO||dumbarton newark 115 kv line,1,0,62.6,2021.0,Battery,1
+569,control,CAISO||center s substation 230 kv,1,0,405.750882,2021.0,Battery,1
+570,treated,PJM||cardiff 230 kv,1,0,1200.0,2019.0,Offshore Wind,1
+570,control,PJM||bethany 138th street 138 kv,1,0,152.0,2018.0,Offshore Wind,1
+571,treated,SOCO||beulah (gulf) silverhill 230 kv line,2,0,80.0,2020.5,Solar+Battery,1
+571,control,SOCO||greene county moundville ts 230 kv line,2,0,125.0,2022.0,Solar+Battery,1
+572,treated,CAISO||sce owned eldorado bus 230 kv,1,0,300.0,2016.0,Battery,1
+572,control,CAISO||corcoran olive 115 kv line,1,0,10.0,2015.0,Battery,1
+573,treated,PJM||essex 230 kv,3,0,336.0,2007.0,Gas,1
+573,control,PJM||elizabeth river 230 kv,3,0,20.0,2007.0,Gas,1
+574,treated,PJM||colora 230 kv,1,0,60.48,2023.0,Battery,1
+574,control,PJM||blue jacket kirby 138 kv vi,1,0,100.0,2021.0,Battery,1
+575,treated,PJM||peckville jackson 69 kv,1,0,20.0,2013.0,Wind,1
+575,control,PJM||dans mountain,1,0,54.9,2007.0,Wind,1
+576,treated,PJM||bl england 138 kv,2,0,243.0,2012.0,Gas,1
+576,control,PJM||four rivers 230 kv,2,0,180.0,2015.0,Gas,1
+577,treated,CAISO||borrego substation 69 kv,2,0,37.75,2008.0,Solar,1
+577,control,CAISO||devers substation,2,0,1000.0,2007.0,Solar,1
+578,treated,PJM||tansboro 12 kv,1,0,1.26,2018.0,Solar,1
+578,control,PJM||berwick 1247 kv,1,0,5.0,2019.0,Solar,1
+579,treated,PJM||suffolk 115 kv,2,0,34.5,2019.5,Solar,1
+579,control,PJM||central hardin stephensburg 69 kv,2,0,49.0,2020.0,Solar,2
+580,treated,PJM||tanners creek hanna 345 kv,1,0,120.0,2021.0,Solar,1
+580,control,PJM||bethlehem lilly 46 kv,1,0,20.0,2021.0,Solar,1
+581,treated,PJM||cooper,1,0,10.0,2012.0,Solar,1
+581,control,PJM||branchville n newton #2 34 kv,1,0,7.0,2011.0,Solar,1
+582,treated,PJM||highland hanna 345 kv,1,0,940.0,2015.0,Gas,1
+582,control,PJM||branchburg alburtis 500 kv,1,0,700.0,2018.0,Gas,1
+583,treated,PJM||madera 345 kv,1,0,20.0,2020.0,Solar,1
+583,control,PJM||bethelboro connellsville #1 25 kv,1,0,14.0,2019.0,Solar,1
+584,treated,CAISO||cool water kramer #1 230 kv line,2,0,324.325,2007.0,Wind,2
+584,control,CAISO||monolith substation,2,0,250.5,2004.0,Wind,1
+585,treated,ERCOT||141765 mariah 345 kv,1,0,600.3,2009.0,Wind,1
+585,control,ERCOT||11441 flat top 345 kv,1,0,200.0,2014.0,Wind,1
+586,treated,ISO-NE||bhe's line 5 46 kv,2,0,16.0,2005.5,Other,1
+586,control,ISO-NE||doreen 115 kv substation or f132 115 kv line,2,0,43.0,2007.0,Other,1
+587,treated,PJM||trenton 26 kv,2,0,6.5,2011.0,Solar,1
+587,control,PJM||frenchtown 345 kv,2,0,11.0,2010.5,Solar,1
+588,treated,PJM||schauff road,1,0,30.0,2019.0,Battery,1
+588,control,PJM||burnham 138 kv,1,0,200.0,2020.0,Battery,1
+589,treated,CAISO||tranquility switching station 230 kv,1,0,154.89,2018.0,Solar+Battery,1
+589,control,CAISO||bitterwater switching station 230 kv,1,0,206.0,2018.0,Solar+Battery,1
+590,treated,PJM||atlanta 69 kv i,1,0,49.9,2016.0,Solar,1
+590,control,PJM||bethelboro 25 kv 5,1,0,12.0,2021.0,Solar,1
+591,treated,PJM||lexington park 69 kv,2,0,11.35,2019.0,Solar,1
+591,control,PJM||chinquapin everetts 230 kv,2,0,75.0,2018.0,Solar,1
+592,treated,PJM||jetersville ponton 115 kv,4,0,26.5,2020.0,Solar,1
+592,control,PJM||mississinewa gaston 138 kv,4,0,66.8,2020.25,Solar,2
+593,treated,PJM||rocktown 48 kv,1,0,2.0,2010.0,Solar,1
+593,control,PJM||buckeye ringoes 345 kv,1,0,8.4,2010.0,Solar,1
+594,treated,CAISO||borden substation 70 kv,1,0,50.5,2016.0,Battery,1
+594,control,CAISO||el cajon substation 69 kv,1,0,50.0,2014.0,Battery,1
+595,treated,CAISO||panoche substation 115 kv,1,0,86.64,2016.0,Solar+Battery,1
+595,control,CAISO||calcite 230 kv line,1,0,102.85,2016.0,Solar+Battery,1
+596,treated,PJM||blue jacket kirby 138 kv,2,0,128.3,2018.5,Solar,1
+596,control,PJM||church wye mills 138 kv,2,0,20.0,2016.0,Solar,1
+597,treated,ISO-NE||cmp sturtevant substation 115 kv,1,0,78.4000015258789,,Solar,1
+597,control,ISO-NE||115 kv coolidge substation,1,2,19.8999996185302,2015.0,Solar,1
+598,treated,PJM||newburgh 12 kv,1,0,5.0,2010.0,Solar,1
+598,control,PJM||blairstown kittatinny 345 kv,1,0,10.0,2010.0,Solar,1
+599,treated,SOCO||hattiesburg southwest adams creek 230 kv line,4,0,206.25,2021.75,Solar,2
+599,control,SOCO||jasper east substation substation 230 kv bus,3,0,168.66666666666666,2022.6666666666667,Solar,2
+600,treated,ERCOT||60090 wkn breaker 69 kv,1,0,58.29,2021.0,Battery,1
+600,control,ERCOT||# 7044 marion 345 kv,1,0,210.5,2023.0,Battery,1
+601,treated,CAISO||mira loma substation 230 kv,5,0,367.8428036,2020.8,Battery,1
+601,control,CAISO||los banos 230 kv,4,0,153.0,2019.25,Battery,2
+602,treated,PJM||lynnville south hamburg 69 kv,1,0,12.5,2023.0,Solar,1
+602,control,PJM||bishopville worcester 138 kv,1,0,39.0,2023.0,Solar,1
+603,treated,PJM||lawrence 26 kv,1,0,10.0,2011.0,Solar,1
+603,control,PJM||branchville newton 345 kv,1,0,17.0,2010.0,Solar,1
+604,treated,PJM||bear creek 69 kv,1,1,25.0,2003.0,Wind,1
+604,control,PJM||camp grove,1,0,150.0,2003.0,Wind,1
+605,treated,SOCO||autaugaville substation 500 kv bus,1,0,655.0,2003.0,Gas,1
+605,control,SOCO||wansley 500 kv substation,1,0,1195.0,2003.0,Gas,1
+606,treated,PJM||pontiac midpoint dresden,1,0,300.0,2017.0,Other,1
+606,control,PJM||dixon 12 kv,1,0,3.95,2011.0,Other,1
+607,treated,PJM||printz,1,0,65.5,2012.0,Gas,1
+607,control,PJM||bay shore 138 kv,1,0,464.0,2013.0,Gas,1
+608,treated,SOCO||thurlow dam union springs 115 kv line,1,0,79.0,2021.0,Solar,1
+608,control,SOCO||coosa pines logan martin dam no 2 115 kv line,1,0,80.0,2021.0,Solar,1
+609,treated,PJM||somerset allegheny 115 kv,1,0,65.0,2005.0,Wind,1
+609,control,PJM||beryl 138 kv,1,0,85.0,2005.0,Wind,1
+610,treated,PJM||hanna tanners creek 345 kv,2,0,207.5,2020.5,Solar,2
+610,control,PJM||chase city lunenburg 115 kv,2,0,88.9,2020.0,Solar,1
+611,treated,SOCO||sinai west grand ridge 115 kv line,1,0,74.9,2017.0,Solar,1
+611,control,SOCO||burkville hunter station 115 kv line,1,0,80.0,2018.0,Solar,1
+612,treated,CAISO||devers palo verde 500 kv line,2,0,900.0,2008.0,Solar,1
+612,control,CAISO||lugo mojave 500 kv line,2,0,750.0,2008.0,Solar,1
+613,treated,PSCo||pawnee substation 345 kv,2,0,375.0,2021.0,Wind,2
+613,control,PSCo||jackson fuller substation,1,0,250.0,,Wind,1
+614,treated,CAISO||victor substation 230 kv,1,0,100.0,2017.0,Battery,1
+614,control,CAISO||bair substation 60 kv bus,1,0,40.0,2018.0,Battery,1
+615,treated,PJM||rockwood 23 kv,1,0,10.0,2021.0,Solar,1
+615,control,PJM||big sandy inez 138 kv,1,0,150.0,2021.0,Solar,1
+616,treated,CAISO||woodland davis 115 kv line,1,0,12.0,2010.0,Solar+Battery,1
+616,control,CAISO||gates gregg 230 kv and gates mccall 230 kv,1,0,100.0,2010.0,Solar+Battery,1
+617,treated,CAISO||borden substation 230 kv bus,3,0,134.5,2006.0,Gas,1
+617,control,CAISO||eastshore substation 230 kv,2,0,299.5,2004.5,Gas,1
+618,treated,PJM||gretna dp 69 kv,1,0,50.0,2016.0,Solar,1
+618,control,PJM||bionol madera 115 kv,1,0,151.8,2019.0,Solar,1
+619,treated,CAISO||diablo canyon 500 kv,2,0,1273.7060000000001,2020.5,Offshore Wind,2
+619,control,CAISO||humboldt substation 115 kv,2,0,1206.0,2023.0,Offshore Wind,1
+620,treated,SOCO||mitchell moultrie 115 kv line,2,0,117.5,2020.0,Solar,2
+620,control,SOCO||mitchell raccoon creek 230 kv line,2,0,260.0,2019.0,Solar,2
+621,treated,PJM||valley 230 kv,1,0,210.0,2022.0,Battery,1
+621,control,PJM||boydton dp 115 kv,1,0,50.0,2023.0,Battery,1
+622,treated,PJM||hamlin 12 kv,1,0,4.998,2021.0,Solar,1
+622,control,PJM||bixby biers run 345 kv,1,0,346.0,2021.0,Solar,1
+623,treated,PSCo||fort st vrain substation,1,0,380.0,,Gas,1
+623,control,PSCo||fort st vrain ‚äìniwot 230 kv line,1,0,269.0,,Gas,1
+624,treated,PJM||flemingsburg spurlock 138 kv,3,0,104.83333333333333,2020.3333333333333,Solar,2
+624,control,PJM||deepwater upper pittsgrove 138 kv,3,0,71.43333333333334,2020.0,Solar,1
+625,treated,PJM||allen 132 kv,2,0,3.0,2020.0,Solar,1
+625,control,PJM||chatfield howard 138 kv,2,0,68.5,2019.5,Solar,1
+626,treated,PJM||potter gold 115 kv,1,0,75.0,2007.0,Wind,1
+626,control,PJM||avery greenfield 138 kv,1,0,99.0,2010.0,Wind,1
+627,treated,PJM||morgantown,1,0,4.8,2009.0,Other,1
+627,control,PJM||altavista 115 kv,1,0,60.0,2011.0,Other,1
+628,treated,ERCOT||tap 345 kv 11028 odessa 76000 n mccamey,2,0,189.0,2016.5,Solar,1
+628,control,ERCOT||68051 reata 345 kv,2,0,140.5,2018.0,Solar,1
+629,treated,CAISO||carrizo gorge switchyard 138 kv,1,0,90.0,2018.0,Battery,1
+629,control,CAISO||bellota 230 kv,1,0,500.0,2023.0,Battery,1
+630,treated,PJM||st barnabas 13 kv,1,0,5.6,2018.0,Solar,1
+630,control,PJM||blain 115 kv,1,0,60.0,2019.0,Solar,1
+631,treated,PJM||desoto tanners creek 345 kv,1,0,300.0,2016.0,Wind,1
+631,control,PJM||davis besse beaver 345 kv,1,0,500.0,2011.0,Wind,1
+632,treated,SOCO||eastman primary hatch 230 kv line,1,0,248.5,2017.0,Solar,1
+632,control,SOCO||champion flomaton 115 kv line,1,0,74.5,2017.0,Solar,1
+633,treated,PJM||cedar 230 kv,1,0,348.0,2010.0,Offshore Wind,1
+633,control,PJM||bayview 25 kv,1,0,5.0,2011.0,Offshore Wind,1
+634,treated,ERCOT||tap 345 kv 6101 riley 1730 w krum,1,0,241.5,2017.0,Wind,1
+634,control,ERCOT||1301 willow valley 138 kv,1,0,300.0,2017.0,Wind,1
+635,treated,SOCO||holmes creek pinckard 230 kv line,1,0,80.0,2020.0,Solar,1
+635,control,SOCO||calvert substation substation 230 kv bus,1,0,200.0,2023.0,Solar,1
+636,treated,PJM||chase city drakes branch 115 kv,1,0,118.56,2020.0,Battery,1
+636,control,PJM||bremo 115 kv,1,0,100.0,2022.0,Battery,1
+637,treated,PJM||erie east 230 kv,2,0,127.61,2011.5,Wind,1
+637,control,PJM||wempletown belvidere 138 kv,2,0,100.0,2007.5,Wind,1
+638,treated,SOCO||kathleen pitts 230 kv line,3,0,200.0,2022.3333333333333,Solar,2
+638,control,SOCO||thalmann ts 230 kv bus,3,0,233.33333333333334,2020.0,Solar,1
+639,treated,PJM||watson 1247 kv,3,0,2.6666666666666665,2020.0,Solar+Battery,1
+639,control,PJM||guilford 1247 kv,2,0,3.0,2020.0,Solar+Battery,1
+640,treated,PSCo||comanche daniels park 345 kv,1,0,75.0,2020.0,Battery,1
+640,control,PSCo||midway 115 kv substation,1,0,52.0,2019.0,Battery,1
+641,treated,PJM||quinton 69 kv,1,0,10.0,2011.0,Solar,1
+641,control,PJM||brick,1,0,6.25,2011.0,Solar,1
+642,treated,ERCOT||60722 coulomb 345 kv,1,0,336.0,2017.0,Wind,1
+642,control,ERCOT||138 kv 60728 palouse,1,0,175.0,2019.0,Wind,1
+643,treated,SOCO||americus dawson primary 115 kv line,1,0,60.0,2016.0,Solar,1
+643,control,SOCO||caverns substation 115 kv bus,1,0,74.5,2018.0,Solar,1
+644,treated,PJM||westmoreland oak grove 230 kv,2,0,50.0,2022.0,Solar,1
+644,control,PJM||church oil city 138 kv,2,0,66.9,2018.5,Solar,2
+645,treated,PJM||graceton 230 kv,1,0,550.0,2003.0,Gas,1
+645,control,PJM||dolfield,1,0,9.0,2001.0,Gas,1
+646,treated,SOCO||marianna bay county 115 kv line,1,0,50.0,2017.0,Solar,1
+646,control,SOCO||comer primary broad river stone 46 kv line,1,0,40.0,2018.0,Solar,1
+647,treated,PJM||trowbridge 230 kv,3,0,161.33333333333334,2017.0,Solar,1
+647,control,PJM||northern neck 345 kv,3,0,5.366666666666667,2018.0,Solar,1
+648,treated,PJM||kensington 138 kv,2,0,100.0,2021.0,Battery,2
+648,control,PJM||fall creek 345 kv,2,0,350.0,2021.0,Battery,2
+649,treated,SOCO||madison park thurlow dam 115 kv line,1,0,94.0,2016.0,Solar,1
+649,control,SOCO||corn crib thomaston 115 kv line,1,0,74.9,2016.0,Solar,1
+650,treated,CAISO||whirlwind 230 kv substation,1,0,259.842,2016.0,Solar,1
+650,control,CAISO||arco tulare lake line,1,0,20.0,2016.0,Solar,1
+651,treated,PJM||pedricktown 12 kv,1,0,5.0,2010.0,Solar,1
+651,control,PJM||broadway 12 kv,1,0,1.6,2010.0,Solar,1
+652,treated,CAISO||tesla substation 230 kv,1,0,153.02,2017.0,Battery,1
+652,control,CAISO||birds landing switchyard 230 kv,1,0,204.1,2018.0,Battery,1
+653,treated,PJM||nottingham 138 kv,2,0,150.0,2020.0,Solar,1
+653,control,PJM||columbia geisinger tap #1 69 kv,2,0,20.0,2020.0,Solar,1
+654,treated,PJM||peach bottom 500 kv,2,0,297.0,2005.0,Gas,2
+654,control,PJM||horse shoe run 69 kv,2,0,16.0,2000.5,Gas,1
+655,treated,PSCo||san luis poncha 230 kv line,2,0,100.0,2008.0,Solar,1
+655,control,PSCo||mosca substation,2,0,10.0,,Solar,1
+656,treated,CAISO||midway substation 230 kv,3,0,187.32500000000002,2021.0,Solar+Battery,2
+656,control,CAISO||helm substation 230 kv,2,0,321.942,2021.0,Solar+Battery,1
+657,treated,ERCOT||tap 345 kv 1907 venus 68090 sam switching,2,0,202.35,2022.0,Solar,2
+657,control,ERCOT||345 kv bell county east switch (bus# 3687) tnp one (bus# 39950) circuit 2,2,0,197.73000000000002,2020.0,Solar,1
+658,treated,PJM||olive reynolds #1 345 kv,2,0,255.0,2020.5,Solar,1
+658,control,PJM||continental 69 kv,2,0,30.439999999999998,2019.0,Solar,1
+659,treated,CAISO||mccall substation,1,0,300.0,2004.0,Gas,1
+659,control,CAISO||500 kv line to the new midpoint switching station,1,0,640.0,2007.0,Gas,1
+660,treated,PJM||curdsville dp willis mount 115 kv,2,0,50.0,2020.5,Battery,1
+660,control,PJM||farmville moran dp 115 kv,2,0,72.5,2022.0,Battery,2
+661,treated,PJM||cumberland w shore #1 69 kv,1,0,20.0,2011.0,Solar,1
+661,control,PJM||broadway stewartsville#2 345 kv,1,0,15.0,2010.0,Solar,1
+662,treated,PJM||tunis 345 kv,1,0,13.5,2020.0,Solar,1
+662,control,PJM||blairsville east 23 kv,1,0,7.5,2020.0,Solar,1
+663,treated,PJM||kidds store fork union 115 kv ii,1,0,57.0,2021.0,Battery,1
+663,control,PJM||brunswick collector bus wake 500 kv,1,0,100.0,2021.0,Battery,1
+664,treated,PJM||sporn 138 kv,1,0,27.4,2020.0,Solar,1
+664,control,PJM||bear peak rostraver ii 1247 kv,1,0,7.5,2022.0,Solar,1
+665,treated,PJM||morgantown/oak grove 230 kv,2,0,550.0,1999.0,Gas,1
+665,control,PJM||doubs 500 kv or 230 kv,2,0,644.0,2000.5,Gas,1
+666,treated,CAISO||morro bay substation 230 kv,1,0,627.0,2019.0,Offshore Wind,1
+666,control,CAISO||diablo canyon switching station 500 kv,1,0,1187.5,2019.0,Offshore Wind,1
+667,treated,CAISO||east county substation 500 kv,1,0,1001.0,2020.0,Wind,1
+667,control,CAISO||collector substation at geysers #17 fulton 230 kv line,1,0,201.0,2004.0,Wind,1
+668,treated,CAISO||tesla substation 115 kv,1,0,30.0,2014.0,Battery,1
+668,control,CAISO||chino substation 220 kv,1,0,102.1,2019.0,Battery,1
+669,treated,PJM||conneaut conneaut tap 69 kv,1,0,20.0,2021.0,Solar,1
+669,control,PJM||blacklick solar 12 kv,1,0,4.95,2021.0,Solar,1
+670,treated,SOCO||dothan pinckard #2 115 kv line,1,0,79.725,2016.0,Solar,1
+670,control,SOCO||cotton primary substation 230 kv bus,1,0,83.0,2017.0,Solar,1
+671,treated,ERCOT||79502 windmill 345 kv,2,0,203.75,2014.0,Wind,2
+671,control,ERCOT||60500 edith clarke 345 kv,2,0,325.7,2016.5,Wind,1
+672,treated,PJM||millbrook park 138 kv,1,0,80.0,2011.0,Coal,1
+672,control,PJM||amos unit 3,1,0,36.0,2013.0,Coal,1
+673,treated,SOCO||waynesboro primary wilson 230 kv line,1,0,100.0,2013.0,Solar,1
+673,control,SOCO||blakely primary substation 46 kv bus,1,0,20.0,2012.0,Solar,1
+674,treated,PJM||shingletown boalsburg 46 kv,1,0,20.0,2019.0,Solar,1
+674,control,PJM||bloomsburg columbia 69 kv,1,0,20.0,2019.0,Solar,1
+675,treated,CAISO||arco carneras 70 kv line,2,0,20.0,2010.0,Solar,1
+675,control,CAISO||cal cement rosamond 69 kv line,1,0,50.0,2012.0,Solar,1
+676,treated,PJM||tallmansville 138 kv,1,0,100.0,2001.0,Gas,1
+676,control,PJM||chalk point,1,0,340.0,2001.0,Gas,1
+677,treated,CAISO||contra costa switchyard 230 kv,1,0,94.5,2017.0,Battery,1
+677,control,CAISO||fulton 230 kv,1,0,26.25,2017.0,Battery,1
+678,treated,PJM||east danville roxborough 230 kv,2,0,95.5,2017.0,Solar,1
+678,control,PJM||chase city 345 kv,2,0,25.0,2016.0,Solar,1
+679,treated,PJM||mechanicsburg darby 138 kv,1,0,80.0,2021.0,Solar,1
+679,control,PJM||bloom 345 kv,1,0,5.0,2021.0,Solar,1
+680,treated,PJM||beaverbrook 13 kv,1,0,2.0,,Solar,1
+680,control,PJM||brunswick 26 kv,1,0,10.0,2016.0,Solar,1
+681,treated,PJM||rogers road carson 500 kv,2,0,70.0,2021.0,Battery,1
+681,control,PJM||fentress landstown 230 kv,2,0,200.0,2022.0,Battery,1
+682,treated,PJM||kanawha river 138 kv,1,0,51.0,2019.0,Hydro,1
+682,control,PJM||roanoke vinton 12 kv (niagara hydro),1,0,2.4,2018.0,Hydro,1
+683,treated,PJM||van arsdell mercer industrial 69 kv,1,0,17.0,2023.0,Solar,1
+683,control,PJM||blue bell canton central 138 kv,1,0,150.0,2020.0,Solar,1
+684,treated,ISO-NE||irasburg st johnsbury 115 kv,1,0,40.0,2006.0,Wind,1
+684,control,ISO-NE||115 kv west rutland substation,1,0,60.0,2006.0,Wind,1
+685,treated,PJM||lemoyne 345 kv,1,0,250.0,2021.0,Battery,1
+685,control,PJM||bowman 125 kv,1,0,20.0,2021.0,Battery,1
+686,treated,PJM||barren county summer shade 161 kv,1,0,85.0,2018.0,Solar,1
+686,control,PJM||black branch 345 kv,1,0,19.95,2020.0,Solar,1
+687,treated,PJM||crewe 125 kv,1,0,8.0,2020.0,Solar,1
+687,control,PJM||boalsburg centre hall 46 kv,1,0,20.0,2019.0,Solar,1
+688,treated,CAISO||tesla bellota 230 kv line,1,0,168.699996948242,2004.0,Gas,1
+688,control,CAISO||contra costa (230 kv),1,0,158.0,2005.0,Gas,1
+689,treated,PJM||venango 345 kv,1,0,6.58,2023.0,Solar,1
+689,control,PJM||bloomsburg columbia 69 kv ii,1,0,4.1,2021.0,Solar,1
+690,treated,PJM||mansfield s troy 115 kv,1,0,0.5,2009.0,Wind,1
+690,control,PJM||antioch,1,0,20.0,2009.0,Wind,1
+691,treated,PSCo||comanche 230 kv substation,2,0,150.0,2017.0,Solar,1
+691,control,PSCo||boone 230 kv substation,1,0,40.0,2017.0,Solar,1
+692,treated,PJM||howell,1,0,17.0,2011.0,Solar,1
+692,control,PJM||buckskin 12 kv,1,0,12.0,2010.0,Solar,1
+693,treated,PJM||sullivan dequine 345 kv,3,0,107.66666666666667,2021.6666666666667,Solar,2
+693,control,PJM||east leipsic richland 138 kv,3,0,116.0,2021.6666666666667,Solar,1
+694,treated,PJM||frostburg 138 kv,2,0,49.0,2018.5,Wind,2
+694,control,PJM||brokaw lanesville 345 kv,2,0,8.265,2020.0,Wind,1
+695,treated,PJM||orrtanna 132 kv,1,0,3.0,2020.0,Solar,1
+695,control,PJM||blue jacket kirby 138 kv v,1,0,120.0,2021.0,Solar,1
+696,treated,CAISO||strout switching station 70 kv,1,0,20.0,2010.0,Solar,1
+696,control,CAISO||camden junction lemoore tap 70 kv,1,0,20.0,2010.0,Solar,1
+697,treated,PJM||powerton goodings grove 345 kv,1,0,300.0,2005.0,Wind,1
+697,control,PJM||bayonne 26 kv,1,0,20.0,2010.0,Wind,1
+698,treated,SOCO||branch springhill church 230 kv line,1,0,68.5,2023.0,Solar,1
+698,control,SOCO||demopolis greensboro 115 kv line,1,0,80.0,2023.0,Solar,1
+699,treated,PJM||rineyville 69 kv,1,0,40.0,2021.0,Solar,1
+699,control,PJM||blue mound i,1,0,100.0,2023.0,Solar,1
+700,treated,PJM||miller rec warrior ridge 46 kv,1,0,20.0,2020.0,Solar,1
+700,control,PJM||bluegrass parkway tap woodlawn 69 kv,1,0,20.0,2021.0,Solar,1
+701,treated,PJM||buxmont 69 kv,1,0,150.0,2018.0,Battery,1
+701,control,PJM||bremo cartersville 230 kv ii,1,0,20.0,2021.0,Battery,1
+702,treated,PJM||eldred frackville 230 kv,1,0,175.8,2017.0,Wind,1
+702,control,PJM||beaver davis besse 345 kv i,1,0,297.66,2017.0,Wind,1
+703,treated,PJM||bluff point 138 kv,1,0,120.0,2007.0,Wind,1
+703,control,PJM||baker hardy 138 kv,1,0,50.0,2012.0,Wind,1
+704,treated,ERCOT||59900 long draw 345 kv,1,0,360.0,2017.0,Solar,1
+704,control,ERCOT||1141 holt 138 kv,1,0,200.0,2018.0,Solar,1
+705,treated,PJM||weirwood eastville 69 kv,1,0,20.0,2013.0,Solar,1
+705,control,PJM||andersontown road #4,1,0,1.5,2014.0,Solar,1
+706,treated,PJM||layland 69 kv,1,0,35.5,2023.0,Solar,1
+706,control,PJM||bluebell sancap tap 69 kv,1,0,61.0,2021.0,Solar,1
+707,treated,SOCO||greene county north selma 230 kv line,2,0,49.86,2015.5,Solar,1
+707,control,SOCO||jasper (pef) west homerville 115 kv line,2,0,20.0,2013.0,Solar,1
+708,treated,ERCOT||6673 musquiz 138 kv,2,0,150.0,2021.5,Solar,2
+708,control,ERCOT||6101 riley 345 kv,2,0,200.27,2019.0,Solar,2
+709,treated,PJM||lee county,1,0,160.2,2009.0,Wind,1
+709,control,PJM||berlin 23 kv,1,0,5.4,2005.0,Wind,1
+710,treated,"ISO-NE||y 25 north, 69 kv line between searsburg and benni",1,0,30.0,2008.0,Wind,1
+710,control,ISO-NE||ashburnham no 610 138 kv,1,0,12.0,2003.0,Wind,1
+711,treated,PJM||baker 345 kv,1,0,20.0,2010.0,Gas,1
+711,control,PJM||churchtown 230 kv 1,1,0,193.5,2010.0,Gas,1
+712,treated,PJM||columbia 138 kv,1,0,149.4,2010.0,Wind,1
+712,control,PJM||allen junction 138 kv,1,0,99.0,2010.0,Wind,1
+713,treated,CAISO||ocean ranch substation 69 kv,1,0,105.0,2021.0,Battery,1
+713,control,CAISO||bellota riverbank,1,0,153.7,2023.0,Battery,1
+714,treated,ERCOT||44645 singleton 345 kv,1,0,301.41,2020.0,Battery,1
+714,control,ERCOT||(#78575) lcra yorktown 138 kv,1,0,150.49,2023.0,Battery,1
+715,treated,ERCOT||76003 big hill 345 kv,1,0,199.5,2010.0,Battery,1
+715,control,ERCOT||138 kv (cehe substation) tap burke (42410) eagle nest (42430) ckt 02,1,0,120.0,2017.0,Battery,1
+716,treated,PJM||dickerson 230 kv,1,0,234.0,2001.0,Gas,1
+716,control,PJM||central city west 23 kv,1,0,9.0,2001.0,Gas,1
+717,treated,ISO-NE||bigelow substation,1,0,65.0,2005.0,Wind,1
+717,control,ISO-NE||bhe keene road 115 kv substation,1,0,27.7999992370605,2006.0,Wind,1
+718,treated,PJM||crisfield 25 kv,1,0,6.0,2014.0,Battery,1
+718,control,PJM||bismark 500 kv,1,0,32.0,2010.0,Battery,1
+719,treated,PJM||southampton 13 kv,1,1,5.0,2010.0,Solar,1
+719,control,PJM||broadway 345 kv,1,0,10.0,2010.0,Solar,1
+720,treated,PJM||snake spring 115 kv,1,0,5.8,2023.0,Solar,1
+720,control,PJM||bolivar 345 kv,1,0,19.3,2019.0,Solar,1
+721,treated,PSCo||missile site substation 345 kv,7,0,370.0142857142858,2016.3333333333333,Wind,2
+721,control,PSCo||comanche switching station,8,0,550.0,2017.25,Wind,2
+722,treated,PJM||somerset 115 kv,1,0,33.0,2005.0,Wind,1
+722,control,PJM||dixon mendota 34 kv,1,0,1.65,2004.0,Wind,1
+723,treated,PSCo||comanche 230 kv,1,0,115.0,2023.0,Solar+Battery,1
+723,control,PSCo||boone midway 230 kv line,1,0,374.0,2020.0,Solar+Battery,1
+724,treated,CAISO||pastoria substation 230 kv,1,0,106.875,2016.0,Solar+Battery,1
+724,control,CAISO||california flats switching station 230 kv,1,0,60.599998,2021.0,Solar+Battery,1
+725,treated,PJM||madisonburg junction millheim 46 kv,1,0,19.9,2020.0,Solar,1
+725,control,PJM||bolton bennsville 69 kv,1,0,9.2,2021.0,Solar,1
+726,treated,PJM||conesville 138 kv,1,0,58.9,2021.0,Solar,1
+726,control,PJM||bonney forge 23 kv,1,0,3.7,2021.0,Solar,1
+727,treated,PJM||steel city,1,0,42.0,2007.0,Gas,1
+727,control,PJM||bridgewater middlesex 230 kv,1,0,650.0,2008.0,Gas,1
+728,treated,PJM||somerset 345 kv,1,0,3.75,2000.0,Other,1
+728,control,PJM||freemansburg #1 12 kv,1,0,5.0,2012.0,Other,1
+729,treated,PJM||potter harlan 69 kv,2,0,30.0,2020.5,Solar,1
+729,control,PJM||columbia west bloomsburg 69 kv ii,2,0,22.5,2021.0,Solar,1
+730,treated,PSCo||san luis valley substation,2,0,44.0,2014.0,Solar,1
+730,control,PSCo||brick center 230 kv,1,0,75.0,2017.0,Solar,1
+731,treated,ERCOT||tap 138 kv 32 robertson 64 milano,1,0,141.23,2022.0,Battery,1
+731,control,ERCOT||(bus# 6951) eustace southeast 138 kv substation (owned by rayburn electric cooperative),1,0,207.82,2022.0,Battery,1
+732,treated,PJM||marengo 34 kv,2,0,20.0,2016.5,Solar,2
+732,control,PJM||crystal hill halifax 115 kv,2,0,32.35,2016.5,Solar,1
+733,treated,PSCo||tundra switching station 345 kv,2,0,349.5,2021.0,Wind,2
+733,control,PSCo||plainview substation,1,0,19.9,,Wind,1
+734,treated,PJM||tyler 345 kv,1,0,20.0,2019.0,Solar,1
+734,control,PJM||bear peak west providence llc,1,0,8.25,2021.0,Solar,1
+735,treated,PJM||talbert 230 kv,1,0,225.0,2007.0,Gas,1
+735,control,PJM||churchtown cumberland 230 kv,1,0,478.0,2007.0,Gas,1
+736,treated,SOCO||athena union point primary 115 kv line,2,0,69.0,2020.5,Solar,2
+736,control,SOCO||montgomery substation snowdoun 230 kv line,2,0,80.0,2021.0,Solar,2
+737,treated,PJM||locust grove paytes 115 kv,2,0,39.5,2017.5,Solar,1
+737,control,PJM||carson septa 500 kv,2,0,275.0,2019.0,Solar,1
+738,treated,PJM||us silica unimin 69 kv,1,0,31.0,2020.0,Solar,1
+738,control,PJM||bonnyman 69 kv,1,0,80.0,2020.0,Solar,1
+739,treated,SOCO||bucks substation north brewton 230 kv line,2,0,190.0,2021.0,Solar,2
+739,control,SOCO||patsiliga creek substation 230 kv bus,2,0,200.0,2020.5,Solar,2
+740,treated,PJM||city of columbus,1,0,7.47,2006.0,Diesel,1
+740,control,PJM||pine grove 69 kv,1,0,8.0,2005.0,Diesel,1
+741,treated,SOCO||north americus north tifton 115 kv line,1,0,45.0,2017.0,Solar,1
+741,control,SOCO||crist south crestview #1 115 kv line,1,0,74.9,2017.0,Solar,1
+742,treated,PJM||greentown hummel creek 138 kv,1,0,200.0,2022.0,Solar+Battery,1
+742,control,PJM||bakers pond dp 115 kv,1,0,60.0,2020.0,Solar+Battery,1
+743,treated,"ISO-NE||nep transmission line: 345 kv line 359, approximately 1055 miles from west farnum and 1081 miles from kent county substations",1,0,414.63198852539,2024.0,Battery,1
+743,control,"ISO-NE||115 kv line #1640 between devon 2 & wallingford substations, approximately 215 circuit miles from wallingford substation",1,0,325.700012207031,2023.0,Battery,1
+744,treated,PJM||timblin 345 kv,1,0,15.75,2019.0,Gas,1
+744,control,PJM||belmont flint run 500 kv,1,0,2100.0,2021.0,Gas,1
+745,treated,PJM||dixon mcgirr,1,0,25.0,2019.0,Battery,1
+745,control,PJM||cambria nug 115 kv,1,0,20.0,2019.0,Battery,1
+746,treated,PJM||germantown 132 kv,1,0,3.0,2020.0,Solar,1
+746,control,PJM||booth 1247,1,0,4.99,2021.0,Solar,1
+747,treated,CAISO||midway tupman rio bravo renfro 115 kv,1,0,55.9,2019.0,Solar+Battery,1
+747,control,CAISO||cayetano 230 kv,1,0,101.4,2017.0,Solar+Battery,1
+748,treated,PJM||normandy 138 kv,1,0,225.0,2005.0,Wind,1
+748,control,PJM||belleville/new holland logan 46 kv,1,0,46.0,2013.0,Wind,1
+749,treated,"ERCOT||tap 345 kv 76002 bakersfield 76005 schneemandr, ~ 11 mi e of bakersfield",2,0,190.0,2016.0,Solar,1
+749,control,ERCOT||76009 twin buttes 345 kv,2,0,197.70499999999998,2017.5,Solar,1
+750,treated,PJM||wilcox paper city 46 kv,1,0,20.0,2020.0,Solar,1
+750,control,PJM||bowmans mill scott 69 kv,1,0,35.0,2019.0,Solar,1
+751,treated,PJM||lawrenceville 345 kv,1,0,11.0,2006.0,Other,1
+751,control,PJM||blackhawk,1,0,6.4,2006.0,Other,1
+752,treated,PJM||morgantown 69 kv,1,0,500.0,1999.0,Battery,1
+752,control,PJM||bloom 138 kv,1,0,20.0,2010.0,Battery,1
+753,treated,PJM||chase city 115 kv,1,0,49.9,2016.0,Solar,1
+753,control,PJM||brunswick wake 500 kv,1,0,675.0,2017.0,Solar,1
+754,treated,SOCO||scooter substation 230 kv bus,1,0,160.0,2024.0,Solar+Battery,1
+754,control,SOCO||cuthbert primary dawson primary 115 kv line,1,0,100.0,2023.0,Solar+Battery,1
+755,treated,PJM||van buren delaware 138 kv,1,0,110.0,2020.0,Solar+Battery,1
+755,control,PJM||benton scott 69 kv ii,1,0,20.0,2021.0,Solar+Battery,1
+756,treated,ERCOT||tap 345 kv 79501 ogallala 79502 windmill,2,0,201.6,2013.0,Wind,1
+756,control,ERCOT||61001 jim treece 345 kv,2,0,151.0,2017.5,Wind,1
+757,treated,PJM||stewartsville captive plastics 345 kv,1,0,17.0,2010.0,Solar,1
+757,control,PJM||brookside cloverdale 138 kv,1,0,100.0,2011.0,Solar,1
+758,treated,PJM||mottville 138 kv,1,0,36.0,2023.0,Solar,1
+758,control,PJM||boykins murphy 115 kv,1,0,62.5,2020.0,Solar,1
+759,treated,PJM||birdsboro 132 kv,1,0,6.5,2001.0,Gas,1
+759,control,PJM||cardiff,1,0,300.0,2004.0,Gas,1
+760,treated,PJM||massey 25 kv,1,0,6.0,2014.0,Solar,1
+760,control,PJM||aydlett 345 kv,1,0,15.0,2016.0,Solar,1
+761,treated,PJM||corwin elk 138 kv,2,0,90.0,2021.0,Solar+Battery,1
+761,control,PJM||salem woodstown 69 kv,2,0,35.5,2020.0,Solar+Battery,1
+762,treated,PJM||orrtanna 115 kv,1,0,15.0,2020.0,Battery,1
+762,control,PJM||bristers 230 kv,1,0,100.0,2021.0,Battery,1
+763,treated,PJM||carson suffolk 500 kv,3,0,491.68666666666667,2019.3333333333333,Battery,2
+763,control,PJM||poland road runway dp 230 kv,3,0,56.666666666666664,2020.0,Battery,2
+764,treated,"ISO-NE||eversource 345 kv line 3361, approximately 32 miles from sherman road and 76 miles from blackstone",1,0,204.817993164062,2024.0,Battery,1
+764,control,"ISO-NE||115 kv line 1070 between ft hill farms and stockhouse substations, interconnected by a new three breaker ring bus approximately 25 miles from ft hill farms substation",1,0,93.1999969482422,2022.0,Battery,1
+765,treated,PJM||rawlings clover 500 kv,5,0,106.0,2021.2,Solar,2
+765,control,PJM||mclean 345 kv,5,0,130.0,2019.4,Solar,3
+766,treated,PJM||louisa south anna 230 kv,3,0,50.0,2017.3333333333333,Solar,1
+766,control,PJM||losantville 345 kv,3,0,100.0,2016.3333333333333,Solar,1
+767,treated,PJM||mackeys 230 kv,2,0,70.0,2015.0,Solar,1
+767,control,PJM||clubhouse freeman 115 kv,2,0,40.0,2016.0,Solar,1
+768,treated,PJM||ahoskie 345 kv,1,0,5.0,2016.0,Solar,1
+768,control,PJM||banister 345 kv,1,0,20.0,2018.0,Solar,1
+769,treated,PJM||chesapeake 230 kv,1,0,967.6,2018.0,Gas,1
+769,control,PJM||byron wayne 345 kv #1,1,0,575.0,2015.0,Gas,1
+770,treated,PJM||circleville 138 kv,3,0,84.06666666666666,2020.6666666666667,Solar,2
+770,control,PJM||eldean 138 kv,3,0,91.83999999999999,2021.0,Solar,2
+771,treated,ERCOT||tap 138 kv 8906 north alamo 8354 weslaco switching station,1,0,201.08,2023.0,Battery,1
+771,control,ERCOT||(bus: 39015) north alvin tnmp 138 kv,1,0,207.0,2023.0,Battery,1
+772,treated,SOCO||eufaula fort mitchell 115 kv line,1,0,80.0,2016.0,Solar,1
+772,control,SOCO||crist south crestview #2 115 kv line,1,0,74.9,2018.0,Solar,1
+773,treated,SOCO||douglas kettle creek primary 230 kv line,1,0,120.0,2022.0,Solar,1
+773,control,SOCO||ala river news print lowman (powersouth) 230 kv line,1,0,80.0,2022.0,Solar,1
+774,treated,PJM||eugene 345 kv,4,0,183.75,2021.0,Solar+Battery,2
+774,control,PJM||dumont greentown 765 kv,4,0,200.0,2021.0,Solar+Battery,3
+775,treated,PJM||great adventure 345 kv,1,0,20.0,2014.0,Battery,1
+775,control,PJM||bengies 240v,1,0,0.005,2015.0,Battery,1
+776,treated,PJM||makahoy 138 kv,1,0,120.0,2017.0,Solar,1
+776,control,PJM||bonney forge 23 kv ii,1,0,5.0,2021.0,Solar,1
+777,treated,SOCO||statesboro primary vidalia 230 kv line,1,0,80.0,2017.0,Solar,1
+777,control,SOCO||bynum jackson shoals 46 kv line,1,0,59.5,2016.0,Solar,1
+778,treated,PJM||spotsylvania 500 kv,1,0,485.0,2016.0,Solar,1
+778,control,PJM||bernville 69 kv,1,0,15.0,2018.0,Solar,1
+779,treated,SOCO||blakely primary george dam 115 kv line,1,0,80.0,2013.0,Solar,1
+779,control,SOCO||dawson primary south columbus 115 kv line,1,0,56.0,2016.0,Solar,1
+780,treated,PJM||light foot 345 kv,1,0,19.9,2018.0,Battery,1
+780,control,PJM||carll's corner 69 kv,1,0,20.0,2019.0,Battery,1
+781,treated,PJM||wempletown 345 kv,1,0,224.0,2021.0,Solar,1
+781,control,PJM||bowman's mill 69 kv,1,0,13.0,2021.0,Solar,1
+782,treated,PJM||sutton dam,1,0,12.0,2008.0,Hydro,1
+782,control,PJM||belknap 25 kv,1,0,6.0,2008.0,Hydro,1
+783,treated,PJM||marysville flatlick 765 kv,1,0,1277.0,2016.0,Solar,1
+783,control,PJM||buckingham 345 kv,1,0,19.8,2016.0,Solar,1
+784,treated,PJM||wagner 115 kv,1,0,115.0,2021.0,Battery,1
+784,control,PJM||bristers 115 kv,1,0,200.0,2022.0,Battery,1
+785,treated,PJM||hurley 69 kv,3,0,50.083333333333336,2021.6666666666667,Solar,2
+785,control,PJM||elk 138 kv,3,0,71.5,2019.0,Solar,2
+786,treated,SOCO||gordon milledgeville (white) 115 kv line,1,0,183.0,2023.0,Solar,1
+786,control,SOCO||branch eatonton primary #2 230 kv line,1,0,200.0,2023.0,Solar,1
+787,treated,PJM||kendall,1,0,10.0,2015.0,Gas,1
+787,control,PJM||bay shore fostoria central 345 kv & bayshore monroe 345 kv,1,0,799.0,2012.0,Gas,1
+788,treated,PJM||sowers 138 kv,1,0,100.0,2020.0,Solar,1
+788,control,PJM||bowman's mill scott 69 kv ii,1,0,8.0,2021.0,Solar,1
+789,treated,ISO-NE||345 kv nea bellingham substation,1,0,1.39300000667572,,Gas,1
+789,control,ISO-NE||cl&p 23 kv feeders from tunnel and mystic substati,1,0,13.1999998092651,2008.0,Gas,1
+790,treated,PJM||hay road 230 kv,1,0,291.0,2011.0,Gas,1
+790,control,PJM||bear garden 230 kv,1,0,32.2,2015.0,Gas,1
+791,treated,CAISO||contra costa substation 230 kv switchyard,1,0,100.0,2008.0,Gas,1
+791,control,CAISO||contra costa power plant 230 kv substation,1,0,590.0,2004.0,Gas,1
+792,treated,PJM||hillsboro millbrook 138 kv,1,0,115.0,2017.0,Solar,1
+792,control,PJM||buckingham 35 kv,1,0,20.0,2017.0,Solar,1
+793,treated,CAISO||windhub substation 500 kv,1,0,778.5456,2019.0,Solar+Battery,1
+793,control,CAISO||brighton bellota 230 kv,1,0,361.74,2019.0,Solar+Battery,1
+794,treated,PJM||metropolitan court 345 kv,1,0,52.0,2010.0,Other,1
+794,control,PJM||blue ridge landfill,1,0,4.8,2010.0,Other,1
+795,treated,PSCo||comanche 345 kv substation,1,0,575.0,2017.0,Solar,1
+795,control,PSCo||grand junction montrose 345 kv line,1,0,50.0,2017.0,Solar,1
+796,treated,PJM||west boyertown 132 kv,1,0,3.0,2020.0,Solar,1
+796,control,PJM||bowman's mill tap scott 69 kv iii,1,0,2.8,2021.0,Solar,1
+797,treated,PJM||warren 345 kv,1,0,20.0,2019.0,Solar+Battery,1
+797,control,PJM||bakers pond 115 kv,1,0,100.0,2021.0,Solar+Battery,1
+798,treated,PJM||potter 46 kv,1,0,35.0,2019.0,Gas,1
+798,control,PJM||calumet 138 kv,1,0,296.0,2020.0,Gas,1
+799,treated,CAISO||lamont substation 115 kv,2,0,89.394271,2021.0,Battery,2
+799,control,CAISO||borden 230 kv,2,0,203.4495,2021.0,Battery,2
+800,treated,PJM||ivor oak ridge 115 kv,1,0,85.0,2017.0,Solar,1
+800,control,PJM||boydton dp kerr dam 115 kv,1,0,80.0,2018.0,Solar,1
+801,treated,ISO-NE||115 kv rise substation,1,0,66.0,2010.0,Gas,1
+801,control,ISO-NE||cl&p baldwin 115 kv substations,1,0,95.6999969482422,2007.0,Gas,1
+802,treated,PJM||quinton township,3,0,15.0,2010.0,Solar,1
+802,control,PJM||crosswicks 13 kv,2,0,8.15,2010.0,Solar,1
+803,treated,PJM||kearny 138 kv,3,0,189.0,2008.0,Gas,1
+803,control,PJM||peach bottom,2,0,173.0,2007.5,Gas,1
+804,treated,PJM||normandy,1,0,212.0,2005.0,Solar,1
+804,control,PJM||avery 138 kv,1,0,100.0,2018.0,Solar,1
+805,treated,PJM||east towanda grover 230 kv,1,0,100.5,2019.0,Gas,1
+805,control,PJM||chalk point 230 kv,1,0,670.2,2021.0,Gas,1
+806,treated,PJM||hunlock creek,1,0,500.0,2000.0,Coal,1
+806,control,PJM||beverly 345 kv,1,0,20.0,2007.0,Coal,1
+807,treated,PJM||wurno claytor lake 138 kv,1,0,77.0,2023.0,Wind,1
+807,control,PJM||baker 138 kv ii,1,0,29.84,2023.0,Wind,1
+808,treated,ERCOT||79501 ogallala 345 kv,3,0,334.1666666666667,2011.0,Wind,1
+808,control,ERCOT||8574 pomelo 345 kv,2,0,236.9,2017.0,Wind,1
+809,treated,PJM||clover rawlings 500 kv,3,0,266.6666666666667,2019.6666666666667,Solar,1
+809,control,PJM||fostoria central 138 kv,3,0,94.06666666666666,2020.0,Solar,1
+810,treated,PJM||southwest lima 345 kv,1,0,250.0,2015.0,Solar,1
+810,control,PJM||broadwell solar,1,0,80.0,2016.0,Solar,1
+811,treated,PJM||cohansey road,1,0,16.0,2010.0,Solar,1
+811,control,PJM||burlington 13 kv,1,0,5.0,2010.0,Solar,1
+812,treated,PJM||sandwich plano 138 kv,3,0,97.39999999999999,2019.3333333333333,Battery,2
+812,control,PJM||northeast cp crane 115 kv,3,0,191.66666666666666,2022.3333333333333,Battery,1
+813,treated,PJM||waterman 34 kv,1,0,20.0,2015.0,Battery,1
+813,control,PJM||byllesby 69 kv,1,0,4.0,2018.0,Battery,1
+814,treated,ERCOT||navy kickapoo switch (navykss1_8 #1472),1,0,90.29,2023.0,Other,1
+814,control,ERCOT||138 kv 8914 coffee port,1,0,201.1,2022.0,Other,1
+815,treated,CAISO||antelope substation 220 kv bus,2,0,150.0,2010.5,Solar,2
+815,control,CAISO||borrego substation 69 kv bus,2,0,37.5,2011.0,Solar,1
+816,treated,PJM||sayreville 230 kv,1,0,765.0,1998.0,Gas,1
+816,control,PJM||dickerson,1,0,398.0,1999.0,Gas,1
+817,treated,PJM||mark center 69 kv,3,0,48.23333333333333,2018.0,Battery,2
+817,control,PJM||elderberry dumont 345 kv,2,0,195.0,2018.0,Battery,2
+818,treated,PJM||levittown 13 kv,1,0,2.0,2010.0,Solar,1
+818,control,PJM||camden 69 kv,1,0,20.0,2010.0,Solar,1
+819,treated,PJM||price 69 kv,2,0,17.7,2020.5,Solar,1
+819,control,PJM||crego road 138 kv,2,0,95.0,2020.0,Solar,1
+820,treated,PJM||piney timblin 115 kv,1,0,36.0,2022.0,Solar,1
+820,control,PJM||braidwood east frankfort 345 kv,1,0,300.0,2020.0,Solar,1
+821,treated,PJM||nelson lee county,1,0,200.0,2019.0,Battery,1
+821,control,PJM||buckhorn 138 kv,1,0,80.0,2021.0,Battery,1
+822,treated,CAISO||los esteros substation 115 kv,1,0,300.0,2020.0,Battery,1
+822,control,CAISO||border salt creek 69 kv line,1,0,82.6,2020.0,Battery,1
+823,treated,PJM||stryker ridgeville 138 kv,1,0,148.0,2020.0,Solar,1
+823,control,PJM||boyers dp 25 kv,1,0,5.0,2020.0,Solar,1
+824,treated,PJM||pontiac midpoint 345 kv,1,0,300.0,2022.0,Solar,1
+824,control,PJM||branchron keisters 25 kv,1,0,14.0,2022.0,Solar,1
+825,treated,PJM||katydid road 345 kv,2,0,50.0,2020.0,Battery,1
+825,control,PJM||grassfield 345 kv,2,0,20.0,2018.0,Battery,2
+826,treated,PJM||cookstown fort dix 345 kv,1,0,7.0,2010.0,Solar,1
+826,control,PJM||carlisle pike 23 kv,1,0,5.3,2010.0,Solar,1
+827,treated,PJM||gosport 115 kv,2,0,25.0,2006.0,Other,1
+827,control,PJM||bellefonte n proctorville 138 kv,2,0,92.5,2004.0,Other,1
+828,treated,CAISO||devers substation 230 kv,1,0,405.85,2016.0,Battery,1
+828,control,CAISO||chino substation 230 kv bus,1,0,500.0,2018.0,Battery,1
+829,treated,CAISO||colorado river substation 500 kv,1,0,500.0,2007.0,Solar+Battery,1
+829,control,CAISO||colorado river delaney 500 kv,1,0,450.0,2017.0,Solar+Battery,1
+830,treated,PJM||showalter 345 kv,1,0,18.4,2015.0,Solar,1
+830,control,PJM||baker pont ivor 115 kv,1,0,85.0,2018.0,Solar,1
+831,treated,PJM||tmi 500 kv,1,0,765.0,1999.0,Gas,1
+831,control,PJM||dickerson 120 mw,1,0,120.0,1997.0,Gas,1
+832,treated,ERCOT||6834 enloe switching 138 kv,1,0,102.5,2020.0,Other,1
+832,control,ERCOT||1730 krum 345 kv,1,0,103.8,2020.0,Other,1
+833,treated,CAISO||rector substation 230 kv,2,0,206.55,2021.0,Battery,1
+833,control,CAISO||contra costa pp 230 kv,2,0,282.084,2021.0,Battery,1
+834,treated,CAISO||chicarita substation 138 kv,1,0,101.9,2021.0,Battery,1
+834,control,CAISO||coburn basic energy 60 kv line,1,0,124.3,2021.0,Battery,1
+835,treated,SOCO||blakely webb 115 kv line,1,0,46.0,2017.0,Solar,1
+835,control,SOCO||dirt road achord road 115 kv line,1,0,68.5,2017.0,Solar,1
+836,treated,ERCOT||tap 345 kv 68090 sam switching 3405 tradinghouse,1,0,250.0,2018.0,Solar,1
+836,control,ERCOT||1281 amoco midland tap 69 kv,1,0,150.0,2015.0,Solar,1
+837,treated,PJM||ft martin kammer 500 kv,1,0,100.0,2006.0,Coal,1
+837,control,PJM||harrison 500 kv,1,0,500.0,2001.0,Coal,1
+838,treated,PJM||sedge hill person 230 kv,1,0,142.0,2022.0,Solar,1
+838,control,PJM||bradford north 345 kv,1,0,3.0,2021.0,Solar,1
+839,treated,PJM||chestnut 345 kv,1,0,92.4,2021.0,Solar,1
+839,control,PJM||branchton 1247 kv,1,0,10.0,2021.0,Solar,1
+840,treated,PJM||atlanta 69 kv ii,1,0,49.9,2016.0,Solar,1
+840,control,PJM||bremo bluff 345 kv,1,0,15.975,2021.0,Solar,1
+841,treated,PJM||cumberland 230 kv,1,0,230.0,2016.0,Solar,1
+841,control,PJM||bristers sowego 115 kv,1,0,80.0,2020.0,Solar,1
+842,treated,PJM||clover 230 kv,1,0,150.0,2021.0,Coal,1
+842,control,PJM||gavin #2 765 kv,1,0,11.0,2018.0,Coal,1
+843,treated,PJM||kings creek 69 kv,1,0,100.0,2006.0,Other,1
+843,control,PJM||belmon 125 kv,1,0,4.0,2012.0,Other,1
+844,treated,PJM||gloucester 26 kv,1,0,8.5,2010.0,Solar,1
+844,control,PJM||buena 12 kv,1,0,18.0,2010.0,Solar,1
+845,treated,CAISO||rio dell substation 60 kv,1,0,50.0,2007.0,Other,1
+845,control,CAISO||cascade cottonwood 115 kv,1,0,27.15,2010.0,Other,1
+846,treated,CAISO||etiwanda 230 kv substation,1,0,527.0,2005.0,Gas,1
+846,control,CAISO||between cottonwood and vaca dixon,1,0,715.0,2005.0,Gas,1
+847,treated,PJM||essex 264 kv,1,0,3.0,2011.0,Gas,1
+847,control,PJM||barberton star 138 kv,1,0,268.0,2011.0,Gas,1
+848,treated,PJM||marysville tangy 345 kv,1,0,250.0,2020.0,Battery,1
+848,control,PJM||buffalo 115 kv,1,0,130.0,2022.0,Battery,1
+849,treated,CAISO||pastoria substation,1,0,157.0,2004.0,Gas,1
+849,control,CAISO||500 kv line to midpoint switching station,1,0,700.0,2007.0,Gas,1
+850,treated,SOCO||north tifton raccoon creek 500 kv line,2,0,275.0,2022.5,Solar,1
+850,control,SOCO||north dublin wadley primary 230 kv line,2,0,212.5,2023.5,Solar,2
+851,treated,PJM||harrison township 12 kv,1,0,9.7,2010.0,Solar,1
+851,control,PJM||brick lanes mill 345 kv,1,0,5.0,2012.0,Solar,1
+852,treated,PJM||tmi 230 kv,1,0,45.0,1999.0,Nuclear,1
+852,control,PJM||limerick,1,0,75.0,2000.0,Nuclear,1
+853,treated,SOCO||gulfport landon wiggins ip 115 kv line,1,0,78.0,2020.0,Solar,1
+853,control,SOCO||daisy west valdosta 230 kv line,1,0,150.0,2022.0,Solar,1
+854,treated,CAISO||fulton 115 kv,1,0,213.55,2021.0,Battery,1
+854,control,CAISO||bellota weber,1,0,310.8312,2023.0,Battery,1
+855,treated,PJM||susquehanna,2,0,800.0,2006.0,Coal,1
+855,control,PJM||clinch river 138 kv,2,0,307.0,2006.5,Coal,1
+856,treated,CAISO||birds landing 230 kv,3,0,69.45133333333332,2009.3333333333333,Battery,2
+856,control,CAISO||tesla 230 kv,3,0,198.16666666666666,2016.6666666666667,Battery,2
+857,treated,CAISO||vestal substation 230 kv,1,0,300.0,2018.0,Solar+Battery,1
+857,control,CAISO||cortina 60 kv,1,0,83.54,2018.0,Solar+Battery,1
+858,treated,CAISO||crazy eyes tap 230 kv,1,0,210.0,2012.0,Solar,1
+858,control,CAISO||coalinga #2 schindler 70 kv,1,0,1.0,2010.0,Solar,1
+859,treated,PJM||garner northern neck 115 kv,2,0,94.5,2019.0,Solar,1
+859,control,PJM||derry tap derry bus 69 kv,2,0,20.0,2019.0,Solar,1
+860,treated,PJM||chicago heights 138 kv,2,0,65.0,2013.5,Battery,2
+860,control,PJM||fowler ridge 345 kv,2,0,137.5,2021.0,Battery,2
+861,treated,ERCOT||59903 bearkat 345 kv,1,0,162.1,2013.0,Wind,1
+861,control,ERCOT||140653 alibates 345 kv,1,0,187.5,2009.0,Wind,1
+862,treated,PJM||rohrsburg 12 kv,1,0,3.0,2022.0,Solar+Battery,1
+862,control,PJM||baldy 132 kv,1,0,1.17,2020.0,Solar+Battery,1
+863,treated,ERCOT||bus #6843 at rayburn barton chapel substation,1,0,151.39,2022.0,Battery,1
+863,control,ERCOT||#107 prairie hill 69 kv,1,0,51.74,2024.0,Battery,1
+864,treated,PJM||south river 230 kv,2,0,230.0,2011.0,Gas,1
+864,control,PJM||hunterstown conemaugh 500 kv,2,0,575.0,2015.0,Gas,1
+865,treated,CAISO||east county substation 230 kv,2,0,690.75,2021.0,Wind,1
+865,control,CAISO||diablo gates 500 kv,2,0,1487.0,2023.0,Wind,1
+866,treated,PJM||west millersport 138 kv,1,0,100.0,2020.0,Solar,1
+866,control,PJM||bremo buckingham 230 kv,1,0,79.8,2021.0,Solar,1
+867,treated,PJM||broadford 138 kv,1,0,250.0,2021.0,Battery,1
+867,control,PJM||calumet burnham 345 kv,1,0,500.0,2020.0,Battery,1
+868,treated,PJM||red lion 500 kv,2,0,547.5,1999.5,Gas,1
+868,control,PJM||lakewood 230 kv,2,0,254.5,1999.0,Gas,1
+869,treated,PJM||pennville 138 kv,1,0,125.0,2021.0,Battery,1
+869,control,PJM||cardington 138 kv ii,1,0,100.0,2022.0,Battery,1
+870,treated,PJM||pinewood st johns 115 kv,2,0,90.0,2021.0,Solar,2
+870,control,PJM||clementine clementine junction 25 kv,2,0,14.25,2022.0,Solar,1
+871,treated,PJM||baptistown frenchtown 345 kv,2,0,10.0,2010.0,Solar,1
+871,control,PJM||hornerstown windsor 34 kv,2,0,8.5,2010.5,Solar,1
+872,treated,PJM||oldmans township,1,0,7.5,2010.0,Solar,1
+872,control,PJM||cape may 12 kv,1,0,20.0,2010.0,Solar,1
+873,treated,ISO-NE||cmp larrabee road 345 kv,2,0,151.0,2016.5,Solar,1
+873,control,ISO-NE||345 kv bus at eversource nh beebe substation,2,0,20.0,2017.0,Solar,1
+874,treated,PJM||point lookout 69 kv,1,0,63.3,2020.0,Wind,1
+874,control,PJM||bear rock 230 kv,1,0,76.95,2022.0,Wind,1
+875,treated,PJM||edgemoor,1,0,565.0,2002.0,Gas,1
+875,control,PJM||chapman moshannon 230 kv,1,0,520.0,2001.0,Gas,1
+876,treated,PJM||east lima fostoria central 345 kv,1,0,300.0,2010.0,Wind,1
+876,control,PJM||buckley road 138 kv,1,0,149.5,2011.0,Wind,1
+877,treated,SOCO||vienna primary substation 46 kv bus,1,0,20.0,2013.0,Solar,1
+877,control,SOCO||albany mitchell (black) 115 kv line,1,0,29.4,2015.0,Solar,1
+878,treated,PJM||susquehanna lackawanna 500 kv,3,0,398.3333333333333,2015.0,Gas,1
+878,control,PJM||lackawanna 230 kv,3,0,494.3333333333333,2012.6666666666667,Gas,1
+879,treated,PJM||victoria dp martin dp 115 kv,1,0,50.3,2023.0,Solar,1
+879,control,PJM||bremo bluff buckingham 230 kv,1,0,56.0,2021.0,Solar,1
+880,treated,ISO-NE||norwalk 276 kv,1,0,19.4449996948242,2003.0,Gas,1
+880,control,ISO-NE||cl&p cedar heights substation,1,0,8.0,2006.0,Gas,1
+881,treated,ERCOT||76002 bakersfield 345 kv,3,0,166.66666666666666,2014.0,Solar,1
+881,control,ERCOT||tap 345 kv 1692 paris 1695 monticello,3,0,200.0,2018.0,Solar,1
+882,treated,CAISO||whirlwind 230 kv bus,1,0,33.0,2013.0,Battery,1
+882,control,CAISO||230 kv bus at the kelso substation via the mariposa energy 230 kv tie line,1,0,20.0,2015.0,Battery,1
+883,treated,PJM||hunterstown lincoln 115 kv,1,0,80.0,2017.0,Solar,1
+883,control,PJM||buckhorn lonesome pine 138 kv,1,0,100.0,2017.0,Solar,1
+884,treated,PJM||poolesville 345 kv,2,0,20.0,2019.0,Solar,1
+884,control,PJM||east fayette 138 kv,2,0,133.0,2019.0,Solar,1
+885,treated,PJM||columbia dp 115 kv,1,0,20.0,2021.0,Solar,1
+885,control,PJM||bremo cartersville 230 kv,1,0,115.0,2021.0,Solar,1
+886,treated,PJM||fayetteville 345 kv,2,0,15.95,2018.5,Solar,1
+886,control,PJM||east hazelton 1247 kv,2,0,20.0,2020.0,Solar,1
+887,treated,PJM||tabernacle 12 kv,1,0,10.0,2017.0,Solar,1
+887,control,PJM||cambridge west cambridge 69 kv,1,0,51.1,2016.0,Solar,1
+888,treated,PJM||scottsville bremo 138 kv,1,0,55.0,2023.0,Solar,1
+888,control,PJM||broadview tangy 138 kv,1,0,180.0,2018.0,Solar,1
+889,treated,CAISO||mendota san joaquin helm 70 kv,3,0,0.10000000000000002,2011.0,Solar,1
+889,control,CAISO||lambie switching station 230 kv,3,0,3.0,2011.0,Solar,1
+890,treated,PJM||jamestown hartstown 69 kv,1,0,20.0,2019.0,Solar,1
+890,control,PJM||briery dp clover 230 kv,1,1,100.0,2020.0,Solar,1
+891,treated,PJM||clearfield,1,0,130.0,2008.0,Wind,1
+891,control,PJM||blue mound ii,1,0,39.6,2007.0,Wind,1
+892,treated,CAISO||antelope,1,0,200.0,2003.0,Battery,1
+892,control,CAISO||artesian ranch substation 69 kv,1,0,157.0,2021.0,Battery,1
+893,treated,SOCO||martin dam pear tree substation 115 kv line,1,0,80.0,2022.0,Solar+Battery,1
+893,control,SOCO||bynum jackson shoals 115 kv line,1,0,200.0,2023.0,Solar+Battery,1
+894,treated,SOCO||shaddock creek vidalia 115 kv line,1,0,110.5,2022.0,Solar,1
+894,control,SOCO||denton still road south hazlehurst 230 kv line,1,0,230.0,2022.0,Solar,1
+895,treated,PJM||indian river 230 kv ii,2,0,673.2,2021.0,Offshore Wind,1
+895,control,PJM||larrabee collector station 230 kv,2,0,1719.425,2022.0,Offshore Wind,1
+896,treated,PSCo||spring canyon substation,2,0,60.0,,Wind,1
+896,control,PSCo||waterton midway 345 kv line,2,0,550.0,2020.0,Wind,1
+897,treated,CAISO||hinson substation 220 kv,1,0,200.0,2021.0,Battery,1
+897,control,CAISO||contra costa delta 230 kv line,1,0,102.25,2020.0,Battery,1
+898,treated,ERCOT||79005 railhead 345 kv,2,0,248.5,2009.0,Wind,1
+898,control,ERCOT||8640 kelvin 138 kv,2,0,99.6,2016.0,Wind,1
+899,treated,CAISO||contra costa substation 230 kv bus,1,0,651.0,2007.0,Gas,1
+899,control,CAISO||birds landing substation 230 kv bus,1,0,20.0,2009.0,Gas,1
+900,treated,PJM||sewaren 230 kv,2,0,393.5,2005.0,Gas,1
+900,control,PJM||oak grove 138 kv,2,0,10.25,2005.5,Gas,1
+901,treated,PJM||greentown 138 kv,4,0,178.0,2021.0,Solar,2
+901,control,PJM||southwest lima west moulton 138 kv,4,0,34.25,2019.75,Solar,1
+902,treated,PJM||deep creek 115 kv,1,0,60.0,2021.0,Battery,1
+902,control,PJM||buttermilk 230 kv,1,0,100.0,2021.0,Battery,1
+903,treated,PJM||east leipsic 138 kv,1,0,150.0,2009.0,Wind,1
+903,control,PJM||brush junction millheim 46 kv,1,0,70.0,2012.0,Wind,1
+904,treated,PJM||cedar creek 138 kv,1,0,71.0,2023.0,Solar,1
+904,control,PJM||broadview tangy 138 kv iii,1,0,49.99,2021.0,Solar,1
+905,treated,CAISO||kramer substation,2,0,285.0,2007.0,Solar,1
+905,control,CAISO||devers palo verde line 500 kv line,1,0,900.0,2008.0,Solar,1
+906,treated,PJM||brokaw pontiac midpoint,1,0,250.0,2016.0,Wind,1
+906,control,PJM||beaver davis besse 345 kv ii,1,0,500.4,2017.0,Wind,1
+907,treated,PJM||york 115 kv,1,0,10.0,2008.0,Gas,1
+907,control,PJM||collins,1,0,2500.0,2007.0,Gas,1
+908,treated,PJM||jack frost lake harmony 69 kv,2,0,39.17,2021.5,Solar,1
+908,control,PJM||columbia sunbury 69 kv,2,0,14.865,2020.5,Solar,1
+909,treated,PJM||bullitt county 161 kv,1,0,50.0,2021.0,Battery,1
+909,control,PJM||carville 138 kv iv,1,0,20.0,2021.0,Battery,1
+910,treated,PJM||shelby 138 kv,1,0,98.0,2020.0,Solar,1
+910,control,PJM||broadway 1247 kv,1,0,0.75,2018.0,Solar,1
+911,treated,ISO-NE||345 kv line # 321,2,0,96.6999998092651,2006.0,Gas+Oil,1
+911,control,ISO-NE||cl&p 115 kv lines between baldwin junction and bea,2,0,245.0,2007.0,Gas+Oil,1
+912,treated,CAISO||bellota 115 kv,2,0,281.56,2022.0,Battery,2
+912,control,CAISO||chino 230 kv,2,0,357.245,2023.0,Battery,1
+913,treated,PJM||birdneck 345 kv,1,0,12.0,2013.0,Offshore Wind,1
+913,control,PJM||lake road 115 kv,1,0,18.0,2013.0,Offshore Wind,1
+914,treated,PJM||lanexa dunnsville 230 kv,3,0,74.84666666666666,2021.0,Solar,2
+914,control,PJM||galion south berwick 345 kv,3,0,187.79999999999998,2021.0,Solar,1
+915,treated,PJM||clark summit emlenton 345 kv,1,0,18.9,2020.0,Solar,1
+915,control,PJM||bremo fork union military academy 345 kv,1,0,16.0,2021.0,Solar,1
+916,treated,ISO-NE||nstar mystic substation,1,0,160.0,2006.0,Gas+Oil,1
+916,control,ISO-NE||115 kv line between buck pond and pochassic substation,1,0,353.0,2007.0,Gas+Oil,1
+917,treated,CAISO||windhub substation,4,0,373.75,2007.75,Solar,2
+917,control,CAISO||midpoint substation 500 kv,4,0,412.25,2008.0,Solar,2
+918,treated,PJM||tmi peach bottom 500 kv,3,0,410.0,2001.0,Gas,1
+918,control,PJM||south akron 230 kv,2,0,195.5,1999.0,Gas,1
+919,treated,SOCO||thomson primary 230 kv bus,1,0,250.0,2021.0,Solar,1
+919,control,SOCO||dothan pinckard no 2 115 kv line,1,0,80.0,2022.0,Solar,1
+920,treated,PJM||sussex 34 kv,1,0,3.72,2012.0,Solar,1
+920,control,PJM||brick lane mill 345 kv,1,0,5.0,2012.0,Solar,1
+921,treated,PJM||franklin #2,1,0,5.0,2011.0,Solar,1
+921,control,PJM||bustleton 13 kv,1,0,2.0,2011.0,Solar,1
+922,treated,SOCO||rocky creek wadley primary 230 kv line,1,0,128.0,2016.0,Solar,1
+922,control,SOCO||demopolis naheola 115 kv line,1,0,78.0,2017.0,Solar,1
+923,treated,PJM||graymont zion 46 kv,1,0,20.0,2019.0,Solar,1
+923,control,PJM||brunner island 138 kv,1,0,61.0,2020.0,Solar,1
+924,treated,PJM||tbd 132 kv,1,0,19.8,2022.0,Solar,1
+924,control,PJM||broadview tangy 138 kv iv,1,0,30.0,2023.0,Solar,1
+925,treated,ISO-NE||345 kv seabrook substation,2,0,458.5,2007.5,Gas,2
+925,control,ISO-NE||345 kv rise substation,2,0,241.0,2006.5,Gas,1
+926,treated,PJM||jay 138 kv,3,0,97.54666666666667,2019.0,Solar,2
+926,control,PJM||scottsville colleen 138 kv,3,0,31.666666666666668,2019.6666666666667,Solar,1
+927,treated,PJM||west lima 138 kv,1,0,600.0,2006.0,Coal,1
+927,control,PJM||elwood dresden 345 kv,1,0,600.0,2004.0,Coal,1
+928,treated,PJM||ironwood 230 kv,1,0,100.0,2002.0,Gas,1
+928,control,PJM||churchtown 230 kv 2,1,0,371.0,2010.0,Gas,1
+929,treated,SOCO||elsanor mobile hwy (gulf) 230 kv line,2,0,80.0,2021.0,Solar+Battery,1
+929,control,SOCO||pike county ts substation 230 kv bus,2,0,290.0,2022.0,Solar+Battery,1
+930,treated,PJM||neville 23 kv,2,0,14.4,2020.0,Hydro,1
+930,control,PJM||river dock 23 kv,1,0,5.25,2021.0,Hydro,1
+931,treated,SOCO||claxton meldrim 115 kv line,1,0,80.0,2017.0,Solar,1
+931,control,SOCO||dorsett thomaston 230 kv line,1,0,160.0,2017.0,Solar,1
+932,treated,ERCOT||59906 long draw 138 kv,1,0,155.48,2022.0,Other,1
+932,control,ERCOT||138 kv fort bend switch (#44280),1,0,101.64,2021.0,Other,1
+933,treated,PJM||snake spring 115 kv ii,1,0,5.8,2023.0,Solar,1
+933,control,PJM||broadway richline hill solar 345 kv,1,0,19.25,2021.0,Solar,1
+934,treated,SOCO||farley south bainbridge 230 kv line,1,0,188.93,2016.0,Solar,1
+934,control,SOCO||east moultrie north tifton 230 kv line,1,0,68.4,2016.0,Solar,1
+935,treated,PJM||old chapel millville 138 kv,2,0,52.0,2021.5,Solar,2
+935,control,PJM||cowansville junction long run tap 25 kv,2,0,9.209999999999999,2022.0,Solar,1
+936,treated,PJM||farmers valley ridgeway 115 kv,1,0,120.0,2019.0,Solar,1
+936,control,PJM||bryan 69 kv,1,0,15.0,2020.0,Solar,1
+937,treated,PJM||nelson 69 kv,1,0,50.4,2020.0,Battery,1
+937,control,PJM||carson 230 kv,1,0,100.0,2021.0,Battery,1
+938,treated,PJM||greenwood dp st johns dp 115 kv,1,0,79.2,2021.0,Solar,1
+938,control,PJM||brokaw 345 kv (cir increase),1,0,1.55,2023.0,Solar,1
+939,treated,CAISO||eldorado substation 500 kv,1,0,600.0,2018.0,Solar+Battery,1
+939,control,CAISO||coalinga#1 san miguel 70 kv,1,0,50.75,2019.0,Solar+Battery,1
+940,treated,PJM||fairfield township 12 kv,1,0,10.0,2009.0,Solar,1
+940,control,PJM||carneys point 69 kv,1,0,20.0,2010.0,Solar,1
+941,treated,PJM||valley 138 kv,1,0,100.0,2017.0,Battery,1
+941,control,PJM||bluff point 69 kv,1,0,20.0,2015.0,Battery,1
+942,treated,PJM||red house dp sugar hill 115 kv,1,0,80.0,2022.0,Solar,1
+942,control,PJM||brookside cloverdale 138 kv ii,1,0,9.1,2023.0,Solar,1
+943,treated,ISO-NE||cmp larrabee road station 345 kv,6,0,165.64166768391894,2016.5,Wind,2
+943,control,ISO-NE||pittsfield 345 kv on line 3023,5,0,103.5,2018.0,Wind,1
+944,treated,CAISO||boulevard east substation 69 kv,1,0,71.88,2011.0,Solar,1
+944,control,CAISO||copus old river 70 kv,1,0,20.0,2010.0,Solar,1
+945,treated,PJM||birchwood 230 kv,1,0,100.0,2021.0,Battery,1
+945,control,PJM||catharpin 230 kv,1,0,150.0,2021.0,Battery,1
+946,treated,PJM||east sidney quincy 138 kv,4,0,58.230000000000004,2020.5,Solar,1
+946,control,PJM||philipsburg 115 kv,4,0,38.75,2020.75,Solar,2
+947,treated,CAISO||vista substation 138 kv,1,0,50.0,2014.0,Solar,1
+947,control,CAISO||230 kv tranquility switching station,1,0,102.0,2016.0,Solar,1
+948,treated,ISO-NE||primary: orrington substations 345 kv with two alternatives: keene road substation 345 kv and the orrington albion road 345 kv line,2,0,600.599975585937,2018.0,Wind,1
+948,control,ISO-NE||vec lowell 46 kv station,2,0,32.28750002384186,2010.0,Wind,1
+949,treated,SOCO||cartersville pinson 230 kv line,1,0,200.0,2020.0,Solar,1
+949,control,SOCO||dyer road east roanoke 115 kv line,1,0,100.0,2022.0,Solar,1
+950,treated,ERCOT||60385 solstice 138 kv,1,0,7.4,2010.0,Solar,1
+950,control,ERCOT||138 kv 11273 nelson switch,1,0,200.0,2017.0,Solar,1
+951,treated,PJM||circleville biers run 138 kv,1,0,59.0,2020.0,Solar,1
+951,control,PJM||bruin junction petrol junction 25 kv,1,0,14.0,2023.0,Solar,1
+952,treated,PJM||stuarts draft waynesboro 115 kv,1,0,150.0,2017.0,Battery,1
+952,control,PJM||cedar knolls 125 kv,1,0,2.0,2018.0,Battery,1
+953,treated,PJM||crete 345 kv,3,0,500.0,2018.0,Wind,1
+953,control,PJM||garden plain 138 kv,3,0,221.70000000000002,2021.0,Wind,2
+954,treated,PJM||galion roberts south 138 kv,1,0,99.96,2017.0,Solar,1
+954,control,PJM||burma 23 kv,1,0,15.9,2019.0,Solar,1
+955,treated,PJM||buckingham bremo 230 kv,1,0,70.0,2021.0,Solar,1
+955,control,PJM||breezewood 1247 kv,1,0,7.5,2022.0,Solar,1
+956,treated,PJM||scalp level 23 kv,1,0,5.0,2020.0,Solar,1
+956,control,PJM||brunswick collector wake 500 kv,1,0,400.0,2021.0,Solar,1
+957,treated,PJM||bernville 132 kv,1,0,5.0,2021.0,Solar,1
+957,control,PJM||broadview tangy 138 kv ii,1,0,66.0,2021.0,Solar,1
+958,treated,PJM||milton 69 kv,2,0,42.575,2021.0,Solar,1
+958,control,PJM||cox whitakers 115 kv,2,0,50.3,2019.5,Solar,1
+959,treated,PJM||minotola 12 kv,1,0,7.9,2010.0,Solar,1
+959,control,PJM||buena vista township 12 kv,1,0,1.0,2011.0,Solar,1
+960,treated,PJM||wempletown 138 kv,2,0,112.0,2022.0,Battery,2
+960,control,PJM||fulton 138 kv,2,0,200.0,2020.0,Battery,2
+961,treated,CAISO||lugo mohave 500 kv line,1,0,300.0,2007.0,Solar,1
+961,control,CAISO||dunn siding substation,1,0,19.9,2008.0,Solar,1
+962,treated,PJM||champion,1,0,150.0,2004.0,Coal,1
+962,control,PJM||gavin unit 2,1,0,36.0,2013.0,Coal,1
+963,treated,CAISO||innovation substation 230 kv,1,0,300.0,2019.0,Solar+Battery,1
+963,control,CAISO||bellota warnerville 230 kv,1,0,407.85,2021.0,Solar+Battery,1
+964,treated,PJM||east new market 12 kv,1,0,10.0,2015.0,Solar,1
+964,control,PJM||carolinaseaboard 115 kv,1,0,74.9,2014.0,Solar,1
+965,treated,PJM||branchville n newton #1 34 kv,1,0,7.0,2015.0,Battery,1
+965,control,PJM||blackhawk 125 kv,1,0,4.0,2014.0,Battery,1
+966,treated,ERCOT||8283 asherton 138 kv,1,0,206.0,2017.0,Solar,1
+966,control,ERCOT||1318 china grove 138 kv,1,0,151.55,2019.0,Solar,1
+967,treated,PJM||elk garden junction 138 kv,1,0,90.0,2006.0,Wind,1
+967,control,PJM||antwerp 69 kv,1,0,30.0,2008.0,Wind,1
+968,treated,CAISO||new ivanpah substation 115 kv,2,0,13.0,2009.0,Solar,1
+968,control,CAISO||500 kv collector station 40 mi east of ngila substation and 45 mi w of proposed agua caliente substation,1,0,960.0,2009.0,Solar,1
+969,treated,PJM||lewis run pierce brook 230 kv,1,0,100.0,2019.0,Solar,1
+969,control,PJM||bustleton 132 kv,1,0,5.0,2020.0,Solar,1
+970,treated,PJM||old church 345 kv,1,0,20.0,2015.0,Solar,1
+970,control,PJM||carroll mount airy 345 kv,1,0,8.166,2015.0,Solar,1
+971,treated,CAISO||halsey substation 60 kv,1,0,15.5,2014.0,Hydro,1
+971,control,CAISO||volta south 60 kv line,1,0,0.5,2013.0,Hydro,1
+972,treated,ISO-NE||nstar 115 kv line #111,1,0,24.0,2007.0,Gas+Oil,1
+972,control,ISO-NE||115 kv potter substation,1,0,108.0,2006.0,Gas+Oil,1
+973,treated,PJM||varner 345 kv,1,0,43.2,2023.0,Solar,1
+973,control,PJM||buckeye p wakeman 69 kv,1,0,40.0,2022.0,Solar,1
+974,treated,PJM||desoto 345 kv,3,0,113.33333333333333,2018.6666666666667,Solar,2
+974,control,PJM||stuart clinton 345 kv,3,0,210.0,2018.0,Solar,1
+975,treated,CAISO||maricopa copus 70 kv line,1,0,20.0,2013.0,Solar,1
+975,control,CAISO||amargosa substation 138 kv,1,0,67.17,2016.0,Solar,1

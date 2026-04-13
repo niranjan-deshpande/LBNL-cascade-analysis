@@ -1,0 +1,977 @@
+pair_id,treated_poi,control_poi,event_quarter,treated_depth,control_depth,entity,dominant_type,n_wd_in_event
+0,PJM||hawkins gate / oak grove 230 kv,PJM||bayonne,1999Q3,1,1,PJM,Gas,1
+1,PJM||lasalle,PJM||beaver valley #1,2012Q1,1,1,PJM,Nuclear,1
+2,PJM||heartsease dp mayo dunbar 115 kv,PJM||64th st 13 kv,2019Q3,1,1,PJM,Solar,1
+3,CAISO||colorado river substation 230 kv bus,CAISO||angiola substation 70 kv bus,2012Q1,1,1,CAISO,Solar,4
+4,PJM||lexington dooms 230 kv,PJM||abw tap alexandria 46 kv,2024Q2,1,1,PJM,Solar,2
+5,PJM||keystone conemaugh 500 kv,PJM||bald eagle 46 kv,2016Q2,1,1,PJM,Gas,1
+6,PJM||dresden,PJM||braidwood 1,2013Q1,1,1,PJM,Nuclear,1
+7,PJM||possum point 230 kv,PJM||arnold 115 kv,2009Q2,2,1,PJM,Battery,1
+8,CAISO||henrietta gwf 115 kv line,CAISO||cottonwind whirlwind 230 kv line,2013Q2,2,2,CAISO,Solar,2
+9,PJM||cowen 138 kv,PJM||abw tap williamsburg 46 kv,2024Q4,1,1,PJM,Solar,1
+10,PJM||jenkins harwood #2 69 kv,PJM||arnold (green mountain) 115 kv,2005Q2,1,1,PJM,Wind,1
+11,CAISO||giffen substation 70 kv,CAISO||alpaugh smyrna 115 kv line,2012Q2,1,1,CAISO,Solar,1
+12,PJM||motion ridgeway 46 kv,PJM||adkins atlanta 345 kv,2021Q1,1,1,PJM,Solar,1
+13,CAISO||lugo pisgah 230 kv line,CAISO||crestwood,2008Q4,3,2,CAISO,Wind,2
+14,PJM||wrightstown 345 kv,PJM||absecon 12 kv,2016Q2,1,1,PJM,Solar,2
+15,PJM||bayview,PJM||allenwood larabee 345 kv,2011Q3,1,1,PJM,Solar,1
+16,PSCo||pawnee daniels park 230 kv line,PSCo||keenesburg substation,2005Q2,2,2,PSCo,Wind,1
+17,PJM||davis creek 345 kv,PJM||fostoria central greenlawn howard 138 kv,2019Q2,2,2,PJM,Wind,3
+18,CAISO||loop tesla stagg and tesla eight mile 230 kv lines,CAISO||115 kv panoche substation,2008Q2,1,1,CAISO,Gas,1
+19,PSCo||badger hill 230 kv substation,PSCo||badger hill 230 kv,2020Q1,1,1,PSCo,Battery,1
+20,ISO-NE||eversource north bloomfield 2a,ISO-NE||115 kv b128 line; 1888 miles from barre b128 and 53 miles from french king,2022Q2,1,1,ISO-NE,Battery,1
+21,PJM||calvert cliffs,PJM||north anna 500 kv,2007Q1,1,1,PJM,Nuclear,1
+22,PJM||hector 115 kv,PJM||ada dunkirk 69 kv,2024Q4,1,1,PJM,Wind,1
+23,PJM||north salisbury 25 kv,PJM||4 quad c18 kv qc 1 981 cres 138 kv providwf,2017Q2,1,1,PJM,Other,1
+24,PJM||cashie trowbridge 230 kv,PJM||academia 138 kv,2022Q2,1,1,PJM,Solar,1
+25,PJM||lena 138 kv,PJM||bluff point randolph 138 kv,2023Q2,4,4,PJM,Solar,1
+26,PJM||white marsh 345 kv,PJM||airey golden hill 69 kv,2024Q2,1,1,PJM,Battery,1
+27,PJM||perth crystal hill 115 kv,PJM||ac1 053 tap 345 kv (cir increase),2023Q4,1,1,PJM,Solar,1
+28,PJM||frazeysburg 138 kv,PJM||altavista mount airy 69 kv,2017Q2,1,1,PJM,Solar,1
+29,PJM||north orwell 1247 kv,PJM||airey vienna 69 kv,2021Q1,1,1,PJM,Solar,1
+30,SOCO||smith sinai cemetary 230 kv line,SOCO||acipco boyles 115 kv line,2017Q3,1,1,SOCO,Solar,1
+31,PJM||summer shade 161 kv,PJM||albright mount zion 138 kv,2024Q4,1,1,PJM,Solar,1
+32,PJM||cooper 345 kv,PJM||allegheny somerset 115 kv,2024Q3,1,1,PJM,Solar,1
+33,PJM||quinton 12 kv,PJM||beecher energy distribution cener #36,2011Q1,1,1,PJM,Other,1
+34,ERCOT||8189 tungsten 138 kv,ERCOT||#1058 longshore_5 345 kv,2024Q3,1,1,ERCOT,Solar,1
+35,PJM||kincaid 345 kv,PJM||brunner island #1,2012Q2,1,1,PJM,Coal,1
+36,PJM||cedar 69 kv,PJM||airey vienna 69 kv ii,2024Q2,1,1,PJM,Battery,1
+37,ERCOT||68090 sam switch 345 kv,ERCOT||11305 dermott 345 kv,2018Q3,1,1,ERCOT,Wind,1
+38,PJM||madison tanners creek 138 kv,PJM||brokaw lanesville,2018Q1,3,3,PJM,Wind,1
+39,PJM||lumberton 13 kv,PJM||alpha gilbert 34 kv,2012Q2,1,1,PJM,Solar,1
+40,PJM||tazewell ab1 122 345 kv,PJM||baker 138 kv,2024Q4,1,1,PJM,Wind,1
+41,PJM||campbell kiesters 138 kv,PJM||allegheny somerset 115 kv ii,2024Q3,1,1,PJM,Solar,1
+42,PJM||branchville holiday lakes 345 kv,PJM||broadway stewartsville 345 kv,2012Q2,2,2,PJM,Solar,1
+43,SOCO||greenville snowdoun 230 kv line,SOCO||barneyville douglas 115 kv line,2018Q3,1,1,SOCO,Solar,1
+44,PJM||titusville oil creek 345 kv,PJM||allenwood larrabee 2 345 kv,2023Q1,1,1,PJM,Solar,1
+45,PJM||arnold's corner dahlgren 230 kv,PJM||allenwood larrabee 345 kv ii,2024Q2,1,1,PJM,Battery,1
+46,PJM||atlantic 230 kv,PJM||9th st (substation 117) 13 kv,2001Q3,1,1,PJM,Gas,1
+47,PJM||ladysmith ct st johns 230 kv,PJM||almena valley 69 kv,2023Q3,1,1,PJM,Solar,2
+48,PJM||rogers road 500 kv,PJM||baker broadford 765 kv,2024Q2,2,2,PJM,Battery,1
+49,CAISO||elk creek 60 kv tap,CAISO||antelope neenach 66 kv line,2012Q2,1,1,CAISO,Solar,1
+50,PJM||linden 230 kv,PJM||adkins 345 kv,2013Q4,1,1,PJM,Gas,1
+51,PJM||birdsboro 69 kv,PJM||bergen 138 kv,2002Q2,1,1,PJM,Gas,1
+52,CAISO||arco substation 70 kv,CAISO||eldorado ivanpah 230 kv line,2015Q1,2,2,CAISO,Solar,1
+53,ERCOT||tap 345 kv 8905 n edinb 8455 lon hill,ERCOT||71050 bitter creek 345 kv,2019Q2,3,3,ERCOT,Wind,2
+54,PJM||branchville sussex 34 kv,PJM||beckjord 2 mw 1,2014Q4,1,1,PJM,Battery,1
+55,PJM||olive reynolds 345 kv,PJM||beatty london 138 kv,2019Q1,2,2,PJM,Solar,1
+56,CAISO||imperial valley substation 230 kv bus,CAISO||antelope magunden 230 kv,2008Q4,1,1,CAISO,Solar,1
+57,PJM||stockton 345 kv,PJM||alta haute tuscarora 69 kv,2020Q4,1,1,PJM,Solar,1
+58,ERCOT||1338 eskota 138 kv,ERCOT||110471 formosa 138 kv,2020Q4,1,1,ERCOT,Solar,1
+59,PJM||biers run circleville 138 kv,PJM||hardin switch 345 kv,2020Q1,4,4,PJM,Solar,1
+60,PJM||edgemoor 230 kv,PJM||black oak 500 kv,2004Q4,1,1,PJM,Gas,1
+61,ERCOT||tap 138 kv 177 bosque 181 cayote,ERCOT||1032 morgan creek 138 kv,2018Q3,1,1,ERCOT,Solar,1
+62,CAISO||colorado river substation 230 kv,CAISO||jacobs corner substation 70 kv bus,2011Q2,4,3,CAISO,Solar,1
+63,PJM||hopkins 138 kv,PJM||meadow lake 345 kv,2024Q4,6,6,PJM,Solar,1
+64,PJM||missouri ave,PJM||carlls corner 69 kv,2008Q1,1,1,PJM,Oil,1
+65,CAISO||el dorado 220 kv switchyard,CAISO||antelope substation,2008Q4,1,1,CAISO,Solar,1
+66,CAISO||bridgeville substation 115 kv,CAISO||new switchyard to loop the eco miguel 500 kv line,2020Q2,1,1,CAISO,Wind+Battery,1
+67,ISO-NE||cvps 46 kv circuit in springfield area,ISO-NE||115 kv line near e springfield substation,2009Q1,1,1,ISO-NE,Other,1
+68,PJM||earleys 230 kv,PJM||anaconda mayo dunbar 115 kv,2016Q2,1,1,PJM,Solar,1
+69,CAISO||antelope substation 220 kv,CAISO||antelope substation 230 kv,2022Q4,2,2,CAISO,Battery,1
+70,PJM||thompson 115 kv,PJM||greenland gap 500 kv,2006Q3,2,2,PJM,Wind,1
+71,PJM||hughesville 12 kv,PJM||allen rp mone 345 kv,2022Q1,1,1,PJM,Solar,1
+72,PJM||mainesburg 115 kv,PJM||allenwood larrabee 34 kv,2022Q1,1,1,PJM,Battery,1
+73,PJM||fentress 345 kv,PJM||antietam 345 kv,2017Q4,1,1,PJM,Solar,1
+74,SOCO||claxton ludowici primary 115 kv line,SOCO||augusta newsprint vogtle switching 230 kv line,2019Q2,1,1,SOCO,Solar,1
+75,PJM||minonk 345 kv,PJM||amherst riverville 138 kv,2024Q2,1,1,PJM,Battery,1
+76,PJM||harmony village 230 kv,PJM||blue mound 345 kv,2023Q3,3,3,PJM,Battery,1
+77,SOCO||county line road gaston 230 kv line,SOCO||anniston weaver (radial) 115 kv line,2021Q3,1,1,SOCO,Solar+Battery,1
+78,SOCO||calvert substation ellicott substation no 2 230 kv line,SOCO||burkville substation hunter station substation 115 kv line,2023Q3,1,1,SOCO,Solar+Battery,2
+79,SOCO||greene county octagon 115 kv line,SOCO||aultman road perry 115 kv line,2016Q4,1,1,SOCO,Solar,1
+80,PJM||keeney steele 230 kv,PJM||allegheny 115 kv,2020Q2,1,1,PJM,Solar,1
+81,PJM||hillsboro 138 kv,PJM||brink trego 115 kv,2017Q4,4,3,PJM,Solar,4
+82,ERCOT||8601 cebolla 345 kv,ERCOT||#6564 illn4a 138 kv,2024Q1,2,2,ERCOT,Battery,1
+83,PJM||powhatan 345 kv,PJM||amsden fremont center 69 kv,2021Q1,2,2,PJM,Solar,1
+84,SOCO||plant wansley substation 500 kv bus,SOCO||yates 6 & 7 substation 230 kv bus,2024Q2,4,3,SOCO,Gas,2
+85,PJM||parlin 230 kv,PJM||bethesda (substation 6),2002Q2,1,1,PJM,Gas,1
+86,PJM||montour 230 kv,PJM||harmony village shackleford 115 kv,2023Q4,10,11,PJM,Solar,1
+87,CAISO||coolwater substation 115 kv,CAISO||antelope 220 kv bus,2019Q1,1,1,CAISO,Battery,1
+88,ERCOT||tap 345 kv 76002 bakersfield 76000 nmccamey,ERCOT||11083 riverton 138 kv,2019Q3,1,1,ERCOT,Solar,1
+89,PJM||geneva 115 kv,PJM||bartonsville meadow brook 138 kv,2021Q2,2,2,PJM,Solar,1
+90,PJM||olive reynolds #2 345 kv,PJM||allen 345 kv,2020Q3,3,3,PJM,Solar,1
+91,SOCO||east chelsea lay dam 115 kv line,SOCO||achord road dirt road 115 kv line,2023Q2,1,1,SOCO,Solar,1
+92,CAISO||gates midway 230 kv line,CAISO||arco midway 230 kv line,2020Q2,1,1,CAISO,Solar+Battery,1
+93,PJM||bakers pond ivor 115 kv,PJM||arnold's corner 345 kv,2017Q3,1,1,PJM,Solar,1
+94,CAISO||gates substation 230 kv,CAISO||kramer 230 kv,2016Q3,3,3,CAISO,Solar+Battery,1
+95,PJM||fitchville new london 69 kv,PJM||american can basf 345 kv,2024Q4,1,1,PJM,Solar,1
+96,PJM||braidwood cook,PJM||4 quad cities 1 ni hub,2013Q2,1,1,PJM,Other,1
+97,SOCO||snowdoun south montgomery 230 kv line,SOCO||baxley vidalia 115 kv line,2019Q3,1,1,SOCO,Solar,2
+98,SOCO||hatch offerman 230 kv line,SOCO||bio substation 115 kv bus,2017Q3,1,1,SOCO,Solar,1
+99,PJM||burlington 138 kv,PJM||atlantic,2002Q1,1,1,PJM,Gas,1
+100,PJM||barterbrook stuarts draft 115 kv,PJM||brandon shores 230 kv,2021Q1,2,2,PJM,Battery,1
+101,PJM||martins creekcherry hill 69 kv,PJM||altoona raystown 230 kv iii,2023Q3,1,1,PJM,Solar,1
+102,PJM||belvidere,PJM||ak steel middletown ak steel 1c 138 kv,2012Q2,1,1,PJM,Gas,1
+103,PJM||union city cambridge springs 345 kv,PJM||altamont tuscarora 69 kv,2020Q3,1,1,PJM,Solar,1
+104,PJM||greene beatty 345 kv,PJM||amherst riverville138 kv,2024Q4,1,1,PJM,Solar,1
+105,PJM||barbadoes 34 kv,PJM||alpha 345 kv,2018Q3,1,1,PJM,Battery,1
+106,PJM||westmoreland 345 kv,PJM||atlantic oceanview 34 kv,2017Q2,1,1,PJM,Battery,1
+107,PJM||montgomery 12 kv,PJM||amherst 69 kv,2024Q1,1,1,PJM,Solar,1
+108,CAISO||lugo pisgah 230 kv,CAISO||arco substation 230 kv,2024Q4,3,3,CAISO,Solar+Battery,1
+109,CAISO||johanna substation 230 kv,CAISO||avocado substation 69 kv,2019Q3,1,1,CAISO,Battery,1
+110,CAISO||etiwanda substation 230 kv,CAISO||lamont 115 kv,2022Q4,3,3,CAISO,Battery,1
+111,PJM||todds tavern spotsylvania/goldsdale 115 kv,PJM||appomattox esc,2023Q1,1,1,PJM,Battery,1
+112,PJM||williamstown 12 kv,PJM||andover kittatinny #2 345 kv,2011Q1,1,1,PJM,Solar,2
+113,CAISO||rio hondo substation 230 kv,CAISO||atlantic 60 kv,2020Q3,1,1,CAISO,Battery,1
+114,PJM||robinson 69 kv,PJM||adams seaman 69 kv,2024Q4,1,1,PJM,Solar+Battery,2
+115,PJM||lexington 115 kv,PJM||arnolds corner 345 kv,2024Q2,1,1,PJM,Battery,1
+116,PJM||goddard plumville 138 kv,PJM||apple valley 138 kv,2024Q3,1,1,PJM,Solar,1
+117,PJM||monterey 69 kv,PJM||baileyville wind farm,2004Q1,1,1,PJM,Wind,2
+118,PJM||keystone 500 kv,PJM||bergen,2002Q1,2,2,PJM,Gas,2
+119,CAISO||mesa 230 kv,CAISO||belotta 115 kv,2019Q1,1,1,CAISO,Battery,1
+120,PJM||mcdowell 138 kv,PJM||altoona raystown 230 kv,2022Q1,1,1,PJM,Solar,1
+121,PJM||heritage wake 500 kv,PJM||ad1 100 345 kv (cir increase),2024Q4,2,2,PJM,Solar,1
+122,PJM||dresden pontiac midpoint 345 kv,PJM||apple grove 138 kv,2024Q2,2,2,PJM,Solar,1
+123,PJM||laurel mountain 138 kv,PJM||boxwood riverville 138 kv,2024Q4,2,2,PJM,Battery,1
+124,PJM||surry hopewell 230 kv,PJM||cashie 230 kv,2024Q2,2,2,PJM,Solar+Battery,1
+125,PJM||hamilton 115 kv,PJM||anaconda dunbar 115 kv,2022Q1,1,1,PJM,Solar,1
+126,PJM||reynolds olive #1 345 kv,PJM||cherry ridge 66 kv,2024Q4,3,3,PJM,Solar,1
+127,CAISO||vincent substation,CAISO||blm west kramer 230 kv line,2008Q4,1,1,CAISO,Solar,1
+128,PJM||berry hill 138 kv,PJM||chinquapin 230 kv,2021Q1,2,2,PJM,Battery,1
+129,PJM||boykins 345 kv,PJM||s cumberland 69 kv,2015Q3,3,3,PJM,Solar,1
+130,SOCO||sylvania waynesboro primary 115 kv line,SOCO||claxton statesboro primary 115 kv line,2019Q3,1,1,SOCO,Solar,1
+131,SOCO||anniston (apc) hammond 230 kv line,SOCO||bonaire primary butler 230 kv line,2021Q3,2,2,SOCO,Solar,2
+132,ISO-NE||cmp section 3023 345 kv line (via johnson mountain substation),ISO-NE||115 kv line 229,2018Q2,1,1,ISO-NE,Wind,1
+133,ISO-NE||pittsfield 345 kv,ISO-NE||115 kv rumford substation,2018Q2,1,1,ISO-NE,Wind,5
+134,PSCo||boone 115 kv substation,PSCo||green valley substation 230 kv,2019Q1,2,2,PSCo,Solar,1
+135,ERCOT||46220 peters 138 kv,ERCOT||10002 ns crane switch 138 kv,2022Q1,1,1,ERCOT,Battery,1
+136,PJM||kewanee 138 kv,PJM||adams allen 138 kv,2012Q2,1,1,PJM,Wind,1
+137,PJM||millville old chapel 138 kv,PJM||arrington circuit 1247 kv,2024Q4,1,1,PJM,Solar,2
+138,PJM||wye mills 25 kv,PJM||balls gap 345 kv,2018Q2,1,1,PJM,Battery,1
+139,ERCOT||79506 abernathy 345 kv,ERCOT||11319 scosw scurrycounty 138 kv,2019Q1,1,1,ERCOT,Wind,1
+140,CAISO||windhub substation 230 kv,CAISO||midway temblor 115 kv line,2008Q4,2,2,CAISO,Solar+Battery,1
+141,PJM||watkins corner 345 kv,PJM||ashfield 12 kv,2024Q3,1,1,PJM,Solar,1
+142,PJM||adams 138 kv,PJM||cashie earleys 230 kv,2024Q2,4,4,PJM,Solar,1
+143,PJM||hillsboro wye mills 138 kv,PJM||ashtabula county pv project 1,2024Q4,1,1,PJM,Solar,1
+144,CAISO||eldorado baker cool water dunn siding mountain pass 115 kv line,CAISO||camino iron mountain 230 kv line,2008Q2,3,2,CAISO,Solar,1
+145,CAISO||mustang switching station 230 kv,CAISO||colorado river substation 220 kv,2017Q3,2,2,CAISO,Solar+Battery,1
+146,PJM||hunterstown 500 kv,PJM||basin 230 kv,2016Q2,1,1,PJM,Gas,1
+147,CAISO||cameron substation 69 kv,CAISO||arco twisselman 70 kv,2015Q1,1,1,CAISO,Solar,1
+148,CAISO||harquahala substation 500 kv,CAISO||66 kv windhub substation,2011Q3,1,1,CAISO,Solar,1
+149,PJM||hillcrest 138 kv,PJM||andover kittatinny 34 kv,2015Q2,1,1,PJM,Solar,1
+150,CAISO||delaney substation 500 kv,CAISO||midway 115 kv,2021Q1,2,2,CAISO,Solar+Battery,1
+151,PJM||gladstone 138 kv,PJM||argenta twin branch 345 kv,2024Q4,2,2,PJM,Solar,1
+152,ERCOT||68008 latimer 345 kv,ERCOT||1064 sun 138 kv,2021Q1,1,1,ERCOT,Wind,1
+153,PJM||chesterfield 230 kv,PJM||buckingham farmville 230 kv,2024Q4,4,4,PJM,Battery,1
+154,PJM||birchwood nug 230 kv,PJM||bridgeport 230 kv,2024Q4,2,2,PJM,Battery,1
+155,PJM||pendleton tanners creek 138 kv,PJM||ashtabula county pv project 2,2024Q2,1,1,PJM,Solar,1
+156,ERCOT||79503 tule canyon 345 kv,ERCOT||42400 refuge 345 kv,2018Q3,2,2,ERCOT,Wind,1
+157,PJM||phillipsburg,PJM||applegarth 125 kv,2011Q3,1,1,PJM,Solar,1
+158,PSCo||midway substation 115 kv,PSCo||alamosa substation,2020Q1,1,1,PSCo,Solar,1
+159,PJM||hickory 345 kv,PJM||argonne new lisbon 345 kv,2016Q3,1,1,PJM,Solar,1
+160,PJM||north temple 230 kv,PJM||big sandy 138 kv,2009Q1,1,1,PJM,Gas,1
+161,PJM||laurel 69 kv,PJM||absecon 1247 kv,2020Q1,1,1,PJM,Solar,1
+162,PJM||kincaid pana,PJM||athenia 26 kv,2024Q2,1,1,PJM,Battery,2
+163,PJM||avon north clark 345 kv,PJM||bearrock johnstown 230 kv,2023Q3,2,2,PJM,Solar,1
+164,SOCO||colerain thalmann 230 kv line,SOCO||baxley jesup 115 kv line,2018Q4,1,1,SOCO,Solar,1
+165,PJM||branchville sussex 345 kv,PJM||asbury,2011Q3,1,1,PJM,Solar,1
+166,ERCOT||80219 lobo 345 kv,ERCOT||11406 central bluff 345 kv,2020Q3,2,2,ERCOT,Solar,1
+167,PJM||brunswick gasburg 69 kv,PJM||atlanta 69 kv iii,2024Q2,1,1,PJM,Solar,2
+168,CAISO||encina substation 138 kv,CAISO||115 kv rosedale substation,2016Q1,1,1,CAISO,Battery,1
+169,PJM||buckskin 69 kv,PJM||buggs island chase city 115 kv,2018Q1,4,3,PJM,Solar,1
+170,PJM||windsor 138 kv,PJM||bayonne 138 kv,2005Q4,1,1,PJM,Gas,1
+171,PJM||palmer springs 115 kv,PJM||eagle road 138 kv,2024Q2,3,3,PJM,Battery,4
+172,PJM||elm st 115 kv,PJM||bethlehem steel 33 kv,2000Q4,1,1,PJM,Gas,1
+173,PJM||davis creek 138 kv,PJM||atlanta 69 kv iv,2017Q4,1,1,PJM,Solar,1
+174,ISO-NE||eversource 345 kv west barnstable (921),ISO-NE||eversource (cl&p) millstone 345 kv substation,2024Q4,2,2,ISO-NE,Offshore Wind,1
+175,PJM||smithfield 345 kv,PJM||allentown booster 138 kv,2018Q3,1,1,PJM,Solar,1
+176,PJM||cookstown 345 kv,PJM||baptistown 12 kv,2010Q4,1,1,PJM,Solar,1
+177,PJM||sorenson 345 kv,PJM||delaware van buren 138 kv,2024Q4,5,5,PJM,Solar,2
+178,PJM||sapony 345 kv,PJM||cole 345 kv,2024Q4,3,3,PJM,Solar,1
+179,PJM||frackville siegfried 230 kv,PJM||albright cross school 138 kv,2019Q2,1,1,PJM,Hydro,1
+180,PJM||heidelberg 69 kv,PJM||auburn 69 kv,2024Q4,1,1,PJM,Solar,1
+181,PJM||sunbury 500 kv,PJM||aurora 345 kv,2020Q1,1,1,PJM,Gas,1
+182,SOCO||ray place road union point primary 115 kv line,SOCO||anthony shoals washington 115 kv line,2024Q2,1,1,SOCO,Solar,1
+183,SOCO||east bainbridge spring creek (black) 115 kv line,SOCO||bouldin dam forbes road 115 kv line,2016Q3,1,1,SOCO,Solar,1
+184,CAISO||mesa substation 230 kv,CAISO||alamitos 220 kv,2021Q2,1,1,CAISO,Battery,1
+185,SOCO||north tifton pitts 230 kv line,SOCO||fortson north tifton 500 kv line,2019Q3,4,4,SOCO,Solar,1
+186,PJM||imperial joffre 138 kv,PJM||aurora ec 138 kv,2024Q4,1,1,PJM,Battery,1
+187,PJM||southampton handsom 115 kv,PJM||beatty greene 345 kv,2022Q4,2,2,PJM,Solar,1
+188,SOCO||athena center primary 230 kv line,SOCO||center primary 230 kv substation,2008Q4,1,1,SOCO,Gas,1
+189,PSCo||mirasol 230 kv substation,PSCo||missile site 230 kv substation,2022Q3,3,2,PSCo,Solar,1
+190,SOCO||barry lucedale 115 kv line,SOCO||eatonton primary porterdale primary 230 kv line,2022Q4,2,2,SOCO,Solar,1
+191,PJM||bismark doubs 500 kv,PJM||arrowhead 12 kv,2022Q2,1,1,PJM,Solar,1
+192,PJM||hanging rock 765 kv,PJM||andrew shaft 84 junction 25 kv,2015Q2,1,1,PJM,Gas,1
+193,PJM||eagle point 230 kv,PJM||alabama 138 kv,2011Q1,1,1,PJM,Gas,1
+194,PJM||snake spring 115 kv iii,PJM||avon renaker 138 kv,2023Q3,1,1,PJM,Solar,1
+195,PJM||kings dominion dp 115 kv,PJM||campbelltown millars quarry 69 kv,2020Q2,3,3,PJM,Solar,2
+196,PSCo||comanche daniels park 345 kv line,PSCo||cherokee substation,2020Q1,1,1,PSCo,Gas,1
+197,PJM||raritan river 230 kv,PJM||chalk point bowie 230 kv,2013Q2,2,2,PJM,Gas,1
+198,CAISO||red bluff substation 500 kv,CAISO||calcite 230 kv,2023Q4,4,4,CAISO,Solar+Battery,1
+199,PJM||st johns 115 kv,PJM||kincaid pana 345 kv,2020Q3,4,4,PJM,Solar,2
+200,SOCO||aliceville cochrane ds 46 kv line,SOCO||albany sowega 230 kv line,2017Q2,1,1,SOCO,Solar,2
+201,PJM||tait 69 kv,PJM||aurora 138 kv,2017Q4,2,2,PJM,Gas,1
+202,PJM||salem east windsor 500 kv,PJM||blueball 69 kv,2002Q2,1,1,PJM,Gas,1
+203,ISO-NE||grid l 190 line via new station,ISO-NE||cmp 115 kv line section 80,2022Q2,2,2,ISO-NE,Solar,1
+204,PJM||jay 69 kv,PJM||axton danville 138 kv,2024Q4,1,1,PJM,Solar,1
+205,PJM||tbd 345 kv,PJM||clover sedge hill 230 kv,2022Q1,3,3,PJM,Solar,1
+206,PJM||chickahominy 500 kv,PJM||cook east elkhart 345 kv,2020Q1,2,2,PJM,Gas,1
+207,PJM||bremo scottsville 138 kv,PJM||avon 138 kv,2024Q3,1,1,PJM,Battery,1
+208,PJM||hickory shawboro 230 kv,PJM||ashley millbrook park 69 kv,2017Q1,1,1,PJM,Solar,1
+209,PJM||cambria slope 115 kv,PJM||brunner island #2,2005Q2,1,1,PJM,Coal,1
+210,PJM||somerset 23 kv,PJM||atco 12 kv,2020Q4,1,1,PJM,Solar,1
+211,PJM||east carbondale lackawanna 69 kv,PJM||beach glen 48 kv,2018Q2,1,1,PJM,Battery,1
+212,CAISO||cielo azul substation 500 kv,CAISO||crescent 70 kv,2022Q4,2,2,CAISO,Solar+Battery,2
+213,PJM||pamplin 345 kv,PJM||64th street 13 kv,2019Q2,1,1,PJM,Solar,1
+214,ISO-NE||ui singer substation,ISO-NE||grid 115 kv franklin substation,2017Q3,2,2,ISO-NE,Gas,1
+215,PJM||middleburg 12 kv,PJM||bane 69 kv,2023Q3,1,1,PJM,Solar,1
+216,PJM||bellefontaine 69 kv,PJM||bustelton 13 kv,2024Q3,1,1,PJM,Other,1
+217,CAISO||whirlwind substation 230 kv bus,CAISO||henrietta tulare 70 kv line,2010Q3,4,3,CAISO,Solar,1
+218,PJM||sussex,PJM||st thomas guilford 345 kv,2011Q4,3,3,PJM,Solar,1
+219,ERCOT||177 bosque 138 kv,ERCOT||11260 dune switch,2019Q3,1,1,ERCOT,Solar,1
+220,PJM||franklin 138 kv,PJM||new castle 69 kv,2024Q4,2,2,PJM,Solar+Battery,1
+221,CAISO||gamebird substation 230 kv,CAISO||kent switching station 70 kv,2016Q3,2,2,CAISO,Solar,1
+222,PJM||desoto tanners creek #1 345 kv,PJM||antwerp payne 69 kv,2016Q2,1,1,PJM,Wind,1
+223,PJM||haviland 138 kv,PJM||albright 138 kv,2007Q3,1,1,PJM,Wind,1
+224,PJM||tower hill 345 kv,PJM||atlanta stuart 345 kv,2021Q3,1,1,PJM,Solar,1
+225,PJM||cumberland w shore #2 69 kv,PJM||baptistown frenchtown #2 34 kv,2011Q4,1,1,PJM,Solar,1
+226,PJM||cook 345 kv,PJM||belle 46 kv,2005Q4,1,1,PJM,Gas,1
+227,PJM||mount storm 500 kv,PJM||chesterfield 230 kv 5,2012Q3,1,1,PJM,Coal,1
+228,"ISO-NE||maine public service system, upgrades include tap",ISO-NE||115 kv line between enfield and james river substation,2009Q3,1,1,ISO-NE,Wind,1
+229,PJM||west newton lynn 138 kv,PJM||bernville 345 kv 1,2024Q4,2,2,PJM,Solar,1
+230,PJM||backbone mountain 138 kv,PJM||beckjord 138 kv,2018Q1,1,1,PJM,Battery,1
+231,ERCOT||tap 138 kv 7336 gillie 3650 elgin,ERCOT||(3707) cannon switch 138 kv,2023Q2,1,1,ERCOT,Solar,1
+232,PJM||tasley kellam 69 kv,PJM||brunswick 264 kv,2010Q3,2,2,PJM,Solar,1
+233,ERCOT||tap 345 kv 8164 coleto 8455 lon hill,ERCOT||1163 lamesa 138 kv,2018Q3,1,1,ERCOT,Solar,1
+234,PJM||hayden 345 kv,PJM||bon ayr 69 kv,2021Q3,2,2,PJM,Solar,1
+235,ERCOT||60501 tesla 345 kv,ERCOT||60393 pig creek 138 kv,2018Q3,2,2,ERCOT,Solar,1
+236,PJM||blue jacket 138 kv,PJM||3 bridges road 345 kv,2024Q2,1,1,PJM,Solar+Battery,1
+237,CAISO||diablo gates 500 kv line,CAISO||harry allen eldorado 500 kv,2021Q2,1,2,CAISO,Wind+Battery,1
+238,PJM||woodsdale 345 kv,PJM||athens milan 345 kv,2020Q1,1,1,PJM,Solar,1
+239,CAISO||antelope neenach 66 kv,CAISO||henrietta tulare lake 70 kv,2010Q4,2,2,CAISO,Solar,1
+240,PJM||sussex 12 kv,PJM||barbertonseiberling 23 kv,2011Q3,1,1,PJM,Solar,1
+241,PJM||central hardin 138 kv,PJM||avon 345 kv,2021Q3,1,1,PJM,Solar,1
+242,PSCo||missile site 345 kv substation,PSCo||boone 230 kv switchyard,2020Q1,1,1,PSCo,Solar,3
+243,ISO-NE||cmp 115 kv rumford substation,ISO-NE||115 kv connection to chester 115 kv substation,2011Q4,1,1,ISO-NE,Hydro,1
+244,PJM||hornertown 345 kv,PJM||atlantic red bank 34 kv,2016Q3,1,1,PJM,Solar,2
+245,PJM||dequine eugene 345 kv,PJM||powerton nevada 345 kv,2024Q4,5,5,PJM,Wind,1
+246,SOCO||tiger creek wadley primary 230 kv line,SOCO||blakely primary george dam (usa) 115 kv line,2017Q3,1,1,SOCO,Solar,1
+247,PJM||greene clark 138 kv,PJM||belvidere 34 kv,2017Q3,1,1,PJM,Solar,1
+248,CAISO||colorado river substation 500 kv bus,CAISO||arco 70 kv,2019Q1,1,1,CAISO,Solar,1
+249,ERCOT||76635 king mount 138 kv,ERCOT||78255 pinto creek 138 kv,2019Q3,2,2,ERCOT,Other,1
+250,PJM||wilson 345 kv,PJM||bernardsville 12 kv,2015Q2,1,1,PJM,Solar,1
+251,PJM||killen 345 kv,PJM||fort martin 500 kv,2017Q2,1,1,PJM,Coal,1
+252,PJM||poolesville winchester 230 kv,PJM||bakers pond bell ave 115 kv,2020Q3,1,1,PJM,Solar,1
+253,CAISO||highwind substation 220 kv bus,CAISO||birds landing switching station 230 kv bus,2014Q1,1,1,CAISO,Wind,1
+254,CAISO||imperial valley substation 12 kv bus,CAISO||antlelope substation 66 kv bus,2012Q2,1,1,CAISO,Solar,1
+255,PJM||beechwood dp palmer springs 115 kv,PJM||airey 69 kv,2019Q3,1,1,PJM,Solar,1
+256,CAISO||huntington beach switching station 230 kv,CAISO||115 kv tesla stockton cogen transmission line,2015Q3,1,1,CAISO,Gas,1
+257,PJM||dunnsville 345 kv,PJM||braidwood davis creek,2023Q1,2,2,PJM,Solar,1
+258,SOCO||o'hara ts 230 kv bus,SOCO||branch substation 230 kv bus,2021Q3,1,1,SOCO,Battery,1
+259,PJM||reybold,PJM||calumet,2008Q3,1,1,PJM,Battery,1
+260,PJM||henry 138 kv,PJM||amboy,2004Q2,1,1,PJM,Wind,1
+261,PJM||blue mound chestnut 345 kv,PJM||central va chase city 115 kv,2024Q2,2,2,PJM,Battery,4
+262,PJM||george washington 138 kv,PJM||athenia 480 v,2017Q2,1,1,PJM,Gas,3
+263,CAISO||antelope substation 230 kv bus,CAISO||belridge temblor 115 kv,2013Q2,1,1,CAISO,Solar+Battery,1
+264,PJM||dawson south justice 115 kv,PJM||fields 345 kv,2020Q4,3,3,PJM,Solar,1
+265,PJM||gainesville loudoun 230 kv,PJM||avon 345 kv ii,2023Q3,1,1,PJM,Battery,1
+266,CAISO||los esteros 230 kv,CAISO||alberhill substation 500 kv,2024Q2,1,1,CAISO,Battery,1
+267,SOCO||west mcintosh substation 115 kv bus,SOCO||barry monroeville 115 kv line,2020Q3,1,1,SOCO,Solar,1
+268,PJM||curdsville willis mountain 115 kv,PJM||airey 12 kv,2019Q1,1,1,PJM,Solar,1
+269,PJM||whitely 138 kv,PJM||albion kendallville 138 kv,2024Q4,1,1,PJM,Solar+Battery,1
+270,PJM||afton 138 kv,PJM||allen junction lyons 138 kv,2011Q2,1,1,PJM,Wind,1
+271,ISO-NE||montville substation,ISO-NE||115 kv tiverton substation,2009Q2,1,1,ISO-NE,Gas,1
+272,PJM||double toll gate 345 kv,PJM||benson dunbar 115 kv,2017Q2,1,1,PJM,Solar,1
+273,PJM||reams 115 kv,PJM||atlantic red bank 34 kv ii,2020Q1,1,1,PJM,Solar,1
+274,PJM||church 25 kv,PJM||berkshire solar 12 kv,2017Q1,1,1,PJM,Solar,1
+275,PJM||north longview 500 kv,PJM||frackville 69 kv,2020Q4,1,1,PJM,Coal,1
+276,PJM||wright 69 kv,PJM||chichester 230 kv,2003Q2,2,2,PJM,Gas,1
+277,PJM||hickman river bend 69 kv,PJM||bartonsville meadow brook 138 kv iii,2020Q3,1,1,PJM,Solar,1
+278,CAISO||morro bay 230 kv,CAISO||bailey station,2024Q4,2,2,CAISO,Battery,1
+279,PJM||claytor lake edgemont 138 kv,PJM||banister bear skin 138 kv,2024Q1,1,1,PJM,Solar,1
+280,"ISO-NE||cmp 345 kv, section 182",ISO-NE||101105 augusta east w new breaker,2020Q2,1,1,ISO-NE,Solar,1
+281,SOCO||bassett creek mcintosh 115 kv line,SOCO||blackbear solar farm substation 230 kv bus,2023Q3,1,1,SOCO,Solar,1
+282,PJM||east flemington 345 kv,PJM||barren summer shade 161 kv,2021Q1,1,1,PJM,Solar,1
+283,CAISO||arco substation 230 kv bus,CAISO||alpaugh 115 kv substation,2011Q3,1,1,CAISO,Solar,1
+284,ERCOT||6444 red creek 345 kv,ERCOT||1048 tonkawas 345 kv,2021Q1,1,1,ERCOT,Other,1
+285,PJM||lick run 115 kv,PJM||bartonsville meadowbrook 138 kv,2024Q3,1,1,PJM,Solar,1
+286,PJM||college corner 138 kv,PJM||brookville squab hollow 138 kv,2019Q3,2,2,PJM,Solar,1
+287,PJM||goose lake 345 kv,PJM||montgomery hydroelectric 23 kv,2022Q1,1,1,PJM,Hydro,1
+288,PJM||maddox creek 345 kv,PJM||anaconda tar river 115 kv,2018Q1,1,1,PJM,Solar,1
+289,"ISO-NE||115 kv line 1302 between buck pond and pochassic substations, approximately 1 mile south of buck pond",ISO-NE||115 kv f19 and e20 lines,2015Q4,1,1,ISO-NE,Gas+Oil,2
+290,PJM||bernville 345 kv 2,PJM||bascom 69 kv,2024Q4,1,1,PJM,Solar,1
+291,ERCOT||80220 cenizo 345 kv,ERCOT||1134 littman 138 kv,2019Q1,1,1,ERCOT,Wind,1
+292,PJM||thompson 345 kv,PJM||carroll monocacy 345 kv,2020Q1,2,2,PJM,Solar,1
+293,PJM||chickahominy 230 kv,PJM||beckjord 2 mw 2,2019Q4,1,1,PJM,Battery,1
+294,PJM||larrabee 230 kv,PJM||bethany 138 kv,2019Q2,1,1,PJM,Offshore Wind,1
+295,ERCOT||tap 345 kv 5915 stp 5133 elm creek ckt 1,ERCOT||138 kv 59909 wett nova prime,2022Q4,2,2,ERCOT,Solar,1
+296,PJM||west berwick 12 kv,PJM||bartonsville meadowbrook 138 kv iv,2023Q3,1,1,PJM,Solar,1
+297,PJM||cartanza 230 kv,PJM||atlantic south river 230 kv,2011Q1,1,1,PJM,Gas,1
+298,PJM||susquehanna 230 kv,PJM||hope creek 500 kv,2000Q4,2,1,PJM,Nuclear,1
+299,ERCOT||1444 brown 345 kv,ERCOT||60506 avogadro 345 kv,2019Q3,2,2,ERCOT,Solar,1
+300,SOCO||north americus perry 115 kv line,SOCO||north opelika goat rock (gpc) 230 kv line,2017Q2,3,2,SOCO,Solar,1
+301,PJM||ringoes 12 kv,PJM||aulander 345 kv,2012Q3,1,1,PJM,Solar,1
+302,PJM||gateway 69 kv,PJM||briery substation 294 kv,2024Q3,2,2,PJM,Solar,2
+303,PJM||bridgeton 12 kv,PJM||baptistown east flemington 345 kv,2010Q4,1,1,PJM,Solar,1
+304,PJM||worcester 25 kv,PJM||beasley 23 kv,2012Q1,1,1,PJM,Solar,1
+305,CAISO||antelope substation 66 kv bus,CAISO||smyrna alpaugh 115 kv line,2012Q2,5,6,CAISO,Solar,1
+306,CAISO||valley substation 138 kv,CAISO||merchant switchyard 230 kv,2015Q1,2,2,CAISO,Solar,1
+307,PJM||todd 69 kv,PJM||carolina jackson 115 kv,2018Q2,2,2,PJM,Solar,1
+308,PJM||remington gordonsville 230 kv,PJM||garden prairie 345 kv,2024Q2,3,3,PJM,Battery,1
+309,SOCO||barry conecuh (nextera) 230 kv line,SOCO||farley pinckard 230 kv line,2024Q2,2,2,SOCO,Solar,1
+310,PJM||frackville,PJM||curwensville 345 kv,2009Q1,1,1,PJM,Coal,1
+311,PJM||trexlertown 12 kv,PJM||andover (maysville) 69 kv i,2023Q4,1,1,PJM,Solar+Battery,1
+312,PJM||red oak 230 kv,PJM||friedensburg 69 kv,2008Q4,2,2,PJM,Gas,1
+313,PSCo||boone substation,PSCo||comanche fuller midway 230 kv line,2012Q1,1,1,PSCo,Solar,2
+314,PJM||kings creek 25 kv,PJM||bridge south park 12 kv,2017Q1,1,1,PJM,Other,1
+315,SOCO||butler talbot county #1 230 kv line,SOCO||arlington primary calhoun county prison 46 kv line,2014Q4,1,1,SOCO,Solar,1
+316,PJM||kenzie creek colby 138 kv,PJM||beavertown tap beavertown weaving tap 69 kv,2020Q1,1,1,PJM,Solar,1
+317,PJM||disputanta poe 115 kv,PJM||buckskin worley 69 kv,2024Q2,2,2,PJM,Solar,1
+318,PJM||homer city,PJM||bluestone dam 46 kv,2002Q2,1,1,PJM,Gas,1
+319,PJM||kyger creek pierce 345 kv,PJM||basf washburn solar 345 kv,2024Q4,1,1,PJM,Solar,1
+320,PJM||pine grove frailey 69 kv,PJM||bayview 26 kv (wind),2007Q4,1,1,PJM,Wind,1
+321,PJM||mount eagle 345 kv,PJM||bergen 13 kv,2017Q3,1,1,PJM,Solar,1
+322,PJM||fentress sligo 230 kv,PJM||backbone mountain 138 kv ii,2021Q4,1,1,PJM,Battery,1
+323,ERCOT||tap 345 kv 60515 clear crossing 1421 willow creek,ERCOT||107 prairie hill 69 kv,2022Q1,1,1,ERCOT,Solar,1
+324,PJM||susquehanna alburtis 500 kv,PJM||beaver creek hazard 138 kv,2007Q3,1,1,PJM,Coal,1
+325,ERCOT||80355 del sol 345 kv,ERCOT||tap 345 kv 1906 venus 68091 navarro,2024Q4,4,4,ERCOT,Solar,2
+326,CAISO||highwind substation 230 kv bus,CAISO||between rio del junction and bridgeville,2009Q4,1,1,CAISO,Wind,1
+327,CAISO||suncrest ocotillo 500 kv line,CAISO||altamont midway 230 kv,2018Q2,1,1,CAISO,Wind,1
+328,PJM||beaver creek 138 kv,PJM||beatty biers run 345 kv,2024Q4,1,1,PJM,Solar,2
+329,PJM||carolina earleys 115 kv,PJM||bayview 69 kv,2024Q4,1,1,PJM,Battery,1
+330,PJM||delco tap 230 kv,PJM||bremo 230 kv,2008Q3,1,1,PJM,Gas,1
+331,PJM||harrington 69 kv,PJM||givens mechanicsburg 138 kv,2023Q3,5,5,PJM,Solar,1
+332,PJM||catoctin 345 kv,PJM||berlin 12 kv,2016Q3,1,1,PJM,Solar,1
+333,PJM||kittatinny 230 kv,PJM||pine creek 23 kv,2024Q4,1,1,PJM,Hydro,1
+334,PJM||carson rogers road 500 kv,PJM||laurelton mifflinburg 69 kv,2019Q4,4,4,PJM,Solar,1
+335,CAISO||pittsburg kirker columbia steel 115 kv line,CAISO||borden 70 kv,2012Q4,1,1,CAISO,Battery,1
+336,PJM||tazewell kendall 345 kv,PJM||amsterdam 138 kv,2012Q1,1,1,PJM,Wind,1
+337,PJM||bethelboro 1247 kv,PJM||beatty london 138 kv iii,2024Q1,1,1,PJM,Solar,1
+338,PJM||linden,PJM||conastone peach bottom 500 kv,2004Q1,2,2,PJM,Gas,1
+339,PJM||electric junction nelson,PJM||bedford north pennsylvania hollow 23 kv,2020Q1,1,1,PJM,Solar,1
+340,SOCO||north americus palmyra 230 kv line,SOCO||fulton springs gorgas no 2 115 kv line,2022Q4,2,2,SOCO,Solar,1
+341,CAISO||7th standard 115 kv,CAISO||antelope 66 kv,2024Q4,1,1,CAISO,Battery,1
+342,PJM||birdneck landstown 230 kv,PJM||cardiff 230 kv i,2024Q2,1,1,PJM,Offshore Wind,1
+343,PJM||pilesgrove 12 kv,PJM||baptistown frenchtown #2 345 kv,2011Q1,1,1,PJM,Solar,1
+344,PJM||indian river 230 kv,PJM||bedforth north 115 kv,2024Q4,1,1,PJM,Battery,3
+345,PJM||central hardin 69 kv,PJM||andover (maysville) 69 kv ii,2023Q3,1,1,PJM,Solar+Battery,1
+346,PJM||hopewell 230 kv,PJM||front royal 500 kv,2010Q2,2,2,PJM,Gas,1
+347,PJM||twin branch guardian 138 kv,PJM||chambers 230 kv,2023Q3,2,2,PJM,Battery,1
+348,PJM||clubhouse lakeview 230 kv,PJM||bethel carolina 125 kv,2017Q3,1,1,PJM,Solar,1
+349,ERCOT||11306 dermott 138 kv,ERCOT||132943 sptx12b 138 kv,2018Q3,1,1,ERCOT,Other,1
+350,CAISO||palo verde devers #2 line,CAISO||coolwater kramer 230 kv line,2008Q4,1,1,CAISO,Solar,1
+351,PJM||zion energy center,PJM||bayshore gm powertrain 138 kv & lallendorf 345 kv,2019Q4,1,1,PJM,Gas,1
+352,PJM||kenney 25 kv,PJM||biers run 138 kv,2017Q2,1,1,PJM,Solar,1
+353,SOCO||bonaire primary eastman primary 115 kv line,SOCO||bassett creek greene county 230 kv line,2018Q3,2,1,SOCO,Solar,1
+354,PSCo||missile site 345 kv,PSCo||barr lake 230 kv substation,2018Q4,1,1,PSCo,Solar,1
+355,CAISO||kramer 230 kv substation,CAISO||arco tulare lake 70 kv line,2017Q1,1,1,CAISO,Solar,1
+356,SOCO||eastman primary vidalia 115 kv line,SOCO||blakely primary spring creek 115 kv line,2021Q1,1,1,SOCO,Solar,1
+357,ERCOT||43190 south lane city 138 kv,ERCOT||11016 quail switch 345 kv,2021Q3,1,1,ERCOT,Battery,1
+358,PJM||cavett switch west van wert 69 kv,PJM||beatty mount hope 345 kv,2023Q3,1,1,PJM,Solar,1
+359,ISO-NE||orrington albion road 345 kv line (3023) near the town of pittsfield (approximately 19 miles from albion road substation),ISO-NE||cmp woodstock substation,2024Q3,2,2,ISO-NE,Wind,1
+360,PSCo||green valley 230 kv substation,PSCo||comanche midway 230 kv line,2019Q4,3,4,PSCo,Solar,1
+361,CAISO||gates templeton 230 kv line,CAISO||alpaugh 115 kv,2021Q2,1,1,CAISO,Solar+Battery,1
+362,PJM||axton 138 kv,PJM||bay shore fostoria 345 kv & bay shore monroe 345 kv,2016Q4,1,1,PJM,Gas,1
+363,CAISO||pit #3 round mountain 230 kv line,CAISO||500 kv imperial valley miguel transmission line,2008Q4,1,1,CAISO,Wind,1
+364,PJM||bear creek,PJM||benson wind farm,2004Q1,1,1,PJM,Wind,1
+365,PJM||dumont stillwell 345 kv,PJM||byron 2 ni hub,2019Q2,1,1,PJM,Other,1
+366,PJM||boydton plank road 115 kv,PJM||cloverdale burlington height 138 kv,2024Q4,2,2,PJM,Battery,2
+367,CAISO||sloan canyon switching station 230 kv,CAISO||panoche substation 230 kv,2019Q3,2,2,CAISO,Solar+Battery,2
+368,PJM||hudson 230 kv,PJM||four rivers 115 kv,2012Q2,2,2,PJM,Gas,3
+369,PJM||kittatinny blairstown 345 kv,PJM||bedington 138 kv,2024Q3,1,1,PJM,Solar,1
+370,PJM||metuchen 230 kv,PJM||babcock & wilcox 69 kv,2019Q2,1,1,PJM,Gas,1
+371,CAISO||red bluff substation 220 kv,CAISO||midway 500 kv,2022Q4,2,2,CAISO,Solar+Battery,1
+372,PJM||deptford 13 kv,PJM||flemington,2012Q3,2,2,PJM,Solar,2
+373,CAISO||chino substation 230 kv,CAISO||antelope valleysubstation 230 kv,2022Q4,1,1,CAISO,Battery,1
+374,PJM||kidds store sherwood 115 kv,PJM||danieltown dpbrunswick 69 kv,2022Q1,2,2,PJM,Battery,1
+375,ERCOT||60515 clear crossing 345 kv,ERCOT||11270 dog house switch 345 kv,2019Q4,1,1,ERCOT,Solar,1
+376,PJM||south bend 500 kv,PJM||burches hill chalk point 500 kv,2013Q3,2,2,PJM,Gas,1
+377,PJM||mehoopany 115 kv,PJM||bedford 115 kv,2008Q4,1,1,PJM,Wind,1
+378,CAISO||windhub substation 230 kv bus,CAISO||lake hodges metering switchyard 69 kv,2012Q1,1,1,CAISO,Other Storage,1
+379,PJM||guilford 345 kv,PJM||andover,2011Q2,1,1,PJM,Solar,1
+380,CAISO||round mountain 230 kv,CAISO||at switch 125 outside harter substation,2024Q2,1,1,CAISO,Battery,1
+381,ERCOT||1324 big spring west 138 kv,ERCOT||1163 lamesa substation 138 kv,2022Q2,1,1,ERCOT,Other,1
+382,CAISO||antelope substation 66 kv,CAISO||pisgah substation,2010Q1,2,2,CAISO,Solar,2
+383,PJM||mickleton 230 kv,PJM||brunner island 230 kv,2006Q2,1,1,PJM,Gas,1
+384,SOCO||dothan road 230 kv substation,SOCO||danway goatrock 230 kv line,2022Q1,1,1,SOCO,Solar+Battery,1
+385,CAISO||hassayampa common bus 500 kv,CAISO||henrietta 230 kv,2024Q2,2,2,CAISO,Solar,2
+386,PJM||roxbury blain 23 kv,PJM||archbald 69 kv,2007Q4,1,1,PJM,Other,1
+387,PJM||mercersburg 345 kv,PJM||beaver brook 13 kv,2011Q4,1,1,PJM,Solar,1
+388,ISO-NE||115 kv bus at millbury substation,ISO-NE||anp blackstone 345 kv substation,2008Q4,1,1,ISO-NE,Gas,2
+389,CAISO||springville substation 230 kv,CAISO||antelope magunden #2 230 kv line,2022Q4,1,1,CAISO,Solar+Battery,3
+390,PJM||sullivan rockport 765 kv,PJM||inez 138 kv,2024Q4,5,5,PJM,Solar,1
+391,ERCOT||tap 345 kv 8123 blessing 5915 stp,ERCOT||11165 sloan switch 138 kv,2022Q1,1,1,ERCOT,Solar,1
+392,ERCOT||tap 138 kv 44190 east bernard 44130 caney,ERCOT||11319 scurry county 138 kv,2021Q3,1,1,ERCOT,Solar,1
+393,PJM||gold sabinsville 115 kv,PJM||benson 345 kv,2009Q1,1,1,PJM,Wind,1
+394,PJM||morris park 12 kv,PJM||beckett,2011Q4,1,1,PJM,Solar,2
+395,CAISO||pit 1 cottonwood 230 kv line,CAISO||antelope whirlwind,2024Q2,1,1,CAISO,Solar+Battery,1
+396,SOCO||thomaston substation 230 kv bus,SOCO||first ave (columbus) goat rock 230 kv line and goat rock lee road 230 kv line,2012Q2,1,1,SOCO,Gas,3
+397,PJM||derry 1247 kv,PJM||beccaria 345 kv,2020Q3,1,1,PJM,Solar,1
+398,PJM||morgantown 230 kv,PJM||delaware royerton 138 kv,2024Q4,2,2,PJM,Battery,1
+399,ERCOT||47150 ho clarke 138 kv,ERCOT||3687 bell country east 345 kv,2022Q3,3,2,ERCOT,Other,1
+400,CAISO||creelman substation 69 kv,CAISO||atwater 115 kv,2024Q1,1,1,CAISO,Battery,1
+401,PJM||lopatcong,PJM||beckett 12 kv,2011Q3,1,1,PJM,Solar,1
+402,CAISO||merced #1 70 kv,CAISO||220 kv red bluff substation,2011Q1,1,1,CAISO,Solar,1
+403,PJM||lasalle 1,PJM||beaver valley #2,2010Q1,1,1,PJM,Nuclear,1
+404,CAISO||eldorado substation 220 kv bus,CAISO||wheeler ridge lamont 115 kv,2012Q2,2,2,CAISO,Solar,2
+405,PJM||delano 138 kv,PJM||cedar creek 138 kv i,2021Q1,2,2,PJM,Solar,1
+406,PJM||endless caverns 115 kv,PJM||beatty 345 kv,2024Q2,1,1,PJM,Battery,1
+407,PJM||kelson ridge 230 kv,PJM||albright,2013Q3,1,1,PJM,Gas,2
+408,PJM||west manchester crown 69 kv,PJM||belford keansburg 345 kv,2024Q3,1,1,PJM,Solar,1
+409,CAISO||calcite substation 230 kv,CAISO||arco midway & gates midway 230 kv,2017Q2,1,1,CAISO,Solar+Battery,1
+410,PJM||dixon cherry valley 138 kv,PJM||convoy east lima 345 kv,2010Q1,2,2,PJM,Wind,1
+411,PJM||westvaco 138 kv,PJM||conemaugh unit 1,2010Q4,1,1,PJM,Coal,1
+412,PJM||hooversville 115 kv,PJM||kelso gap 138 kv,2006Q2,2,2,PJM,Wind,1
+413,PJM||mackeys creswell 115 kv,PJM||bell avenue 115 kv,2024Q4,1,1,PJM,Battery,1
+414,PJM||tbd 12 kv,PJM||axton danville #2 138 kv,2024Q1,1,1,PJM,Solar+Battery,1
+415,SOCO||bellamy demopolis 115 kv line,SOCO||conyers 115 kv ts,2022Q4,1,1,SOCO,Solar+Battery,1
+416,PJM||brody 138 kv,PJM||bell township vandergrift 25 kv,2024Q4,1,1,PJM,Solar,1
+417,CAISO||east county substation 138 kv,CAISO||115 kv tap on woodland davis 115 kv line,2015Q1,1,1,CAISO,Battery,1
+418,PJM||churchtown 69 kv,PJM||eugene dequine 345 kv,2021Q1,3,3,PJM,Battery,1
+419,PJM||heath 69 kv,PJM||beaumeade 230 kv,2023Q3,1,1,PJM,Battery,1
+420,SOCO||atmore flomaton 115 kv line,SOCO||bellamy epes 115 kv line,2017Q2,1,1,SOCO,Solar,1
+421,PJM||william 138 kv,PJM||belvidere marengo,2021Q1,1,1,PJM,Battery,1
+422,ISO-NE||johnston substation distribution system,ISO-NE||blanford southwick elm 115 kv line,2006Q2,1,1,ISO-NE,Other,1
+423,PJM||hosensack 500 kv,PJM||colora tap,2002Q1,2,2,PJM,Gas,1
+424,PSCo||hartsel substation,PSCo||fuller 230 kv substation,2010Q4,1,1,PSCo,Solar,1
+425,PJM||oak grove saunders dp 230 kv,PJM||bear peak antrim 345 kv,2023Q1,1,1,PJM,Solar,1
+426,PJM||clubhouse purdy 115 kv,PJM||lone pine 115 kv,2024Q3,5,5,PJM,Solar,1
+427,PJM||hegins,PJM||belmont brighton,2008Q4,1,1,PJM,Other,1
+428,PJM||wattsville 12 kv,PJM||bergen 26 kv,2020Q2,1,1,PJM,Battery,1
+429,CAISO||border substation 69 kv,CAISO||julian hinds substation 230 kv,2008Q4,2,1,CAISO,Battery,1
+430,PJM||portland 230 kv,PJM||burches hill 230 kv,2000Q4,1,1,PJM,Gas,1
+431,PJM||mount holly 26 kv,PJM||andover 12 kv,2011Q2,1,1,PJM,Solar,1
+432,PJM||kerr dam ridge road 115 kv,PJM||bennett farmingdale 345 kv,2024Q2,1,1,PJM,Battery,1
+433,SOCO||goat rock substation 230 kv bus,SOCO||s bessemer to snowdoun 500 kv line,2008Q3,3,2,SOCO,Gas,1
+434,PJM||cedarville ford 138 kv,PJM||bergen 345 kv,2020Q4,1,1,PJM,Battery,1
+435,CAISO||imperial valley 230 kv substation,CAISO||antelope rosamond 66 kv line,2011Q2,1,1,CAISO,Solar,2
+436,CAISO||escondido substation 69 kv,CAISO||avocado 69 kv,2024Q3,1,1,CAISO,Battery,1
+437,PJM||todd 25 kv,PJM||boykins handsome 115 kv,2017Q1,1,1,PJM,Solar,1
+438,ISO-NE||nstar chelsea substation,ISO-NE||cl&p 276 kv distribution system/norwalk 115 kv,2007Q4,1,1,ISO-NE,Oil,1
+439,PJM||andover kittatinny 345 kv,PJM||bellefonte 12 kv,2011Q2,1,1,PJM,Solar,1
+440,PJM||carville 138 kv,PJM||bellefonte 46 kv,2021Q2,1,1,PJM,Solar,1
+441,PJM||carlls corner,PJM||barbados,2008Q1,1,1,PJM,Gas,1
+442,PJM||ford cedarville 138 kv,PJM||belvidere marengo 138 kv,2024Q4,1,1,PJM,Solar,1
+443,ISO-NE||waterside 115 kv,ISO-NE||115 kv line 875 539 to nstar 875 substation,2010Q3,1,1,ISO-NE,Gas+Oil,1
+444,CAISO||bay boulevard 230 kv,CAISO||caliente 230 kv,2020Q3,1,1,CAISO,Battery,1
+445,PJM||centerburg 138 kv,PJM||louisa north anna 230 kv,2024Q4,4,4,PJM,Solar,2
+446,PJM||landstown 230 kv,PJM||bethelboro 138 kv,2024Q2,1,1,PJM,Battery,1
+447,PJM||lycoming lock haven 69 kv,PJM||camden crystal 69 kv,2023Q3,2,2,PJM,Solar,2
+448,ERCOT||tap 138 kv 8510 falfurrias 8695 crestonio,ERCOT||23908 deaf smith station 345 kv this inr has a 600 mw pun load at the medium voltage side of the mpts for a total of 1800 mw pun load (refer to the substation sld),2023Q4,2,2,ERCOT,Solar,1
+449,SOCO||eaton lucedale 115 kv line,SOCO||hatch vidalia 230 kv line,2022Q4,2,2,SOCO,Solar,1
+450,PJM||passyunk 230 kv,PJM||burches hill 500 kv,2002Q2,1,1,PJM,Gas,1
+451,PJM||shenango hoytdale 345 kv,PJM||aldene 230 kv,2013Q2,1,1,PJM,Gas,1
+452,PJM||huron 69 kv,PJM||dumont olive 345 kv,2016Q2,2,2,PJM,Gas,1
+453,PJM||electric junction nelson 345 kv,PJM||belleville 46 kv,2023Q4,1,1,PJM,Solar,1
+454,PJM||ladysmith ct 230 kv,PJM||beaver 138 kv,2022Q2,2,2,PJM,Gas,1
+455,PJM||ontelaunee 230 kv,PJM||bayonne 345 kv,2017Q2,1,1,PJM,Gas,1
+456,ERCOT||1440 comanche 345 kv,ERCOT||4 iola 138 kv,2021Q2,2,2,ERCOT,Solar,1
+457,PJM||nelson 345 kv,PJM||bergen 230 kv,2011Q1,1,1,PJM,Gas,1
+458,PJM||union city 345 kv,PJM||effort mountain gilbert 138 kv,2021Q1,3,3,PJM,Solar,1
+459,SOCO||carriere poplarville 115 kv line,SOCO||bremen sewell creek 230 kv line,2021Q2,1,1,SOCO,Solar,1
+460,PJM||east lima marysville 345 kv,PJM||germantown 115 kv,2019Q4,3,3,PJM,Solar,1
+461,PJM||heritage 500 kv,PJM||dorothy lewis 138 kv,2024Q4,2,2,PJM,Battery,2
+462,PJM||clubhouse 230 kv,PJM||bedford north wills mounain 115 kv,2019Q1,1,1,PJM,Solar+Battery,1
+463,CAISO||whirlwind substation 220 kv,CAISO||arco 230 kv,2019Q4,2,3,CAISO,Solar+Battery,1
+464,ISO-NE||cmp 115 kv,ISO-NE||345 kv circuit from psnh peniwagewassett substat,2011Q2,1,1,ISO-NE,Other,1
+465,PJM||mcconnellsburg 138 kv,PJM||brandy remington 115 kv,2017Q4,1,1,PJM,Solar,1
+466,PSCo||boone comanche 230 kv,PSCo||boone comanche 230 kv line,2020Q1,1,1,PSCo,Solar,2
+467,PJM||nelson lee county 345 kv,PJM||gretna mount airy 69 kv,2024Q2,3,3,PJM,Battery,1
+468,PJM||chavies bonnyman 69 kv,PJM||branchville sussex #1 34 kv,2020Q1,1,1,PJM,Battery,1
+469,PJM||crescent ridge,PJM||albright garrett 138 kv,2018Q3,1,1,PJM,Wind,1
+470,CAISO||helm kerman 70 kv line,CAISO||230/138/69 kv south bay (650 mw cc),2008Q4,1,1,CAISO,Gas,1
+471,CAISO||midway wheeler ridge #1 & #2 230 kv,CAISO||arco substation 69 kv bus,2012Q1,1,1,CAISO,Solar,1
+472,PJM||keystone 345 kv,PJM||aquasco 230 kv,2012Q1,1,1,PJM,Gas,1
+473,PJM||kankakee 138 kv,PJM||mendota 345 kv,2010Q3,2,2,PJM,Wind,1
+474,PJM||clinton stuart 345 kv,PJM||belle haven tasley 69 kv,2020Q1,1,1,PJM,Solar,1
+475,CAISO||mendota dairyland 115 kv,CAISO||barrett cameron 69 kv line,2012Q3,1,1,CAISO,Solar,1
+476,PJM||crystal hill perth 115 kv,PJM||benner 12 kv,2021Q1,1,1,PJM,Solar,1
+477,PJM||morgan street cochranton 345 kv,PJM||benn's church smithfield 345 kv,2024Q4,1,1,PJM,Solar,1
+478,PJM||east lima south kenton 138 kv,PJM||powerton dresden 345 kv,2010Q3,2,2,PJM,Wind,1
+479,PJM||cordova 345 kv,PJM||crown new lebanon 69 kv,2024Q4,3,3,PJM,Solar,1
+480,CAISO||kramer substation 230 kv,CAISO||calcite substation 220 kv,2014Q1,1,1,CAISO,Solar+Battery,1
+481,PJM||sussex county 12 kv,PJM||bennett 12 kv,2013Q4,1,1,PJM,Solar,2
+482,CAISO||kelso 230 kv,CAISO||bear mountain 115 kv,2024Q2,1,1,CAISO,Battery,1
+483,PJM||brink 115 kv,PJM||belleville 1247 kv,2020Q1,1,1,PJM,Solar,1
+484,SOCO||sun hill wadley primary 230 kv line,SOCO||bartlett's ferry west point 115 kv line,2024Q2,1,1,SOCO,Solar,1
+485,SOCO||autaugaville substation 230 kv bus,SOCO||ellicott north brewton 230 kv line,2020Q1,1,1,SOCO,Gas,1
+486,SOCO||butler ds substation 230 kv bus,SOCO||blakely primary webb 115 kv line,2024Q2,1,1,SOCO,Solar,1
+487,PJM||white,PJM||bennett farmingdale 34 kv,2011Q4,1,1,PJM,Solar,1
+488,PJM||lincoln 132 kv,PJM||berlin 69 kv,2011Q1,1,1,PJM,Solar,1
+489,PJM||sorenson desoto 345 kv,PJM||jeffersonville south charleston 69 kv,2021Q1,3,3,PJM,Solar+Battery,1
+490,PJM||loretto wilton center,PJM||williams 138 kv,2019Q2,2,2,PJM,Wind,1
+491,CAISO||laguna bell substation 230 kv,CAISO||pittsburg 230 kv,2022Q4,3,3,CAISO,Battery,1
+492,CAISO||arco substation 70 kv bus,CAISO||gates coalinga #1 70 kv,2011Q1,4,4,CAISO,Solar,1
+493,PJM||clubhouse sapony 230 kv,PJM||carbondale 138 kv,2024Q2,2,2,PJM,Solar,1
+494,PJM||hopewell 345 kv,PJM||edwards kewanee east 138 kv,2024Q4,2,2,PJM,Battery,1
+495,CAISO||delaney colorado river 500 kv line,CAISO||calcite substation 220 kv bus,2021Q1,2,1,CAISO,Solar+Battery,1
+496,CAISO||crescent switching station 70 kv,CAISO||blackwell substation 70 kv,2017Q2,1,1,CAISO,Solar,1
+497,CAISO||windhub substation 220 kv bus,CAISO||east county (eco) substation 230 kv,2010Q4,2,2,CAISO,Wind,1
+498,PJM||cromby 230 kv,PJM||burlington,2002Q2,1,1,PJM,Gas,1
+499,PJM||west manchester 69 kv,PJM||bentley farms 69 kv,2024Q3,1,1,PJM,Solar,1
+500,PJM||deans 500 kv,PJM||cardiff 230 kv ii,2024Q4,1,1,PJM,Offshore Wind,1
+501,PSCo||ault substation,PSCo||calumet substation,2010Q4,3,2,PSCo,Wind,1
+502,SOCO||greenville pintlala 115 kv line,SOCO||belleville lowman 230 kv line,2021Q4,2,2,SOCO,Solar+Battery,1
+503,SOCO||gadsden weiss dam 115 kv line,SOCO||dothan pinckard 115 kv line,2022Q3,1,1,SOCO,Solar+Battery,1
+504,PJM||new road 230 kv,PJM||four rivers hanover 230 kv,2020Q2,2,2,PJM,Battery,1
+505,"ISO-NE||eversource (cl&p) 345 kv montville, alternatively eversource (cl&p) 345 kv millstone",ISO-NE||115 kv barnstable substation,2020Q1,1,1,ISO-NE,Offshore Wind,1
+506,PJM||briery clover 230 kv,PJM||cedar creek 138 kv ii,2018Q4,2,2,PJM,Solar,1
+507,CAISO||birds landing substation 230 kv,CAISO||birds landing switching station 230 kv,2012Q1,1,1,CAISO,Wind,1
+508,PJM||marysville 345 kv,PJM||halifax person 230 kv,2019Q1,3,3,PJM,Solar,1
+509,PJM||blue mound latham,PJM||chestertown millington 69 kv,2016Q1,1,1,PJM,Wind,1
+510,PJM||sewaren,PJM||camden richmond 230 kv,2002Q2,1,1,PJM,Gas,1
+511,ERCOT||tap 138 kv 8125 lolita 8172 victoria,ERCOT||11189 quarry field switching 1074 wink 138 kv,2022Q1,1,1,ERCOT,Battery,1
+512,ERCOT||3413 knob creek 345 kv,ERCOT||13430 sandow switch 138 kv,2024Q1,1,1,ERCOT,Gas,1
+513,SOCO||sinai cemetery farley 230 kv line,SOCO||calvert substation west mcintosh 230 kv line,2016Q3,1,1,SOCO,Solar,1
+514,PJM||hatfield 500 kv,PJM||burches hill brandywine 230 kv,2016Q4,3,3,PJM,Gas,1
+515,CAISO||boulevard substation 138 kv bus,CAISO||antelope cal cement 66 kv,2010Q4,1,1,CAISO,Solar,1
+516,PJM||carson rawlings 500 kv,PJM||bear peak east providence ii,2022Q2,1,1,PJM,Solar,1
+517,SOCO||danway goat rock (gpco) 230 kv line,SOCO||burkville substation 115 kv bus,2024Q4,1,1,SOCO,Solar,1
+518,PSCo||comanche 230 kv line,PSCo||comanche substation 115 kv,2020Q1,1,1,PSCo,Solar,1
+519,PJM||brunner west hempfield 230 kv,PJM||camden,2000Q4,1,1,PJM,Gas,1
+520,PJM||dequine 345 kv,PJM||ashtabula 138 kv,2013Q1,1,1,PJM,Wind,2
+521,PJM||sedgehill person 230 kv,PJM||oak green 115 kv,2024Q4,2,2,PJM,Solar+Battery,1
+522,PJM||twin branch meridian 345 kv,PJM||birchwood fines corner 230 kv,2024Q4,1,1,PJM,Battery,1
+523,ERCOT||76005 schneeman draw 345 kv,ERCOT||345 kv aspire station (68011),2020Q1,2,2,ERCOT,Wind,1
+524,PSCo||midway comanche 230 kv line,PSCo||parachute substation 249 kv bus,2020Q2,1,1,PSCo,Solar,1
+525,CAISO||la cienega substation 230 kv,CAISO||chowchilla 115 kv,2023Q1,1,1,CAISO,Battery,1
+526,PJM||jubal early pipers gap 138 kv,PJM||beaver valley crescent 138 kv,2024Q4,1,1,PJM,Solar+Battery,1
+527,CAISO||gates substation 230 kv bus,CAISO||arco gen #1 & #2 230 kv lines,2011Q2,1,1,CAISO,Gas,1
+528,PJM||richmond,PJM||burlington 230 kv,2001Q4,1,1,PJM,Gas,1
+529,PJM||allen junction 345 kv,PJM||bixby 345 kv,2024Q2,1,1,PJM,Battery,1
+530,PSCo||rmec green valley 230 kv line,PSCo||1 mile south of ault,2005Q3,1,1,PSCo,Wind,1
+531,PJM||derry tap derry bus 69 kv iii,PJM||bethelboro connellsville 25 kv,2024Q4,1,1,PJM,Solar,1
+532,CAISO||tranquility 230 kv,CAISO||gates 230 kv,2019Q2,5,5,CAISO,Solar+Battery,1
+533,CAISO||helm substation 70 kv bus,CAISO||border 69 kv substation,2013Q3,1,1,CAISO,Solar,1
+534,PJM||red house dp 115 kv,PJM||bethelboro 25 kv 1,2024Q2,1,1,PJM,Solar,1
+535,PJM||dumont 345 kv,PJM||bennett farmingdale 2 345 kv,2021Q1,1,1,PJM,Solar,1
+536,ERCOT||59904 cottonwood 345 kv,ERCOT||7077 amos cr 345 kv,2018Q3,2,2,ERCOT,Solar,2
+537,ISO-NE||nstar brighton substation,ISO-NE||cl&p windsor locks substation,2013Q1,2,2,ISO-NE,Gas+Oil,1
+538,ERCOT||tap 345 kv 8689 tango 8606 goddard,ERCOT||138 kv ash creek switch (#3473),2023Q2,2,2,ERCOT,Solar,1
+539,PJM||frenchtown rosemont 345 kv,PJM||broadway stewartsville #3 345 kv,2015Q2,1,1,PJM,Solar,1
+540,PJM||timber switch 138 kv,PJM||branchville sussex #2 345 kv,2020Q3,1,1,PJM,Battery,1
+541,PJM||grit dp perth 115 kv,PJM||bethelboro 25 kv 2,2024Q2,1,1,PJM,Solar,2
+542,SOCO||thomasville west valdosta 230 kv line,SOCO||branch warrenton primary 230 kv line,2018Q2,1,1,SOCO,Solar,1
+543,PJM||nevada 345 kv,PJM||bear peak east st clair 23 kv,2022Q3,1,1,PJM,Solar,1
+544,CAISO||panoche oro loma 115 kv tap,CAISO||brighton davis 115 kv,2012Q2,1,1,CAISO,Solar,1
+545,CAISO||mohave substation 500 kv,CAISO||trout canyon substation 230 kv,2020Q1,3,3,CAISO,Solar+Battery,1
+546,PJM||everetts 345 kv,PJM||boykins 115 kv,2015Q4,1,1,PJM,Solar,1
+547,PJM||orchard 230 kv,PJM||bayonne 13 kv,2010Q2,1,1,PJM,Solar,1
+548,CAISO||eldorado substation 230 kv,CAISO||los esteros 115 kv,2010Q4,1,1,CAISO,Battery,1
+549,PJM||nittany zion 46 kv,PJM||beth 33 lilly 46 kv,2020Q4,1,1,PJM,Solar,1
+550,PJM||central chase city 115 kv,PJM||bear peak rostraver 1247 kv,2023Q2,1,1,PJM,Solar,1
+551,ISO-NE||ngrid 115 kv s171 line,ISO-NE||clp fry brook substation,2011Q4,1,1,ISO-NE,Other,1
+552,PJM||byron wayne 345 kv,PJM||garner dp lancaster 115 kv,2024Q2,7,7,PJM,Solar,1
+553,ERCOT||6216 bluff creek 138 kv,ERCOT||345 kv rapido substation (new ett substation) tapping the existing 345 kv line from cenizo7c (#80225) to delsol7c (#80307),2024Q4,2,2,ERCOT,Wind,1
+554,SOCO||west montgomery lowndesboro ds 46 kv line,SOCO||belleville (powersouth) greenville 230 kv line,2017Q2,1,1,SOCO,Solar,1
+555,PJM||twombly road 138 kv,PJM||baldy wesnberg 69 kv,2019Q3,1,1,PJM,Solar,1
+556,PJM||olive university park 345 kv,PJM||nelson dixon 138 kv,2022Q1,3,3,PJM,Battery,1
+557,PJM||reynolds meadow lake #1 345 kv,PJM||blaine roanoke 138 kv,2023Q3,1,1,PJM,Battery,1
+558,ISO-NE||j162 115 kv line between tewksbury and perry street,ISO-NE||bhe powersville substation,2009Q2,1,1,ISO-NE,Gas,1
+559,PJM||doubs 230 kv,PJM||bremo powhatan 230 kv,2017Q4,1,1,PJM,Solar,1
+560,"SOCO||claxton vidalia 115 kv line, ohoopee river tap",SOCO||callaway sinai 115 kv line,2018Q1,1,1,SOCO,Solar,1
+561,PJM||bedford north central city west 115 kv,PJM||bethelboro 25 kv 3,2024Q2,1,1,PJM,Solar,1
+562,PJM||brunot island 138 kv,PJM||elwood 345 kv,2020Q1,2,2,PJM,Gas,1
+563,PJM||lewis 138 kv,PJM||corson 138 kv,2008Q4,1,1,PJM,Offshore Wind,1
+564,SOCO||jackson shoals sylacauga 115 kv line,SOCO||collins newton 115 kv line,2024Q3,1,1,SOCO,Solar,1
+565,CAISO||suncrest substation 230 kv,CAISO||border border tap 69 kv,2022Q4,1,1,CAISO,Battery,1
+566,CAISO||otay substation 69 kv,CAISO||bellota tesla #2,2023Q2,2,2,CAISO,Battery,1
+567,PJM||stillman valley,PJM||branchville 12 kv,2013Q4,1,1,PJM,Solar,2
+568,PJM||wayne byron 345 kv,PJM||bethelboro 25 kv 4,2024Q2,1,1,PJM,Solar,1
+569,CAISO||dumbarton newark 115 kv line,CAISO||center s substation 230 kv,2022Q4,1,1,CAISO,Battery,1
+570,PJM||cardiff 230 kv,PJM||bethany 138th street 138 kv,2019Q4,1,1,PJM,Offshore Wind,1
+571,SOCO||beulah (gulf) silverhill 230 kv line,SOCO||greene county moundville ts 230 kv line,2024Q4,2,2,SOCO,Solar+Battery,3
+572,CAISO||sce owned eldorado bus 230 kv,CAISO||corcoran olive 115 kv line,2017Q2,1,1,CAISO,Battery,1
+573,PJM||essex 230 kv,PJM||elizabeth river 230 kv,2007Q4,3,3,PJM,Gas,1
+574,PJM||colora 230 kv,PJM||blue jacket kirby 138 kv vi,2023Q3,1,1,PJM,Battery,1
+575,PJM||peckville jackson 69 kv,PJM||dans mountain,2015Q1,1,1,PJM,Wind,2
+576,PJM||bl england 138 kv,PJM||four rivers 230 kv,2016Q1,2,2,PJM,Gas,1
+577,CAISO||borrego substation 69 kv,CAISO||devers substation,2008Q4,2,2,CAISO,Solar,2
+578,PJM||tansboro 12 kv,PJM||berwick 1247 kv,2019Q3,1,1,PJM,Solar,1
+579,PJM||suffolk 115 kv,PJM||central hardin stephensburg 69 kv,2020Q1,2,2,PJM,Solar,1
+580,PJM||tanners creek hanna 345 kv,PJM||bethlehem lilly 46 kv,2024Q4,1,1,PJM,Solar,1
+581,PJM||cooper,PJM||branchville n newton #2 34 kv,2012Q1,1,1,PJM,Solar,1
+582,PJM||highland hanna 345 kv,PJM||branchburg alburtis 500 kv,2018Q3,1,1,PJM,Gas,1
+583,PJM||madera 345 kv,PJM||bethelboro connellsville #1 25 kv,2020Q1,1,1,PJM,Solar,1
+584,CAISO||cool water kramer #1 230 kv line,CAISO||monolith substation,2008Q3,2,2,CAISO,Wind,1
+585,ERCOT||141765 mariah 345 kv,ERCOT||11441 flat top 345 kv,2018Q3,1,1,ERCOT,Wind,1
+586,ISO-NE||bhe's line 5 46 kv,ISO-NE||doreen 115 kv substation or f132 115 kv line,2007Q4,2,2,ISO-NE,Other,1
+587,PJM||trenton 26 kv,PJM||frenchtown 345 kv,2012Q2,2,2,PJM,Solar,1
+588,PJM||schauff road,PJM||burnham 138 kv,2020Q1,1,1,PJM,Battery,1
+589,CAISO||tranquility switching station 230 kv,CAISO||bitterwater switching station 230 kv,2018Q2,1,1,CAISO,Solar+Battery,1
+590,PJM||atlanta 69 kv i,PJM||bethelboro 25 kv 5,2024Q1,1,1,PJM,Solar,1
+591,PJM||lexington park 69 kv,PJM||chinquapin everetts 230 kv,2020Q3,2,2,PJM,Solar,1
+592,PJM||jetersville ponton 115 kv,PJM||mississinewa gaston 138 kv,2023Q3,4,4,PJM,Solar,1
+593,PJM||rocktown 48 kv,PJM||buckeye ringoes 345 kv,2015Q4,1,1,PJM,Solar,1
+594,CAISO||borden substation 70 kv,CAISO||el cajon substation 69 kv,2018Q1,1,1,CAISO,Battery,1
+595,CAISO||panoche substation 115 kv,CAISO||calcite 230 kv line,2019Q1,1,1,CAISO,Solar+Battery,1
+596,PJM||blue jacket kirby 138 kv,PJM||church wye mills 138 kv,2020Q3,2,2,PJM,Solar,1
+597,ISO-NE||cmp sturtevant substation 115 kv,ISO-NE||115 kv coolidge substation,2016Q3,1,1,ISO-NE,Solar,1
+598,PJM||newburgh 12 kv,PJM||blairstown kittatinny 345 kv,2010Q4,1,1,PJM,Solar,1
+599,SOCO||hattiesburg southwest adams creek 230 kv line,SOCO||jasper east substation substation 230 kv bus,2024Q1,4,3,SOCO,Solar,1
+600,ERCOT||60090 wkn breaker 69 kv,ERCOT||# 7044 marion 345 kv,2024Q2,1,1,ERCOT,Battery,1
+601,CAISO||mira loma substation 230 kv,CAISO||los banos 230 kv,2021Q2,5,4,CAISO,Battery,1
+602,PJM||lynnville south hamburg 69 kv,PJM||bishopville worcester 138 kv,2024Q4,1,1,PJM,Solar,1
+603,PJM||lawrence 26 kv,PJM||branchville newton 345 kv,2012Q1,1,1,PJM,Solar,1
+604,PJM||bear creek 69 kv,PJM||camp grove,2004Q1,1,1,PJM,Wind,1
+605,SOCO||autaugaville substation 500 kv bus,SOCO||wansley 500 kv substation,2004Q2,1,1,SOCO,Gas,1
+606,PJM||pontiac midpoint dresden,PJM||dixon 12 kv,2022Q1,1,1,PJM,Other,1
+607,PJM||printz,PJM||bay shore 138 kv,2013Q3,1,1,PJM,Gas,1
+608,SOCO||thurlow dam union springs 115 kv line,SOCO||coosa pines logan martin dam no 2 115 kv line,2021Q2,1,1,SOCO,Solar,1
+609,PJM||somerset allegheny 115 kv,PJM||beryl 138 kv,2005Q2,1,1,PJM,Wind,2
+610,PJM||hanna tanners creek 345 kv,PJM||chase city lunenburg 115 kv,2024Q4,2,2,PJM,Solar,1
+611,SOCO||sinai west grand ridge 115 kv line,SOCO||burkville hunter station 115 kv line,2018Q3,1,1,SOCO,Solar,1
+612,CAISO||devers palo verde 500 kv line,CAISO||lugo mojave 500 kv line,2008Q4,2,2,CAISO,Solar,1
+613,PSCo||pawnee substation 345 kv,PSCo||jackson fuller substation,2022Q3,2,1,PSCo,Wind,3
+614,CAISO||victor substation 230 kv,CAISO||bair substation 60 kv bus,2018Q3,1,1,CAISO,Battery,1
+615,PJM||rockwood 23 kv,PJM||big sandy inez 138 kv,2023Q3,1,1,PJM,Solar,2
+616,CAISO||woodland davis 115 kv line,CAISO||gates gregg 230 kv and gates mccall 230 kv,2012Q3,1,1,CAISO,Solar+Battery,1
+617,CAISO||borden substation 230 kv bus,CAISO||eastshore substation 230 kv,2011Q1,3,2,CAISO,Gas,1
+618,PJM||gretna dp 69 kv,PJM||bionol madera 115 kv,2019Q3,1,1,PJM,Solar,1
+619,CAISO||diablo canyon 500 kv,CAISO||humboldt substation 115 kv,2024Q2,2,2,CAISO,Offshore Wind,1
+620,SOCO||mitchell moultrie 115 kv line,SOCO||mitchell raccoon creek 230 kv line,2022Q1,2,2,SOCO,Solar,1
+621,PJM||valley 230 kv,PJM||boydton dp 115 kv,2024Q2,1,1,PJM,Battery,1
+622,PJM||hamlin 12 kv,PJM||bixby biers run 345 kv,2024Q1,1,1,PJM,Solar,1
+623,PSCo||fort st vrain substation,PSCo||fort st vrain ‚äìniwot 230 kv line,2010Q4,1,1,PSCo,Gas,1
+624,PJM||flemingsburg spurlock 138 kv,PJM||deepwater upper pittsgrove 138 kv,2024Q3,3,3,PJM,Solar,1
+625,PJM||allen 132 kv,PJM||chatfield howard 138 kv,2023Q2,2,2,PJM,Solar,1
+626,PJM||potter gold 115 kv,PJM||avery greenfield 138 kv,2013Q2,1,1,PJM,Wind,1
+627,PJM||morgantown,PJM||altavista 115 kv,2011Q2,1,1,PJM,Other,1
+628,ERCOT||tap 345 kv 11028 odessa 76000 n mccamey,ERCOT||68051 reata 345 kv,2019Q2,2,2,ERCOT,Solar,1
+629,CAISO||carrizo gorge switchyard 138 kv,CAISO||bellota 230 kv,2024Q3,1,1,CAISO,Battery,1
+630,PJM||st barnabas 13 kv,PJM||blain 115 kv,2019Q3,1,1,PJM,Solar,2
+631,PJM||desoto tanners creek 345 kv,PJM||davis besse beaver 345 kv,2016Q3,1,1,PJM,Wind,1
+632,SOCO||eastman primary hatch 230 kv line,SOCO||champion flomaton 115 kv line,2017Q2,1,1,SOCO,Solar,1
+633,PJM||cedar 230 kv,PJM||bayview 25 kv,2012Q1,1,1,PJM,Offshore Wind,1
+634,ERCOT||tap 345 kv 6101 riley 1730 w krum,ERCOT||1301 willow valley 138 kv,2019Q1,1,1,ERCOT,Wind,1
+635,SOCO||holmes creek pinckard 230 kv line,SOCO||calvert substation substation 230 kv bus,2023Q3,1,1,SOCO,Solar,1
+636,PJM||chase city drakes branch 115 kv,PJM||bremo 115 kv,2024Q4,1,1,PJM,Battery,1
+637,PJM||erie east 230 kv,PJM||wempletown belvidere 138 kv,2012Q2,2,2,PJM,Wind,1
+638,SOCO||kathleen pitts 230 kv line,SOCO||thalmann ts 230 kv bus,2024Q2,3,3,SOCO,Solar,2
+639,PJM||watson 1247 kv,PJM||guilford 1247 kv,2020Q1,3,2,PJM,Solar+Battery,1
+640,PSCo||comanche daniels park 345 kv,PSCo||midway 115 kv substation,2020Q1,1,1,PSCo,Battery,1
+641,PJM||quinton 69 kv,PJM||brick,2011Q2,1,1,PJM,Solar,1
+642,ERCOT||60722 coulomb 345 kv,ERCOT||138 kv 60728 palouse,2019Q4,1,1,ERCOT,Wind,1
+643,SOCO||americus dawson primary 115 kv line,SOCO||caverns substation 115 kv bus,2018Q3,1,1,SOCO,Solar,1
+644,PJM||westmoreland oak grove 230 kv,PJM||church oil city 138 kv,2024Q2,2,2,PJM,Solar,1
+645,PJM||graceton 230 kv,PJM||dolfield,2003Q4,1,1,PJM,Gas,1
+646,SOCO||marianna bay county 115 kv line,SOCO||comer primary broad river stone 46 kv line,2018Q4,1,1,SOCO,Solar,1
+647,PJM||trowbridge 230 kv,PJM||northern neck 345 kv,2020Q1,3,3,PJM,Solar,1
+648,PJM||kensington 138 kv,PJM||fall creek 345 kv,2024Q2,2,2,PJM,Battery,1
+649,SOCO||madison park thurlow dam 115 kv line,SOCO||corn crib thomaston 115 kv line,2018Q2,1,1,SOCO,Solar,1
+650,CAISO||whirlwind 230 kv substation,CAISO||arco tulare lake line,2017Q1,1,1,CAISO,Solar,1
+651,PJM||pedricktown 12 kv,PJM||broadway 12 kv,2010Q4,1,1,PJM,Solar,1
+652,CAISO||tesla substation 230 kv,CAISO||birds landing switchyard 230 kv,2018Q2,1,1,CAISO,Battery,1
+653,PJM||nottingham 138 kv,PJM||columbia geisinger tap #1 69 kv,2022Q3,2,2,PJM,Solar,2
+654,PJM||peach bottom 500 kv,PJM||horse shoe run 69 kv,2007Q4,2,2,PJM,Gas,1
+655,PSCo||san luis poncha 230 kv line,PSCo||mosca substation,2010Q3,2,2,PSCo,Solar,1
+656,CAISO||midway substation 230 kv,CAISO||helm substation 230 kv,2021Q2,3,2,CAISO,Solar+Battery,1
+657,ERCOT||tap 345 kv 1907 venus 68090 sam switching,ERCOT||345 kv bell county east switch (bus# 3687) tnp one (bus# 39950) circuit 2,2023Q2,2,2,ERCOT,Solar,1
+658,PJM||olive reynolds #1 345 kv,PJM||continental 69 kv,2021Q2,2,2,PJM,Solar,1
+659,CAISO||mccall substation,CAISO||500 kv line to the new midpoint switching station,2009Q3,1,1,CAISO,Gas,1
+660,PJM||curdsville dp willis mount 115 kv,PJM||farmville moran dp 115 kv,2024Q2,2,2,PJM,Battery,1
+661,PJM||cumberland w shore #1 69 kv,PJM||broadway stewartsville#2 345 kv,2011Q4,1,1,PJM,Solar,1
+662,PJM||tunis 345 kv,PJM||blairsville east 23 kv,2020Q3,1,1,PJM,Solar,1
+663,PJM||kidds store fork union 115 kv ii,PJM||brunswick collector bus wake 500 kv,2024Q4,1,1,PJM,Battery,1
+664,PJM||sporn 138 kv,PJM||bear peak rostraver ii 1247 kv,2023Q1,1,1,PJM,Solar,1
+665,PJM||morgantown/oak grove 230 kv,PJM||doubs 500 kv or 230 kv,2002Q3,2,2,PJM,Gas,1
+666,CAISO||morro bay substation 230 kv,CAISO||diablo canyon switching station 500 kv,2019Q2,1,1,CAISO,Offshore Wind,1
+667,CAISO||east county substation 500 kv,CAISO||collector substation at geysers #17 fulton 230 kv line,2024Q2,1,1,CAISO,Wind,1
+668,CAISO||tesla substation 115 kv,CAISO||chino substation 220 kv,2019Q3,1,1,CAISO,Battery,1
+669,PJM||conneaut conneaut tap 69 kv,PJM||blacklick solar 12 kv,2021Q3,1,1,PJM,Solar,1
+670,SOCO||dothan pinckard #2 115 kv line,SOCO||cotton primary substation 230 kv bus,2021Q1,1,1,SOCO,Solar,2
+671,ERCOT||79502 windmill 345 kv,ERCOT||60500 edith clarke 345 kv,2018Q3,2,2,ERCOT,Wind,2
+672,PJM||millbrook park 138 kv,PJM||amos unit 3,2013Q3,1,1,PJM,Coal,1
+673,SOCO||waynesboro primary wilson 230 kv line,SOCO||blakely primary substation 46 kv bus,2014Q1,1,1,SOCO,Solar,1
+674,PJM||shingletown boalsburg 46 kv,PJM||bloomsburg columbia 69 kv,2020Q4,1,1,PJM,Solar,1
+675,CAISO||arco carneras 70 kv line,CAISO||cal cement rosamond 69 kv line,2012Q2,2,1,CAISO,Solar,1
+676,PJM||tallmansville 138 kv,PJM||chalk point,2003Q1,1,1,PJM,Gas,1
+677,CAISO||contra costa switchyard 230 kv,CAISO||fulton 230 kv,2018Q1,1,1,CAISO,Battery,1
+678,PJM||east danville roxborough 230 kv,PJM||chase city 345 kv,2018Q2,2,2,PJM,Solar,2
+679,PJM||mechanicsburg darby 138 kv,PJM||bloom 345 kv,2021Q1,1,1,PJM,Solar,1
+680,PJM||beaverbrook 13 kv,PJM||brunswick 26 kv,2017Q3,1,1,PJM,Solar,1
+681,PJM||rogers road carson 500 kv,PJM||fentress landstown 230 kv,2024Q4,2,2,PJM,Battery,1
+682,PJM||kanawha river 138 kv,PJM||roanoke vinton 12 kv (niagara hydro),2019Q4,1,1,PJM,Hydro,1
+683,PJM||van arsdell mercer industrial 69 kv,PJM||blue bell canton central 138 kv,2024Q4,1,1,PJM,Solar,1
+684,ISO-NE||irasburg st johnsbury 115 kv,ISO-NE||115 kv west rutland substation,2006Q3,1,1,ISO-NE,Wind,1
+685,PJM||lemoyne 345 kv,PJM||bowman 125 kv,2021Q4,1,1,PJM,Battery,1
+686,PJM||barren county summer shade 161 kv,PJM||black branch 345 kv,2020Q1,1,1,PJM,Solar,1
+687,PJM||crewe 125 kv,PJM||boalsburg centre hall 46 kv,2020Q3,1,1,PJM,Solar,1
+688,CAISO||tesla bellota 230 kv line,CAISO||contra costa (230 kv),2015Q3,1,1,CAISO,Gas,1
+689,PJM||venango 345 kv,PJM||bloomsburg columbia 69 kv ii,2024Q2,1,1,PJM,Solar,1
+690,PJM||mansfield s troy 115 kv,PJM||antioch,2009Q4,1,1,PJM,Wind,1
+691,PSCo||comanche 230 kv substation,PSCo||boone 230 kv substation,2019Q4,2,1,PSCo,Solar,1
+692,PJM||howell,PJM||buckskin 12 kv,2012Q1,1,1,PJM,Solar,1
+693,PJM||sullivan dequine 345 kv,PJM||east leipsic richland 138 kv,2023Q1,3,3,PJM,Solar,1
+694,PJM||frostburg 138 kv,PJM||brokaw lanesville 345 kv,2020Q4,2,2,PJM,Wind,1
+695,PJM||orrtanna 132 kv,PJM||blue jacket kirby 138 kv v,2024Q2,1,1,PJM,Solar,1
+696,CAISO||strout switching station 70 kv,CAISO||camden junction lemoore tap 70 kv,2013Q1,1,1,CAISO,Solar,1
+697,PJM||powerton goodings grove 345 kv,PJM||bayonne 26 kv,2011Q4,1,1,PJM,Wind,1
+698,SOCO||branch springhill church 230 kv line,SOCO||demopolis greensboro 115 kv line,2024Q2,1,1,SOCO,Solar,1
+699,PJM||rineyville 69 kv,PJM||blue mound i,2023Q3,1,1,PJM,Solar,1
+700,PJM||miller rec warrior ridge 46 kv,PJM||bluegrass parkway tap woodlawn 69 kv,2024Q4,1,1,PJM,Solar,1
+701,PJM||buxmont 69 kv,PJM||bremo cartersville 230 kv ii,2023Q1,1,1,PJM,Battery,1
+702,PJM||eldred frackville 230 kv,PJM||beaver davis besse 345 kv i,2017Q4,1,1,PJM,Wind,1
+703,PJM||bluff point 138 kv,PJM||baker hardy 138 kv,2012Q1,1,1,PJM,Wind,1
+704,ERCOT||59900 long draw 345 kv,ERCOT||1141 holt 138 kv,2019Q1,1,1,ERCOT,Solar,1
+705,PJM||weirwood eastville 69 kv,PJM||andersontown road #4,2014Q3,1,1,PJM,Solar,1
+706,PJM||layland 69 kv,PJM||bluebell sancap tap 69 kv,2024Q2,1,1,PJM,Solar,1
+707,SOCO||greene county north selma 230 kv line,SOCO||jasper (pef) west homerville 115 kv line,2016Q2,2,2,SOCO,Solar,1
+708,ERCOT||6673 musquiz 138 kv,ERCOT||6101 riley 345 kv,2022Q3,2,2,ERCOT,Solar,1
+709,PJM||lee county,PJM||berlin 23 kv,2010Q2,1,1,PJM,Wind,1
+710,"ISO-NE||y 25 north, 69 kv line between searsburg and benni",ISO-NE||ashburnham no 610 138 kv,2008Q3,1,1,ISO-NE,Wind,1
+711,PJM||baker 345 kv,PJM||churchtown 230 kv 1,2010Q4,1,1,PJM,Gas,1
+712,PJM||columbia 138 kv,PJM||allen junction 138 kv,2011Q1,1,1,PJM,Wind,1
+713,CAISO||ocean ranch substation 69 kv,CAISO||bellota riverbank,2024Q1,1,1,CAISO,Battery,1
+714,ERCOT||44645 singleton 345 kv,ERCOT||(#78575) lcra yorktown 138 kv,2023Q4,1,1,ERCOT,Battery,1
+715,ERCOT||76003 big hill 345 kv,ERCOT||138 kv (cehe substation) tap burke (42410) eagle nest (42430) ckt 02,2018Q3,1,1,ERCOT,Battery,1
+716,PJM||dickerson 230 kv,PJM||central city west 23 kv,2002Q2,1,1,PJM,Gas,1
+717,ISO-NE||bigelow substation,ISO-NE||bhe keene road 115 kv substation,2008Q3,1,1,ISO-NE,Wind,1
+718,PJM||crisfield 25 kv,PJM||bismark 500 kv,2014Q4,1,1,PJM,Battery,1
+719,PJM||southampton 13 kv,PJM||broadway 345 kv,2011Q1,1,1,PJM,Solar,1
+720,PJM||snake spring 115 kv,PJM||bolivar 345 kv,2023Q4,1,1,PJM,Solar,1
+721,PSCo||missile site substation 345 kv,PSCo||comanche switching station,2018Q3,7,8,PSCo,Wind,1
+722,PJM||somerset 115 kv,PJM||dixon mendota 34 kv,2005Q2,1,1,PJM,Wind,2
+723,PSCo||comanche 230 kv,PSCo||boone midway 230 kv line,2023Q2,1,1,PSCo,Solar+Battery,2
+724,CAISO||pastoria substation 230 kv,CAISO||california flats switching station 230 kv,2022Q4,1,1,CAISO,Solar+Battery,1
+725,PJM||madisonburg junction millheim 46 kv,PJM||bolton bennsville 69 kv,2021Q1,1,1,PJM,Solar,1
+726,PJM||conesville 138 kv,PJM||bonney forge 23 kv,2021Q1,1,1,PJM,Solar,1
+727,PJM||steel city,PJM||bridgewater middlesex 230 kv,2008Q3,1,1,PJM,Gas,1
+728,PJM||somerset 345 kv,PJM||freemansburg #1 12 kv,2023Q3,1,1,PJM,Other,1
+729,PJM||potter harlan 69 kv,PJM||columbia west bloomsburg 69 kv ii,2022Q1,2,2,PJM,Solar,1
+730,PSCo||san luis valley substation,PSCo||brick center 230 kv,2018Q4,2,1,PSCo,Solar,1
+731,ERCOT||tap 138 kv 32 robertson 64 milano,ERCOT||(bus# 6951) eustace southeast 138 kv substation (owned by rayburn electric cooperative),2023Q4,1,1,ERCOT,Battery,1
+732,PJM||marengo 34 kv,PJM||crystal hill halifax 115 kv,2018Q3,2,2,PJM,Solar,1
+733,PSCo||tundra switching station 345 kv,PSCo||plainview substation,2022Q3,2,1,PSCo,Wind,1
+734,PJM||tyler 345 kv,PJM||bear peak west providence llc,2022Q2,1,1,PJM,Solar,2
+735,PJM||talbert 230 kv,PJM||churchtown cumberland 230 kv,2008Q1,1,1,PJM,Gas,1
+736,SOCO||athena union point primary 115 kv line,SOCO||montgomery substation snowdoun 230 kv line,2024Q1,2,2,SOCO,Solar,1
+737,PJM||locust grove paytes 115 kv,PJM||carson septa 500 kv,2019Q1,2,2,PJM,Solar,1
+738,PJM||us silica unimin 69 kv,PJM||bonnyman 69 kv,2021Q4,1,1,PJM,Solar,1
+739,SOCO||bucks substation north brewton 230 kv line,SOCO||patsiliga creek substation 230 kv bus,2023Q2,2,2,SOCO,Solar,1
+740,PJM||city of columbus,PJM||pine grove 69 kv,2006Q3,1,1,PJM,Diesel,1
+741,SOCO||north americus north tifton 115 kv line,SOCO||crist south crestview #1 115 kv line,2018Q3,1,1,SOCO,Solar,1
+742,PJM||greentown hummel creek 138 kv,PJM||bakers pond dp 115 kv,2022Q3,1,1,PJM,Solar+Battery,1
+743,"ISO-NE||nep transmission line: 345 kv line 359, approximately 1055 miles from west farnum and 1081 miles from kent county substations","ISO-NE||115 kv line #1640 between devon 2 & wallingford substations, approximately 215 circuit miles from wallingford substation",2024Q2,1,1,ISO-NE,Battery,1
+744,PJM||timblin 345 kv,PJM||belmont flint run 500 kv,2021Q1,1,1,PJM,Gas,1
+745,PJM||dixon mcgirr,PJM||cambria nug 115 kv,2020Q1,1,1,PJM,Battery,1
+746,PJM||germantown 132 kv,PJM||booth 1247,2023Q3,1,1,PJM,Solar,1
+747,CAISO||midway tupman rio bravo renfro 115 kv,CAISO||cayetano 230 kv,2022Q4,1,1,CAISO,Solar+Battery,1
+748,PJM||normandy 138 kv,PJM||belleville/new holland logan 46 kv,2013Q3,1,1,PJM,Wind,1
+749,"ERCOT||tap 345 kv 76002 bakersfield 76005 schneemandr, ~ 11 mi e of bakersfield",ERCOT||76009 twin buttes 345 kv,2019Q1,2,2,ERCOT,Solar,1
+750,PJM||wilcox paper city 46 kv,PJM||bowmans mill scott 69 kv,2020Q1,1,1,PJM,Solar,1
+751,PJM||lawrenceville 345 kv,PJM||blackhawk,2007Q1,1,1,PJM,Other,1
+752,PJM||morgantown 69 kv,PJM||bloom 138 kv,2010Q3,1,1,PJM,Battery,1
+753,PJM||chase city 115 kv,PJM||brunswick wake 500 kv,2017Q2,1,1,PJM,Solar,1
+754,SOCO||scooter substation 230 kv bus,SOCO||cuthbert primary dawson primary 115 kv line,2024Q3,1,1,SOCO,Solar+Battery,1
+755,PJM||van buren delaware 138 kv,PJM||benton scott 69 kv ii,2024Q4,1,1,PJM,Solar+Battery,1
+756,ERCOT||tap 345 kv 79501 ogallala 79502 windmill,ERCOT||61001 jim treece 345 kv,2018Q3,2,2,ERCOT,Wind,1
+757,PJM||stewartsville captive plastics 345 kv,PJM||brookside cloverdale 138 kv,2011Q3,1,1,PJM,Solar,1
+758,PJM||mottville 138 kv,PJM||boykins murphy 115 kv,2024Q4,1,1,PJM,Solar,1
+759,PJM||birdsboro 132 kv,PJM||cardiff,2004Q3,1,1,PJM,Gas,1
+760,PJM||massey 25 kv,PJM||aydlett 345 kv,2016Q2,1,1,PJM,Solar,1
+761,PJM||corwin elk 138 kv,PJM||salem woodstown 69 kv,2021Q1,2,2,PJM,Solar+Battery,1
+762,PJM||orrtanna 115 kv,PJM||bristers 230 kv,2022Q1,1,1,PJM,Battery,1
+763,PJM||carson suffolk 500 kv,PJM||poland road runway dp 230 kv,2021Q4,3,3,PJM,Battery,1
+764,"ISO-NE||eversource 345 kv line 3361, approximately 32 miles from sherman road and 76 miles from blackstone","ISO-NE||115 kv line 1070 between ft hill farms and stockhouse substations, interconnected by a new three breaker ring bus approximately 25 miles from ft hill farms substation",2024Q2,1,1,ISO-NE,Battery,1
+765,PJM||rawlings clover 500 kv,PJM||mclean 345 kv,2024Q2,5,5,PJM,Solar,2
+766,PJM||louisa south anna 230 kv,PJM||losantville 345 kv,2018Q4,3,3,PJM,Solar,1
+767,PJM||mackeys 230 kv,PJM||clubhouse freeman 115 kv,2016Q2,2,2,PJM,Solar,1
+768,PJM||ahoskie 345 kv,PJM||banister 345 kv,2018Q2,1,1,PJM,Solar,1
+769,PJM||chesapeake 230 kv,PJM||byron wayne 345 kv #1,2018Q4,1,1,PJM,Gas,2
+770,PJM||circleville 138 kv,PJM||eldean 138 kv,2024Q3,3,3,PJM,Solar,1
+771,ERCOT||tap 138 kv 8906 north alamo 8354 weslaco switching station,ERCOT||(bus: 39015) north alvin tnmp 138 kv,2023Q3,1,1,ERCOT,Battery,1
+772,SOCO||eufaula fort mitchell 115 kv line,SOCO||crist south crestview #2 115 kv line,2018Q3,1,1,SOCO,Solar,1
+773,SOCO||douglas kettle creek primary 230 kv line,SOCO||ala river news print lowman (powersouth) 230 kv line,2022Q2,1,1,SOCO,Solar,2
+774,PJM||eugene 345 kv,PJM||dumont greentown 765 kv,2024Q4,4,4,PJM,Solar+Battery,2
+775,PJM||great adventure 345 kv,PJM||bengies 240v,2018Q1,1,1,PJM,Battery,1
+776,PJM||makahoy 138 kv,PJM||bonney forge 23 kv ii,2021Q1,1,1,PJM,Solar,1
+777,SOCO||statesboro primary vidalia 230 kv line,SOCO||bynum jackson shoals 46 kv line,2017Q1,1,1,SOCO,Solar,1
+778,PJM||spotsylvania 500 kv,PJM||bernville 69 kv,2018Q2,1,1,PJM,Solar,1
+779,SOCO||blakely primary george dam 115 kv line,SOCO||dawson primary south columbus 115 kv line,2016Q3,1,1,SOCO,Solar,1
+780,PJM||light foot 345 kv,PJM||carll's corner 69 kv,2020Q2,1,1,PJM,Battery,1
+781,PJM||wempletown 345 kv,PJM||bowman's mill 69 kv,2023Q2,1,1,PJM,Solar,1
+782,PJM||sutton dam,PJM||belknap 25 kv,2011Q2,1,1,PJM,Hydro,1
+783,PJM||marysville flatlick 765 kv,PJM||buckingham 345 kv,2016Q4,1,1,PJM,Solar,1
+784,PJM||wagner 115 kv,PJM||bristers 115 kv,2023Q3,1,1,PJM,Battery,1
+785,PJM||hurley 69 kv,PJM||elk 138 kv,2024Q4,3,3,PJM,Solar,1
+786,SOCO||gordon milledgeville (white) 115 kv line,SOCO||branch eatonton primary #2 230 kv line,2024Q1,1,1,SOCO,Solar,1
+787,PJM||kendall,PJM||bay shore fostoria central 345 kv & bayshore monroe 345 kv,2015Q2,1,1,PJM,Gas,1
+788,PJM||sowers 138 kv,PJM||bowman's mill scott 69 kv ii,2021Q3,1,1,PJM,Solar,1
+789,ISO-NE||345 kv nea bellingham substation,ISO-NE||cl&p 23 kv feeders from tunnel and mystic substati,2008Q3,1,1,ISO-NE,Gas,1
+790,PJM||hay road 230 kv,PJM||bear garden 230 kv,2015Q4,1,1,PJM,Gas,1
+791,CAISO||contra costa substation 230 kv switchyard,CAISO||contra costa power plant 230 kv substation,2010Q4,1,1,CAISO,Gas,1
+792,PJM||hillsboro millbrook 138 kv,PJM||buckingham 35 kv,2017Q4,1,1,PJM,Solar,1
+793,CAISO||windhub substation 500 kv,CAISO||brighton bellota 230 kv,2020Q1,1,1,CAISO,Solar+Battery,1
+794,PJM||metropolitan court 345 kv,PJM||blue ridge landfill,2010Q3,1,1,PJM,Other,1
+795,PSCo||comanche 345 kv substation,PSCo||grand junction montrose 345 kv line,2020Q1,1,1,PSCo,Solar,4
+796,PJM||west boyertown 132 kv,PJM||bowman's mill tap scott 69 kv iii,2023Q4,1,1,PJM,Solar,1
+797,PJM||warren 345 kv,PJM||bakers pond 115 kv,2021Q4,1,1,PJM,Solar+Battery,1
+798,PJM||potter 46 kv,PJM||calumet 138 kv,2020Q3,1,1,PJM,Gas,1
+799,CAISO||lamont substation 115 kv,CAISO||borden 230 kv,2022Q4,2,2,CAISO,Battery,1
+800,PJM||ivor oak ridge 115 kv,PJM||boydton dp kerr dam 115 kv,2020Q3,1,1,PJM,Solar,1
+801,ISO-NE||115 kv rise substation,ISO-NE||cl&p baldwin 115 kv substations,2010Q3,1,1,ISO-NE,Gas,1
+802,PJM||quinton township,PJM||crosswicks 13 kv,2010Q4,3,2,PJM,Solar,1
+803,PJM||kearny 138 kv,PJM||peach bottom,2011Q4,3,2,PJM,Gas,1
+804,PJM||normandy,PJM||avery 138 kv,2018Q1,1,1,PJM,Solar,1
+805,PJM||east towanda grover 230 kv,PJM||chalk point 230 kv,2021Q4,1,1,PJM,Gas,1
+806,PJM||hunlock creek,PJM||beverly 345 kv,2007Q4,1,1,PJM,Coal,1
+807,PJM||wurno claytor lake 138 kv,PJM||baker 138 kv ii,2023Q2,1,1,PJM,Wind,1
+808,ERCOT||79501 ogallala 345 kv,ERCOT||8574 pomelo 345 kv,2018Q3,3,2,ERCOT,Wind,3
+809,PJM||clover rawlings 500 kv,PJM||fostoria central 138 kv,2023Q3,3,3,PJM,Solar,1
+810,PJM||southwest lima 345 kv,PJM||broadwell solar,2016Q3,1,1,PJM,Solar,1
+811,PJM||cohansey road,PJM||burlington 13 kv,2011Q1,1,1,PJM,Solar,1
+812,PJM||sandwich plano 138 kv,PJM||northeast cp crane 115 kv,2024Q4,3,3,PJM,Battery,1
+813,PJM||waterman 34 kv,PJM||byllesby 69 kv,2018Q3,1,1,PJM,Battery,1
+814,ERCOT||navy kickapoo switch (navykss1_8 #1472),ERCOT||138 kv 8914 coffee port,2024Q1,1,1,ERCOT,Other,1
+815,CAISO||antelope substation 220 kv bus,CAISO||borrego substation 69 kv bus,2011Q1,2,2,CAISO,Solar,1
+816,PJM||sayreville 230 kv,PJM||dickerson,1999Q3,1,1,PJM,Gas,1
+817,PJM||mark center 69 kv,PJM||elderberry dumont 345 kv,2019Q2,3,2,PJM,Battery,1
+818,PJM||levittown 13 kv,PJM||camden 69 kv,2011Q1,1,1,PJM,Solar,2
+819,PJM||price 69 kv,PJM||crego road 138 kv,2021Q4,2,2,PJM,Solar,1
+820,PJM||piney timblin 115 kv,PJM||braidwood east frankfort 345 kv,2024Q4,1,1,PJM,Solar,1
+821,PJM||nelson lee county,PJM||buckhorn 138 kv,2024Q2,1,1,PJM,Battery,1
+822,CAISO||los esteros substation 115 kv,CAISO||border salt creek 69 kv line,2020Q2,1,1,CAISO,Battery,1
+823,PJM||stryker ridgeville 138 kv,PJM||boyers dp 25 kv,2021Q1,1,1,PJM,Solar,1
+824,PJM||pontiac midpoint 345 kv,PJM||branchron keisters 25 kv,2024Q4,1,1,PJM,Solar,1
+825,PJM||katydid road 345 kv,PJM||grassfield 345 kv,2020Q1,2,2,PJM,Battery,1
+826,PJM||cookstown fort dix 345 kv,PJM||carlisle pike 23 kv,2011Q2,1,1,PJM,Solar,1
+827,PJM||gosport 115 kv,PJM||bellefonte n proctorville 138 kv,2007Q2,2,2,PJM,Other,1
+828,CAISO||devers substation 230 kv,CAISO||chino substation 230 kv bus,2019Q1,1,1,CAISO,Battery,1
+829,CAISO||colorado river substation 500 kv,CAISO||colorado river delaney 500 kv,2020Q1,1,1,CAISO,Solar+Battery,1
+830,PJM||showalter 345 kv,PJM||baker pont ivor 115 kv,2018Q3,1,1,PJM,Solar,1
+831,PJM||tmi 500 kv,PJM||dickerson 120 mw,1999Q4,1,1,PJM,Gas,1
+832,ERCOT||6834 enloe switching 138 kv,ERCOT||1730 krum 345 kv,2020Q2,1,1,ERCOT,Other,1
+833,CAISO||rector substation 230 kv,CAISO||contra costa pp 230 kv,2022Q4,2,2,CAISO,Battery,1
+834,CAISO||chicarita substation 138 kv,CAISO||coburn basic energy 60 kv line,2023Q1,1,1,CAISO,Battery,1
+835,SOCO||blakely webb 115 kv line,SOCO||dirt road achord road 115 kv line,2017Q3,1,1,SOCO,Solar,1
+836,ERCOT||tap 345 kv 68090 sam switching 3405 tradinghouse,ERCOT||1281 amoco midland tap 69 kv,2019Q2,1,1,ERCOT,Solar,1
+837,PJM||ft martin kammer 500 kv,PJM||harrison 500 kv,2009Q2,1,1,PJM,Coal,1
+838,PJM||sedge hill person 230 kv,PJM||bradford north 345 kv,2024Q1,1,1,PJM,Solar,1
+839,PJM||chestnut 345 kv,PJM||branchton 1247 kv,2022Q1,1,1,PJM,Solar,1
+840,PJM||atlanta 69 kv ii,PJM||bremo bluff 345 kv,2024Q1,1,1,PJM,Solar,1
+841,PJM||cumberland 230 kv,PJM||bristers sowego 115 kv,2020Q1,1,1,PJM,Solar,2
+842,PJM||clover 230 kv,PJM||gavin #2 765 kv,2021Q1,1,1,PJM,Coal,1
+843,PJM||kings creek 69 kv,PJM||belmon 125 kv,2012Q3,1,1,PJM,Other,1
+844,PJM||gloucester 26 kv,PJM||buena 12 kv,2010Q2,1,1,PJM,Solar,1
+845,CAISO||rio dell substation 60 kv,CAISO||cascade cottonwood 115 kv,2011Q3,1,1,CAISO,Other,1
+846,CAISO||etiwanda 230 kv substation,CAISO||between cottonwood and vaca dixon,2010Q3,1,1,CAISO,Gas,1
+847,PJM||essex 264 kv,PJM||barberton star 138 kv,2011Q3,1,1,PJM,Gas,1
+848,PJM||marysville tangy 345 kv,PJM||buffalo 115 kv,2024Q4,1,1,PJM,Battery,1
+849,CAISO||pastoria substation,CAISO||500 kv line to midpoint switching station,2007Q1,1,1,CAISO,Gas,1
+850,SOCO||north tifton raccoon creek 500 kv line,SOCO||north dublin wadley primary 230 kv line,2024Q2,2,2,SOCO,Solar,2
+851,PJM||harrison township 12 kv,PJM||brick lanes mill 345 kv,2012Q2,1,1,PJM,Solar,1
+852,PJM||tmi 230 kv,PJM||limerick,2000Q4,1,1,PJM,Nuclear,1
+853,SOCO||gulfport landon wiggins ip 115 kv line,SOCO||daisy west valdosta 230 kv line,2022Q3,1,1,SOCO,Solar,1
+854,CAISO||fulton 115 kv,CAISO||bellota weber,2024Q2,1,1,CAISO,Battery,1
+855,PJM||susquehanna,PJM||clinch river 138 kv,2007Q3,2,2,PJM,Coal,2
+856,CAISO||birds landing 230 kv,CAISO||tesla 230 kv,2019Q1,3,3,CAISO,Battery,1
+857,CAISO||vestal substation 230 kv,CAISO||cortina 60 kv,2018Q2,1,1,CAISO,Solar+Battery,1
+858,CAISO||crazy eyes tap 230 kv,CAISO||coalinga #2 schindler 70 kv,2013Q2,1,1,CAISO,Solar,1
+859,PJM||garner northern neck 115 kv,PJM||derry tap derry bus 69 kv,2020Q1,2,2,PJM,Solar,1
+860,PJM||chicago heights 138 kv,PJM||fowler ridge 345 kv,2024Q3,2,2,PJM,Battery,1
+861,ERCOT||59903 bearkat 345 kv,ERCOT||140653 alibates 345 kv,2018Q3,1,1,ERCOT,Wind,1
+862,PJM||rohrsburg 12 kv,PJM||baldy 132 kv,2023Q4,1,1,PJM,Solar+Battery,1
+863,ERCOT||bus #6843 at rayburn barton chapel substation,ERCOT||#107 prairie hill 69 kv,2024Q2,1,1,ERCOT,Battery,1
+864,PJM||south river 230 kv,PJM||hunterstown conemaugh 500 kv,2019Q1,2,2,PJM,Gas,1
+865,CAISO||east county substation 230 kv,CAISO||diablo gates 500 kv,2024Q1,2,2,CAISO,Wind,1
+866,PJM||west millersport 138 kv,PJM||bremo buckingham 230 kv,2024Q4,1,1,PJM,Solar,2
+867,PJM||broadford 138 kv,PJM||calumet burnham 345 kv,2024Q4,1,1,PJM,Battery,1
+868,PJM||red lion 500 kv,PJM||lakewood 230 kv,2002Q1,2,2,PJM,Gas,1
+869,PJM||pennville 138 kv,PJM||cardington 138 kv ii,2024Q4,1,1,PJM,Battery,1
+870,PJM||pinewood st johns 115 kv,PJM||clementine clementine junction 25 kv,2024Q1,2,2,PJM,Solar,1
+871,PJM||baptistown frenchtown 345 kv,PJM||hornerstown windsor 34 kv,2011Q3,2,2,PJM,Solar,2
+872,PJM||oldmans township,PJM||cape may 12 kv,2010Q4,1,1,PJM,Solar,1
+873,ISO-NE||cmp larrabee road 345 kv,ISO-NE||345 kv bus at eversource nh beebe substation,2018Q2,2,2,ISO-NE,Solar,1
+874,PJM||point lookout 69 kv,PJM||bear rock 230 kv,2022Q1,1,1,PJM,Wind,1
+875,PJM||edgemoor,PJM||chapman moshannon 230 kv,2002Q3,1,1,PJM,Gas,1
+876,PJM||east lima fostoria central 345 kv,PJM||buckley road 138 kv,2011Q3,1,1,PJM,Wind,1
+877,SOCO||vienna primary substation 46 kv bus,SOCO||albany mitchell (black) 115 kv line,2015Q2,1,1,SOCO,Solar,1
+878,PJM||susquehanna lackawanna 500 kv,PJM||lackawanna 230 kv,2017Q2,3,3,PJM,Gas,1
+879,PJM||victoria dp martin dp 115 kv,PJM||bremo bluff buckingham 230 kv,2024Q2,1,1,PJM,Solar,1
+880,ISO-NE||norwalk 276 kv,ISO-NE||cl&p cedar heights substation,2008Q4,1,1,ISO-NE,Gas,1
+881,ERCOT||76002 bakersfield 345 kv,ERCOT||tap 345 kv 1692 paris 1695 monticello,2019Q1,3,3,ERCOT,Solar,2
+882,CAISO||whirlwind 230 kv bus,CAISO||230 kv bus at the kelso substation via the mariposa energy 230 kv tie line,2015Q2,1,1,CAISO,Battery,1
+883,PJM||hunterstown lincoln 115 kv,PJM||buckhorn lonesome pine 138 kv,2017Q2,1,1,PJM,Solar,1
+884,PJM||poolesville 345 kv,PJM||east fayette 138 kv,2020Q2,2,2,PJM,Solar,1
+885,PJM||columbia dp 115 kv,PJM||bremo cartersville 230 kv,2024Q4,1,1,PJM,Solar,1
+886,PJM||fayetteville 345 kv,PJM||east hazelton 1247 kv,2020Q1,2,2,PJM,Solar,1
+887,PJM||tabernacle 12 kv,PJM||cambridge west cambridge 69 kv,2017Q4,1,1,PJM,Solar,1
+888,PJM||scottsville bremo 138 kv,PJM||broadview tangy 138 kv,2023Q4,1,1,PJM,Solar,2
+889,CAISO||mendota san joaquin helm 70 kv,CAISO||lambie switching station 230 kv,2011Q3,3,3,CAISO,Solar,1
+890,PJM||jamestown hartstown 69 kv,PJM||briery dp clover 230 kv,2020Q3,1,1,PJM,Solar,1
+891,PJM||clearfield,PJM||blue mound ii,2009Q2,1,1,PJM,Wind,1
+892,CAISO||antelope,CAISO||artesian ranch substation 69 kv,2022Q3,1,1,CAISO,Battery,1
+893,SOCO||martin dam pear tree substation 115 kv line,SOCO||bynum jackson shoals 115 kv line,2023Q4,1,1,SOCO,Solar+Battery,1
+894,SOCO||shaddock creek vidalia 115 kv line,SOCO||denton still road south hazlehurst 230 kv line,2023Q2,1,1,SOCO,Solar,1
+895,PJM||indian river 230 kv ii,PJM||larrabee collector station 230 kv,2024Q2,2,2,PJM,Offshore Wind,1
+896,PSCo||spring canyon substation,PSCo||waterton midway 345 kv line,2020Q4,2,2,PSCo,Wind,2
+897,CAISO||hinson substation 220 kv,CAISO||contra costa delta 230 kv line,2022Q4,1,1,CAISO,Battery,1
+898,ERCOT||79005 railhead 345 kv,ERCOT||8640 kelvin 138 kv,2018Q3,2,2,ERCOT,Wind,2
+899,CAISO||contra costa substation 230 kv bus,CAISO||birds landing substation 230 kv bus,2009Q4,1,1,CAISO,Gas,1
+900,PJM||sewaren 230 kv,PJM||oak grove 138 kv,2012Q3,2,2,PJM,Gas,1
+901,PJM||greentown 138 kv,PJM||southwest lima west moulton 138 kv,2021Q3,4,4,PJM,Solar,1
+902,PJM||deep creek 115 kv,PJM||buttermilk 230 kv,2024Q2,1,1,PJM,Battery,1
+903,PJM||east leipsic 138 kv,PJM||brush junction millheim 46 kv,2013Q1,1,1,PJM,Wind,1
+904,PJM||cedar creek 138 kv,PJM||broadview tangy 138 kv iii,2024Q4,1,1,PJM,Solar,1
+905,CAISO||kramer substation,CAISO||devers palo verde line 500 kv line,2008Q4,2,1,CAISO,Solar,1
+906,PJM||brokaw pontiac midpoint,PJM||beaver davis besse 345 kv ii,2019Q2,1,1,PJM,Wind,3
+907,PJM||york 115 kv,PJM||collins,2009Q4,1,1,PJM,Gas,1
+908,PJM||jack frost lake harmony 69 kv,PJM||columbia sunbury 69 kv,2024Q4,2,2,PJM,Solar,1
+909,PJM||bullitt county 161 kv,PJM||carville 138 kv iv,2024Q4,1,1,PJM,Battery,1
+910,PJM||shelby 138 kv,PJM||broadway 1247 kv,2021Q2,1,1,PJM,Solar,1
+911,ISO-NE||345 kv line # 321,ISO-NE||cl&p 115 kv lines between baldwin junction and bea,2009Q1,2,2,ISO-NE,Gas+Oil,1
+912,CAISO||bellota 115 kv,CAISO||chino 230 kv,2024Q1,2,2,CAISO,Battery,2
+913,PJM||birdneck 345 kv,PJM||lake road 115 kv,2017Q4,1,1,PJM,Offshore Wind,1
+914,PJM||lanexa dunnsville 230 kv,PJM||galion south berwick 345 kv,2024Q1,3,3,PJM,Solar,1
+915,PJM||clark summit emlenton 345 kv,PJM||bremo fork union military academy 345 kv,2021Q4,1,1,PJM,Solar,1
+916,ISO-NE||nstar mystic substation,ISO-NE||115 kv line between buck pond and pochassic substation,2009Q2,1,1,ISO-NE,Gas+Oil,1
+917,CAISO||windhub substation,CAISO||midpoint substation 500 kv,2008Q3,4,4,CAISO,Solar,1
+918,PJM||tmi peach bottom 500 kv,PJM||south akron 230 kv,2002Q4,3,2,PJM,Gas,1
+919,SOCO||thomson primary 230 kv bus,SOCO||dothan pinckard no 2 115 kv line,2022Q4,1,1,SOCO,Solar,2
+920,PJM||sussex 34 kv,PJM||brick lane mill 345 kv,2013Q1,1,1,PJM,Solar,1
+921,PJM||franklin #2,PJM||bustleton 13 kv,2013Q3,1,1,PJM,Solar,1
+922,SOCO||rocky creek wadley primary 230 kv line,SOCO||demopolis naheola 115 kv line,2017Q1,1,1,SOCO,Solar,1
+923,PJM||graymont zion 46 kv,PJM||brunner island 138 kv,2020Q4,1,1,PJM,Solar,1
+924,PJM||tbd 132 kv,PJM||broadview tangy 138 kv iv,2024Q3,1,1,PJM,Solar,1
+925,ISO-NE||345 kv seabrook substation,ISO-NE||345 kv rise substation,2009Q2,2,2,ISO-NE,Gas,1
+926,PJM||jay 138 kv,PJM||scottsville colleen 138 kv,2020Q2,3,3,PJM,Solar,1
+927,PJM||west lima 138 kv,PJM||elwood dresden 345 kv,2006Q1,1,1,PJM,Coal,1
+928,PJM||ironwood 230 kv,PJM||churchtown 230 kv 2,2011Q2,1,1,PJM,Gas,1
+929,SOCO||elsanor mobile hwy (gulf) 230 kv line,SOCO||pike county ts substation 230 kv bus,2024Q4,2,2,SOCO,Solar+Battery,2
+930,PJM||neville 23 kv,PJM||river dock 23 kv,2024Q4,2,1,PJM,Hydro,1
+931,SOCO||claxton meldrim 115 kv line,SOCO||dorsett thomaston 230 kv line,2017Q2,1,1,SOCO,Solar,1
+932,ERCOT||59906 long draw 138 kv,ERCOT||138 kv fort bend switch (#44280),2023Q3,1,1,ERCOT,Other,1
+933,PJM||snake spring 115 kv ii,PJM||broadway richline hill solar 345 kv,2024Q3,1,1,PJM,Solar,1
+934,SOCO||farley south bainbridge 230 kv line,SOCO||east moultrie north tifton 230 kv line,2016Q3,1,1,SOCO,Solar,1
+935,PJM||old chapel millville 138 kv,PJM||cowansville junction long run tap 25 kv,2024Q4,2,2,PJM,Solar,2
+936,PJM||farmers valley ridgeway 115 kv,PJM||bryan 69 kv,2020Q3,1,1,PJM,Solar,1
+937,PJM||nelson 69 kv,PJM||carson 230 kv,2021Q4,1,1,PJM,Battery,1
+938,PJM||greenwood dp st johns dp 115 kv,PJM||brokaw 345 kv (cir increase),2024Q4,1,1,PJM,Solar,1
+939,CAISO||eldorado substation 500 kv,CAISO||coalinga#1 san miguel 70 kv,2019Q2,1,1,CAISO,Solar+Battery,1
+940,PJM||fairfield township 12 kv,PJM||carneys point 69 kv,2011Q1,1,1,PJM,Solar,1
+941,PJM||valley 138 kv,PJM||bluff point 69 kv,2017Q4,1,1,PJM,Battery,1
+942,PJM||red house dp sugar hill 115 kv,PJM||brookside cloverdale 138 kv ii,2024Q4,1,1,PJM,Solar,1
+943,ISO-NE||cmp larrabee road station 345 kv,ISO-NE||pittsfield 345 kv on line 3023,2018Q2,6,5,ISO-NE,Wind,3
+944,CAISO||boulevard east substation 69 kv,CAISO||copus old river 70 kv,2015Q1,1,1,CAISO,Solar,1
+945,PJM||birchwood 230 kv,PJM||catharpin 230 kv,2021Q4,1,1,PJM,Battery,1
+946,PJM||east sidney quincy 138 kv,PJM||philipsburg 115 kv,2024Q4,4,4,PJM,Solar,1
+947,CAISO||vista substation 138 kv,CAISO||230 kv tranquility switching station,2016Q2,1,1,CAISO,Solar,1
+948,ISO-NE||primary: orrington substations 345 kv with two alternatives: keene road substation 345 kv and the orrington albion road 345 kv line,ISO-NE||vec lowell 46 kv station,2018Q2,2,2,ISO-NE,Wind,2
+949,SOCO||cartersville pinson 230 kv line,SOCO||dyer road east roanoke 115 kv line,2024Q2,1,1,SOCO,Solar,1
+950,ERCOT||60385 solstice 138 kv,ERCOT||138 kv 11273 nelson switch,2021Q1,1,1,ERCOT,Solar,1
+951,PJM||circleville biers run 138 kv,PJM||bruin junction petrol junction 25 kv,2024Q4,1,1,PJM,Solar,2
+952,PJM||stuarts draft waynesboro 115 kv,PJM||cedar knolls 125 kv,2018Q2,1,1,PJM,Battery,1
+953,PJM||crete 345 kv,PJM||garden plain 138 kv,2022Q3,3,3,PJM,Wind,1
+954,PJM||galion roberts south 138 kv,PJM||burma 23 kv,2020Q3,1,1,PJM,Solar,1
+955,PJM||buckingham bremo 230 kv,PJM||breezewood 1247 kv,2022Q2,1,1,PJM,Solar,1
+956,PJM||scalp level 23 kv,PJM||brunswick collector wake 500 kv,2021Q2,1,1,PJM,Solar,1
+957,PJM||bernville 132 kv,PJM||broadview tangy 138 kv ii,2024Q1,1,1,PJM,Solar,1
+958,PJM||milton 69 kv,PJM||cox whitakers 115 kv,2024Q4,2,2,PJM,Solar,1
+959,PJM||minotola 12 kv,PJM||buena vista township 12 kv,2011Q3,1,1,PJM,Solar,1
+960,PJM||wempletown 138 kv,PJM||fulton 138 kv,2024Q4,2,2,PJM,Battery,2
+961,CAISO||lugo mohave 500 kv line,CAISO||dunn siding substation,2008Q4,1,1,CAISO,Solar,1
+962,PJM||champion,PJM||gavin unit 2,2013Q2,1,1,PJM,Coal,1
+963,CAISO||innovation substation 230 kv,CAISO||bellota warnerville 230 kv,2021Q2,1,1,CAISO,Solar+Battery,1
+964,PJM||east new market 12 kv,PJM||carolinaseaboard 115 kv,2016Q1,1,1,PJM,Solar,1
+965,PJM||branchville n newton #1 34 kv,PJM||blackhawk 125 kv,2015Q1,1,1,PJM,Battery,1
+966,ERCOT||8283 asherton 138 kv,ERCOT||1318 china grove 138 kv,2020Q1,1,1,ERCOT,Solar,2
+967,PJM||elk garden junction 138 kv,PJM||antwerp 69 kv,2008Q3,1,1,PJM,Wind,1
+968,CAISO||new ivanpah substation 115 kv,CAISO||500 kv collector station 40 mi east of ngila substation and 45 mi w of proposed agua caliente substation,2010Q3,2,1,CAISO,Solar,1
+969,PJM||lewis run pierce brook 230 kv,PJM||bustleton 132 kv,2020Q3,1,1,PJM,Solar,1
+970,PJM||old church 345 kv,PJM||carroll mount airy 345 kv,2016Q1,1,1,PJM,Solar,1
+971,CAISO||halsey substation 60 kv,CAISO||volta south 60 kv line,2014Q2,1,1,CAISO,Hydro,1
+972,ISO-NE||nstar 115 kv line #111,ISO-NE||115 kv potter substation,2007Q4,1,1,ISO-NE,Gas+Oil,1
+973,PJM||varner 345 kv,PJM||buckeye p wakeman 69 kv,2024Q4,1,1,PJM,Solar,1
+974,PJM||desoto 345 kv,PJM||stuart clinton 345 kv,2020Q1,3,3,PJM,Solar,1
+975,CAISO||maricopa copus 70 kv line,CAISO||amargosa substation 138 kv,2016Q2,1,1,CAISO,Solar,1
