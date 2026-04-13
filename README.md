@@ -8,9 +8,7 @@ The analysis uses the full LBNL queue (36,441 projects across 53 entities, throu
 
 Source file: `lbnl_ix_queue_data_file_thru2024_v2.xlsx`, sheet `03. Complete Queue Data`.
 
-Key fields used: `q_id`, `q_status`, `q_date`, `wd_date`, `poi_name`, `entity`, `type_clean`, `mw1`, `developer`. Most date columns are Excel serial numbers; `data_prep.py` handles conversion and POI normalization.
-
-`ia_date` is sparse (~6% coverage), so the analysis relies on `q_status` / `wd_date` / `poi_name` rather than a post-ISA survival design.
+Key fields used: `q_id`, `q_status`, `q_date`, `wd_date`, `poi_name`, `entity`, `type_clean`, `mw1`, `developer`.
 
 ## Repository layout
 
