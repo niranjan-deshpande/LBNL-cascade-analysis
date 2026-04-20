@@ -31,3 +31,6 @@ env/
 # Source data (not tracked)
 lbnl_ix_queue_data_file_thru2024_v2.xlsx
 CLAUDE.md
+
+# Cache files
+*.pkl

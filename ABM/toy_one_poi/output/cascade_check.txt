@@ -1,0 +1,1 @@
+{'mean_wd_on': np.float64(5.059907834101383), 'n_on': 434, 'mean_wd_off': np.float64(3.4838709677419355), 'n_off': 434}

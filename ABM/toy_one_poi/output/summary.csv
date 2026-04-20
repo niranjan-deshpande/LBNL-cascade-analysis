@@ -1,0 +1,3 @@
+label,reps,mean_completion_rate,mean_withdrawn_rate,mean_active_at_end_rate
+realloc_on,500,0.268,0.732,0.0
+realloc_off,500,0.496,0.504,0.0
