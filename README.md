@@ -101,3 +101,7 @@ The full ABM (Mesa, PJM-calibrated) reproduces the two-channel empirical picture
 - **Known calibration gap:** event-study coefficient *magnitudes* are ~3× the empirical values. Current parameters represent a local sweet spot (DiD near null, pre-trends clean, shape correct); closing the magnitude gap is the main remaining calibration task.
 
 See `ABM/full_abm/MODEL.md` for the full model specification and validation table.
+
+## TODO
+
+- [ ] Test policy counterfactuals using the ABM (deposit-pool mechanism, DFAX-threshold changes, cluster-bounded vs. unbounded reallocation, regional cost-allocation shifts).
