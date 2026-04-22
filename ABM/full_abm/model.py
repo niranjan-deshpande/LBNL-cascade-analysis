@@ -61,6 +61,16 @@ class Params:
     network_distance_scale: float = 0.3 # exp(-d/scale) bias on a unit-square topology
     poi_topology_seed: int | None = None  # if set, decouples topology RNG from run RNG
 
+    # Deposit pool (PJM new-regime anti-cascade buffer). RD1=$4K/MW at
+    # application, RD2=10% of allocated cost at DP1, escalating to RD4=100%
+    # at DP3 (notes_for_self/notes.md §3a-3b). No phases in this model —
+    # approximate with a linear age ramp: a withdrawer at age-fraction f
+    # forfeits (deposit_floor + (1-deposit_floor)*f) * U into a global pool.
+    # At reallocation, absorbed = min(pool, U_j) is drawn first; the residual
+    # follows the existing local/network split.
+    deposit_pool_enabled: bool = False
+    deposit_floor: float = 0.10        # RD1-level forfeiture fraction at f=0
+
     # Initial cost scale ($/kW) — drawn per POI, log-uniform between these bounds.
     # Range is lower than the brief's 71–563/kW headline because those are *final*
     # allocated costs (including accumulated reallocations). Initial direct allocations
@@ -98,6 +108,7 @@ class Project(mesa.Agent):
         self.t_cod = int(t_cod)
         self.H_base = float(H_base)
         self.U = poi.c_per_kw * self.mw * 1000.0   # initial allocated $ (mw*1000 = kW)
+        self.U_initial = self.U                    # frozen original allocation; forfeiture is pegged here
         self.status = "active"
         self.t_exit: Optional[int] = None
         poi.projects.append(self)
@@ -160,6 +171,14 @@ class QueueModel(mesa.Model):
         # Running logs
         self.event_log = []   # tuples (t, event_type, project_id, poi_id)
         self.poi_shock_log = []  # optional diagnostics
+        self.deposit_pool: float = 0.0
+        self.deposit_pool_log: list = []   # (t, action, amount)
+
+        # Dedicated RNG for network-fanout target selection. Seeded identically
+        # across regimes (same run-seed) so that ON_no_pool and ON_with_pool
+        # draw the same target POIs for any fire event they share. Removes one
+        # source of RNG-trajectory divergence between regimes.
+        self.fanout_rng = np.random.default_rng(self.params.rng_seed + 7919)
 
         # DataCollector for per-step counts
         self.datacollector = mesa.DataCollector(
@@ -206,6 +225,14 @@ class QueueModel(mesa.Model):
                     continue
                 U_local = alpha * pj.U
                 U_net = (1.0 - alpha) * pj.U
+                # Pool absorbs against the NETWORK share only. Local (AF/TOIF)
+                # share is same-developer / co-POI and isn't what the PJM
+                # deposit pool is designed to offset.
+                if self.params.deposit_pool_enabled and self.deposit_pool > 0 and U_net > 0:
+                    absorbed = min(self.deposit_pool, U_net)
+                    self.deposit_pool -= absorbed
+                    U_net -= absorbed
+                    self.deposit_pool_log.append((self.t, "absorb", absorbed))
 
                 # ---- Local share: DFAX pro-rata among co-POI peers ----
                 if U_local > 0:
@@ -222,7 +249,7 @@ class QueueModel(mesa.Model):
                 if U_net > 0 and fanout > 0 and n_pois > 1:
                     probs = self._network_weights[poi.poi_id]
                     k = min(fanout, n_pois - 1)
-                    targets = self.rng.choice(n_pois, size=k, replace=False, p=probs)
+                    targets = self.fanout_rng.choice(n_pois, size=k, replace=False, p=probs)
                     per_poi = U_net / k
                     for j in targets:
                         tgt = self.pois[int(j)]
@@ -278,6 +305,19 @@ class QueueModel(mesa.Model):
             a.status = "withdrawn"
             a.t_exit = self.t
             self.event_log.append((self.t, "withdrawn", a.unique_id, a.poi.poi_id))
+            if self.params.deposit_pool_enabled and a.U_initial > 0:
+                floor = self.params.deposit_floor
+                if a.t_cod > a.t_entry:
+                    f = (self.t - a.t_entry) / (a.t_cod - a.t_entry)
+                    f = max(0.0, min(1.0, f))
+                else:
+                    f = 1.0
+                # Forfeiture pegged to ORIGINAL allocation, not inherited cost —
+                # PJM security deposits are posted against each project's own
+                # allocated cost, not against costs inherited via reallocation.
+                forfeit = (floor + (1.0 - floor) * f) * a.U_initial
+                self.deposit_pool += forfeit
+                self.deposit_pool_log.append((self.t, "deposit", forfeit))
             # Schedule reallocation (or drop if not enabled)
             if self.params.reallocation_enabled:
                 lag = int(self.rng.integers(self.params.lag_low, self.params.lag_high + 1))
