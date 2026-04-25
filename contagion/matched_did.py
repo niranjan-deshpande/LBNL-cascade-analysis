@@ -510,8 +510,6 @@ def event_study_regression(es_panel):
     print(f"\n  === Event-Study Coefficients ===")
     print(betas_df.to_string(index=False))
 
-    betas_df.to_csv(os.path.join(TABLES_DIR, "event_study_coefficients.csv"), index=False)
-
     # Pre-trend F-test: joint test that beta_{-4} = beta_{-3} = beta_{-2} = 0
     pre_indices = [col_names.index(f"treat_x_k{k}") for k in [-4, -3, -2] if f"treat_x_k{k}" in col_names]
     if len(pre_indices) > 0:
@@ -529,8 +527,6 @@ def event_study_regression(es_panel):
                      "pre_betas": betas_df[betas_df["event_time"].isin([-4, -3, -2])]["beta"].tolist()}
     else:
         pre_trend = {"f_stat": np.nan, "p_value": np.nan, "pre_betas": []}
-
-    pd.DataFrame([pre_trend]).to_csv(os.path.join(TABLES_DIR, "pre_trend_test.csv"), index=False)
 
     return betas_df, pre_trend, result
 
@@ -965,6 +961,8 @@ def main():
 
     # Event-study regression
     betas, pre_trend, es_model = event_study_regression(es_panel)
+    betas.to_csv(os.path.join(TABLES_DIR, "event_study_coefficients.csv"), index=False)
+    pd.DataFrame([pre_trend]).to_csv(os.path.join(TABLES_DIR, "pre_trend_test.csv"), index=False)
 
     # Flag pre-trend failure
     pre_trend_ok = pre_trend["p_value"] > 0.05 if not np.isnan(pre_trend.get("p_value", np.nan)) else True
