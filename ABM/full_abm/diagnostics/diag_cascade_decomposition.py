@@ -17,8 +17,8 @@ import numpy as np
 import pandas as pd
 
 warnings.filterwarnings("ignore")
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 from model import QueueModel, Params
 from validate_matched_did import abm_panel_to_lbnl_schema, run_did_on_df
 
@@ -102,7 +102,7 @@ def main():
           f"{out.loc[peak_k, 'cascade']:+.4f} ± {out.loc[peak_k, 'cascade_se']:.4f}")
     print("  Note: peak picked by argmax is upward-biased; the per-k CIs above are the honest summary.")
 
-    out_path = os.path.join(HERE, "output", "cascade_decomposition.csv")
+    out_path = os.path.join(ROOT, "output", "cascade_decomposition.csv")
     out.to_csv(out_path)
     print(f"\nElapsed: {time.time()-t0:.1f}s")
     print(f"Saved: {out_path}")

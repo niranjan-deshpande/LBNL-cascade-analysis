@@ -28,6 +28,9 @@ env/
 # Claude local settings
 .claude/
 
+# Final-paper workspace (drafts, outlines, figures — local only)
+writeup/
+
 # Source data (not tracked)
 lbnl_ix_queue_data_file_thru2024_v2.xlsx
 CLAUDE.md

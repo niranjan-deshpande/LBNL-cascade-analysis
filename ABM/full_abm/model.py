@@ -61,6 +61,17 @@ class Params:
     network_distance_scale: float = 0.3 # exp(-d/scale) bias on a unit-square topology
     poi_topology_seed: int | None = None  # if set, decouples topology RNG from run RNG
 
+    # Cluster-bound reallocation (Order 2023 proxy). When >= 0, reallocation
+    # (local AND network-fanout) is restricted to recipient projects whose
+    # t_entry is within `cluster_bound_window_months` of the withdrawer's
+    # t_entry. -1 disables the bound (current unbounded behavior).
+    cluster_bound_window_months: int = -1
+    # Per-channel overrides. If >= 0, these override the combined setting
+    # above for the respective channel; -1 means "use cluster_bound_window_months".
+    # Used for decomposition experiments (local-only vs network-only bounding).
+    cluster_bound_local_window_months: int = -1
+    cluster_bound_network_window_months: int = -1
+
     # Deposit pool (PJM new-regime anti-cascade buffer). RD1=$4K/MW at
     # application, RD2=10% of allocated cost at DP1, escalating to RD4=100%
     # at DP3 (notes_for_self/notes.md §3a-3b). No phases in this model —
@@ -173,6 +184,10 @@ class QueueModel(mesa.Model):
         self.poi_shock_log = []  # optional diagnostics
         self.deposit_pool: float = 0.0
         self.deposit_pool_log: list = []   # (t, action, amount)
+        # Total $ that evaporated during reallocation (no eligible recipients —
+        # empty POI, sub-DFAX, or entry-time filter). Tracked unconditionally
+        # so it's comparable across regimes.
+        self.evaporated_U: float = 0.0
 
         # Dedicated RNG for network-fanout target selection. Seeded identically
         # across regimes (same run-seed) so that ON_no_pool and ON_with_pool
@@ -213,6 +228,14 @@ class QueueModel(mesa.Model):
         alpha = float(self.params.alpha_local)
         fanout = int(self.params.network_fanout)
         n_pois = self.params.n_pois
+        W_combined = int(self.params.cluster_bound_window_months)
+        # Per-channel resolution: per-channel override > combined > disabled.
+        _Wl = int(self.params.cluster_bound_local_window_months)
+        _Wn = int(self.params.cluster_bound_network_window_months)
+        W_local = _Wl if _Wl >= 0 else W_combined
+        W_net   = _Wn if _Wn >= 0 else W_combined
+        cb_local = W_local >= 0
+        cb_net   = W_net   >= 0
         for poi in self.pois:
             fire_now = [(tf, pj) for (tf, pj) in poi.pending if tf == self.t]
             if not fire_now:
@@ -237,6 +260,8 @@ class QueueModel(mesa.Model):
                 # ---- Local share: DFAX pro-rata among co-POI peers ----
                 if U_local > 0:
                     active = poi.active_projects()
+                    if cb_local:
+                        active = [q for q in active if abs(q.t_entry - pj.t_entry) <= W_local]
                     if active:
                         denom = pj.mw + sum(q.mw for q in active)
                         eligible = [q for q in active if (q.mw / denom) > thr]
@@ -244,6 +269,10 @@ class QueueModel(mesa.Model):
                             elig_mw = sum(q.mw for q in eligible)
                             for q in eligible:
                                 q.U += U_local * (q.mw / elig_mw)
+                        else:
+                            self.evaporated_U += U_local
+                    else:
+                        self.evaporated_U += U_local
 
                 # ---- Network share: distance-biased fanout to other POIs ----
                 if U_net > 0 and fanout > 0 and n_pois > 1:
@@ -254,10 +283,14 @@ class QueueModel(mesa.Model):
                     for j in targets:
                         tgt = self.pois[int(j)]
                         t_active = tgt.active_projects()
+                        if cb_net:
+                            t_active = [q for q in t_active if abs(q.t_entry - pj.t_entry) <= W_net]
                         if not t_active:
-                            continue  # evaporates
+                            self.evaporated_U += per_poi
+                            continue
                         mw_sum = sum(q.mw for q in t_active)
                         if mw_sum <= 0:
+                            self.evaporated_U += per_poi
                             continue
                         for q in t_active:
                             q.U += per_poi * (q.mw / mw_sum)

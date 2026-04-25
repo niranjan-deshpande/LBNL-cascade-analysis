@@ -10,8 +10,8 @@ import numpy as np
 import pandas as pd
 
 warnings.filterwarnings("ignore")
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 from model import QueueModel, Params
 from validate_matched_did import abm_panel_to_lbnl_schema, run_did_on_df
 

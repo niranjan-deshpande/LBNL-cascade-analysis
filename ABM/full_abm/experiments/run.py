@@ -6,6 +6,7 @@ key validation statistics, and prints a comparison table.
 
 from __future__ import annotations
 import os
+import sys
 import time
 import warnings
 import numpy as np
@@ -13,10 +14,13 @@ import pandas as pd
 
 warnings.filterwarnings("ignore")  # silence Mesa FutureWarnings during sweeps
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+
 from model import QueueModel, Params
 from validation import full_report
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+OUT = os.path.join(ROOT, "output")
 os.makedirs(OUT, exist_ok=True)
 
 

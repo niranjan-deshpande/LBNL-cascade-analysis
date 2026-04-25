@@ -21,8 +21,8 @@ import numpy as np
 import pandas as pd
 
 warnings.filterwarnings("ignore")
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 from model import QueueModel, Params
 from validation import full_report
 from validate_matched_did import abm_panel_to_lbnl_schema, run_did_on_df
@@ -85,7 +85,7 @@ def main():
         })
         # Incremental save so we can inspect partial results while the sweep runs
         pd.DataFrame(rows).to_csv(
-            os.path.join(HERE, "output", "sigma_poi_sweep.csv"), index=False
+            os.path.join(ROOT, "output", "sigma_poi_sweep.csv"), index=False
         )
 
     df = pd.DataFrame(rows)
@@ -93,7 +93,7 @@ def main():
     print(df.to_string(index=False))
     print("\nTargets:  OFF_k1 ≈ -0.038   ON_k1 ≈ -0.038   ON_peak ≈ +0.029")
     print("          ON_pooled_DiD ≈ -0.008   OFF_VR ≈ 1.6   ON_completion ≈ 0.20")
-    out = os.path.join(HERE, "output", "sigma_poi_sweep.csv")
+    out = os.path.join(ROOT, "output", "sigma_poi_sweep.csv")
     df.to_csv(out, index=False)
     print(f"\nSaved: {out}")
 

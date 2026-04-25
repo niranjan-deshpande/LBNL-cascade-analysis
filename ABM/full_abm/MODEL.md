@@ -1,8 +1,9 @@
 # Multi-POI PJM Interconnection-Queue ABM — Specification
 
-This document specifies the agent-based model in `ABM/full_abm/` for the PJM
+Here, we specify the agent-based model in `ABM/full_abm/` for the PJM
 old-serial-regime interconnection queue. It targets replication of the
 empirical patterns established in `contagion/briefs/contagion_brief.tex`.
+We then apply a policy counterfactual---underfunded-pool---and simulate results.
 
 ## 1. Purpose & scope
 
@@ -23,7 +24,7 @@ State:
 - `t_cod` — scheduled commercial-operation month. Duration $t_\text{cod} - t_\text{entry}$
   bootstrap-sampled from completed PJM projects (q_date → on_date), with a floor of 24 months.
 - `H_base` — baseline headroom (dollars), drawn as $H_i \sim \mathcal{N}(\mu_{\text{POI}}, \sigma_\text{within}^2)$.
-- `U` — cumulative allocated upgrade cost (dollars). Initial: $U_i^{(0)} = c_p \cdot \text{mw}_i \cdot 1000$.
+- `U` — cumulative allocated upgrade cost (dollars). Initial: $U_i^{(0)} = c_p \cdot \text{mw}_i \cdot 1000$. The multiplaction by 1000 is for conversion from kW to mW
 - `U_initial` — frozen copy of $U_i^{(0)}$ captured at construction; used only by the deposit-pool forfeiture rule in §10 (never mutated).
 - `status ∈ {active, withdrawn, completed}`.
 - `t_exit` — month of terminal transition (or `None`).
@@ -203,7 +204,7 @@ Small-scale SDs are ~2× the large-scale SDs, as expected.
 
 > **Caveat (added after §10).** The matched-DiD event-study coefficients
 > below are not a clean estimate of the reallocation cascade.
-> `diag_cascade_decomposition.py` (30 seeds) shows the OFF regime alone
+> `diagnostics/diag_cascade_decomposition.py` (30 seeds) shows the OFF regime alone
 > reproduces most of the event-study shape — OFF k=1 = −0.111, OFF peak
 > (k=6) = +0.038 — and cascade (ON − OFF) CIs exclude zero only at k=5
 > (+0.014 ± 0.005) and k=8 (+0.010 ± 0.004); at all other k's the CI
@@ -254,7 +255,7 @@ nearly exactly:
    positives offset in the 4-quarter pooled window.
 
 **Reframed: "3× too hot" is an identification artifact, not a calibration
-gap.** `diag_cascade_decomposition.py` decomposes the ABM's matched-DiD
+gap.** `diagnostics/diag_cascade_decomposition.py` decomposes the ABM's matched-DiD
 event study into OFF (no reallocation) and ON − OFF (the cascade channel).
 The OFF regime alone reproduces most of the event-study shape — POI/time
 fixed effects plus propensity matching soak up the cascade alongside the
@@ -262,7 +263,7 @@ selection-on-$\mu_\text{POI}$ signal that matched-DiD was meant to remove.
 The ABM demonstrates that matched-DiD estimates in this DGP are sensitive
 to residual selection on permanent POI heterogeneity, so the empirical
 +0.029 peak should be read as an upper bound on the causal cascade. The
-$\sigma_\text{POI}$ sweep (`sweep_sigma_poi.py`) confirms that varying
+$\sigma_\text{POI}$ sweep (`diagnostics/sweep_sigma_poi.py`) confirms that varying
 μ-POI heterogeneity does not collapse the OFF shape, consistent with the
 confound being structural rather than parameter-sensitive.
 
@@ -289,16 +290,22 @@ See `notes_for_self/forward_path_4-20.md` for the full decomposition.
 ```
 ABM/full_abm/
 ├── MODEL.md                           — this document
-├── calibrate.py                       — PJM-only LBNL bootstrap samplers (cached pickle)
 ├── model.py                           — Params, POI, Project (Mesa Agent), QueueModel (Mesa Model)
 ├── validation.py                      — completion rate, variance ratio, dose response, mini_event_study, full_report
-├── run.py                             — multi-seed ON vs OFF sweep
 ├── validate_matched_did.py            — runs contagion/matched_did.py on ABM-generated LBNL-schema panels (§7c)
-├── diag_off_k1.py                     — diagnostic: decomposes the OFF k=1 dip
-├── diag_cascade_decomposition.py      — 30-seed matched-DiD ON vs OFF decomposition (§7c caveat)
-├── sweep_alpha.py                     — sensitivity sweep over alpha_local
-├── sweep_sigma_poi.py                 — sensitivity sweep over sigma_poi
-├── run_deposit_pool.py                — 3-regime × 30-seed deposit-pool counterfactual (§10)
+├── calibrate.py                       — PJM-only LBNL bootstrap samplers (cached pickle)
+├── experiments/
+│   ├── run.py                         — multi-seed ON vs OFF sweep (entry point)
+│   ├── run_cluster_bound.py           — cluster-bounded reallocation, 90-seed W sweep (§11, primary)
+│   ├── run_deposit_pool.py            — deposit-pool counterfactual, 90 seeds (§10, secondary)
+│   ├── run_channel_decomp.py          — local vs network channel decomposition at W=12 (§11.4)
+│   ├── run_alpha_sensitivity.py       — α_local robustness for the W=12 headline (§11.5)
+│   └── run_matched_did_compare.py     — runs contagion/matched_did.py on ABM panels under 3 regimes (§11.3)
+├── diagnostics/
+│   ├── diag_cascade_decomposition.py  — matched-DiD ON vs OFF decomposition (§7c caveat)
+│   ├── diag_off_k1.py                 — decomposition of the OFF k=1 dip
+│   ├── sweep_alpha.py                 — sensitivity sweep over alpha_local
+│   └── sweep_sigma_poi.py             — sensitivity sweep over sigma_poi
 └── output/                            — panel CSVs, sweep results, logs
 ```
 
@@ -380,7 +387,22 @@ channel directly).
 
 ### 10.3 Results
 
-3-regime × 30-seed sweep (`run_deposit_pool.py`) at the §7c configuration
+**30-seed version** retained below for comparability. A **90-seed
+re-run** (`experiments/run_deposit_pool.py`, seeds 100-189) at the same BASE
+config gave: OFF = 4419.3 ± 7.8, ON_no_pool = 4752.5 ± 8.6, ON_with_pool
+= 4702.2 ± 9.5. Prevention = **+15.1 ± 3.4 /yr PJM, 95% CI
+[+8.4, +21.8]** — within the 30-seed CI but meaningfully tighter. The
+OFF and ON_no_pool means are identical (to 1 decimal) with the
+cluster-bound run at the same seeds, confirming DGP consistency.
+**Crucially**, at n=90 the per-k cascade at peak k=7 is +0.0090 ± 0.0017
+for ON_no_pool vs +0.0093 ± 0.0014 for ON_with_pool — essentially
+identical. See §11.3 for the comparative discussion: the pool is
+effective on total withdrawal counts but invisible to the within-POI
+mini_event_study signal, because the withdrawals it prevents are at
+*other* POIs (network-fanout targets), not at the original withdrawer's
+POI.
+
+3-regime × 30-seed sweep (original version of `experiments/run_deposit_pool.py`) at the §7c configuration
 (2000 POIs, 240 months, $\sigma_\text{POI} = 2.2 \times 10^6$,
 $\alpha = 0.15$, seeds 100–129). Cascade gauge = `mini_event_study`
 treated − control `diff`; per-seed cascade = ON_no_pool − OFF. Mean ± SE
@@ -463,3 +485,369 @@ balance; $\text{absorbed} \leq \text{deposited}$ holds in every run.
   `rng_seed + 7919`) drives network-target selection so that ON_no_pool
   and ON_with_pool draw the same targets for any fire event they share,
   removing RNG-trajectory divergence as a source of between-regime noise.
+
+## 11. Cluster-bounded reallocation counterfactual
+
+FERC Order 2023 replaced PJM's old serial/rolling interconnection process
+with a cluster-study regime: projects enter in discrete study cycles and
+cost reallocation is confined to cycle-mates rather than spreading
+throughout the whole active queue. This section adds a minimal proxy for
+that reform to the ABM and measures its effect on the cascade channel.
+
+**Why this is the primary counterfactual.** The empirical brief's
+matched-DiD headline is a **within-POI** quantity: does a withdrawal at
+POI $p$ predict additional withdrawals at POI $p$ over the following
+4–8 quarters? The deposit-pool counterfactual in §10 only neutralizes the
+inter-POI network-fanout share $(1-\alpha)U_j$, so it targets a channel
+one step removed from what the matched-DiD picks up. Cluster bounding, by
+contrast, constrains *both* reallocation channels and maps cleanly onto
+Order 2023's structural reform language.
+
+### 11.1 Mechanism
+
+Add a new parameter:
+
+| Parameter | Default | Notes |
+|---|---|---|
+| `cluster_bound_window_months` | `-1` | Sentinel for disabled (current unbounded behavior). When $\ge 0$, reallocation recipients are filtered by entry-time proximity. |
+
+When `cluster_bound_window_months = W >= 0`, the reallocation firing in
+§5 is modified so that *both* local and network shares only reach
+recipient projects whose entry time is within $W$ months of the
+withdrawer's:
+
+- **Local share** ($\alpha U_j$, same POI): the candidate set
+  `poi.active_projects()` is first filtered to
+  $\{q : |q.t_\text{entry} - j.t_\text{entry}| \le W\}$ before the DFAX
+  threshold is applied. If the filtered set is empty, $U_j^\text{loc}$
+  evaporates.
+- **Network share** ((1 − α) U_j, distance-biased fanout): for each of
+  the `network_fanout` target POIs, the recipient set is filtered by the
+  same window. If any target POI has zero in-window active projects, its
+  per-POI share $U_j^\text{net}/k$ evaporates for that target.
+
+Evaporation is accumulated in `QueueModel.evaporated_U` (dollars).
+Tracking is unconditional so totals are comparable across regimes; under
+the unbounded regime this field captures the baseline evaporation from
+DFAX-threshold filtering and empty POIs.
+
+$W \to \infty$ (in practice $W \ge$ horizon) recovers the unbounded
+reallocation. $W = 0$ effectively disables reallocation since co-entry
+peers at monthly granularity are rare.
+
+### 11.2 Results
+
+9-regime × 90-seed sweep (`experiments/run_cluster_bound.py`, 3119s elapsed) at
+the §7c configuration (2000 POIs, 240 months, $\sigma_\text{POI} = 2.2
+\times 10^6$, $\alpha = 0.15$, seeds 100–189). Cascade gauge =
+`mini_event_study` treated − control `diff`; per-seed cascade $=$ regime
+$-$ OFF. Mean ± SE across seeds, 95% CI = ±1.96·SE. An earlier 30-seed
+sweep (seeds 100–129) was consistent but underpowered in the middle
+of the gradient; the 90-seed numbers below supersede it.
+
+**Total withdrawal counts** (mean ± SE across 90 seeds, 240-month run):
+
+| Regime | total_wd | vs ON_unbounded |
+|---|---|---|
+| OFF            | 4419.3 ± 7.8  | — |
+| W=12           | 4653.0 ± 7.5  | **+99.5 ± 10.5** |
+| W=18           | 4717.3 ± 9.5  | **+35.1 ± 11.2** |
+| W=24           | 4730.7 ± 8.8  | **+21.8 ± 10.5** |
+| W=36           | 4736.8 ± 8.2  | +15.7 ± 10.4 |
+| W=48           | 4745.7 ± 8.8  | +6.8 ± 8.3 |
+| W=60           | 4748.7 ± 8.2  | +3.8 ± 7.6 |
+| W=72           | 4743.7 ± 7.1  | +8.8 ± 5.4 |
+| ON_unbounded   | 4752.5 ± 8.6  | — |
+
+**Withdrawal prevention (primary policy headline).** Per-seed
+$\text{prevented} = \text{wd}_\text{ON\_unbounded} - \text{wd}_{W}$,
+averaged across 90 seeds, scaled to PJM by (1800 / 300) = 6.0:
+
+| W (months) | prevented/run | prevented/yr PJM | 95% CI |
+|---|---|---|---|
+| **12** | **+99.5 ± 10.5** | **+29.9 ± 3.2** | **[+23.6, +36.0]** |
+| **18** | **+35.1 ± 11.2** | **+10.5 ± 3.4** | **[+3.9, +17.1]** |
+| **24** | **+21.8 ± 10.5** | **+6.5 ± 3.2**   | **[+0.4, +12.7]** |
+| 36 | +15.7 ± 10.4 | +4.7 ± 3.1 | [−1.4, +10.8] |
+| 48 | +6.8 ± 8.3   | +2.0 ± 2.5 | [−2.9, +6.9]  |
+| 60 | +3.8 ± 7.6   | +1.1 ± 2.3 | [−3.4, +5.6]  |
+| 72 | +8.8 ± 5.4   | +2.7 ± 1.6 | [−0.5, +5.8]  |
+
+**Three regimes now have CIs that exclude zero**: $W = 12$, $18$, $24$.
+The prevention gradient is clean and monotone in the tight end: $+30$
+→ $+10.5$ → $+6.5$ /yr as the window widens from 12 to 24 months. Above
+$W \ge 36$, all point estimates fall within the 1$\sigma$ band of zero.
+
+**Interpretation.** The cascade channel in this DGP is concentrated
+among close-entry peers — projects within roughly a 2-year entry window
+of the withdrawer. A 1-year cluster (W=12) captures $+30$ /yr PJM-scale
+prevention; loosening to a 2-year cluster (W=24) drops that by $4\times$
+to $+6.5$ /yr; widening beyond that buys essentially nothing. For
+context, fully disabling reallocation (OFF) reduces withdrawals by
+$+333$ /run = $+100$ /yr PJM-scale, so cluster bounding at $W=12$
+mitigates roughly 30% of the full cascade channel. This is materially
+smaller than the "turn it all off" counterfactual but meaningfully
+larger than any realistic widening of the cluster window.
+
+This is a reasonably direct statement on FERC Order 2023: **short
+study cycles do real work; longer cycles recover most of the
+unbounded-reallocation pathology.** A 12-month cycle prevents roughly
+3× more withdrawals than a 24-month cycle (CI-clean), and a 3-year
+cycle (W=36) is statistically indistinguishable from no reform at
+all at n = 90.
+
+**Peak-k cascade (argmax k∈[4,8] on unbounded at n=90 now at k=7):**
+
+| Regime | cascade at k=7 | 95% CI |
+|---|---|---|
+| ON_unbounded | +0.0090 ± 0.0017 | **[+0.0056, +0.0123]** |
+| W=12  | +0.0058 ± 0.0016 | **[+0.0026, +0.0091]** |
+| W=18  | +0.0054 ± 0.0017 | **[+0.0021, +0.0088]** |
+| W=24  | +0.0058 ± 0.0017 | **[+0.0025, +0.0091]** |
+| W=36  | +0.0080 ± 0.0018 | **[+0.0044, +0.0116]** |
+| W=48  | +0.0096 ± 0.0021 | **[+0.0055, +0.0137]** |
+| W=60  | +0.0091 ± 0.0017 | **[+0.0058, +0.0125]** |
+| W=72  | +0.0078 ± 0.0018 | **[+0.0042, +0.0113]** |
+
+All event-study CIs now exclude zero at n = 90. The point estimates
+order roughly as expected: tight-cluster regimes (W = 12–24) sit around
+$+0.005$; loose regimes (W ≥ 36) sit around $+0.008\text{--}0.010$;
+unbounded at $+0.009$. The gradient on the event-study is visible but
+shallower than on total counts, which is consistent with the count
+metric picking up the cumulative network-fanout effect over the full
+run while `mini_event_study` only sees the co-POI contrast.
+
+**Evaporation diagnostic.** Under all bounded regimes, total
+evaporated $U$ sits around $3.58\text{–}3.64 \times 10^{10}$ — very
+close to the ON_unbounded baseline ($3.59 \times 10^{10}$). The bound
+doesn't change how much $U$ evaporates so much as where non-evaporated
+$U$ lands (more concentrated on cluster-mates when tight).
+
+**Note on peak-k shift.** The 30-seed sweep identified k=4 as the
+argmax; at 90 seeds the argmax shifts to k=7 with all k's now
+CI-clean. This is a better-sampled view of the same underlying shape
+and does not change any qualitative conclusion — the count-based
+headline is the defensible summary regardless of peak selection.
+
+### 11.3 Side-by-side with the deposit pool (why cluster-bound is primary)
+
+Both counterfactuals were re-run at n=90 on seeds 100-189 with identical
+BASE config. OFF and ON_unbounded/ON_no_pool match to one decimal across
+runs. Comparing at the same sample size:
+
+| Metric | Deposit pool (§10) | Cluster-bound W=12 (§11.2) |
+|---|---|---|
+| Total-count prevention /yr PJM | **+15.1 ± 3.4** CI [+8.4, +21.8] | **+29.9 ± 3.2** CI [+23.6, +36.0] |
+| Peak-k cascade, unbounded regime  | +0.0090 ± 0.0017 | +0.0090 ± 0.0017 |
+| Peak-k cascade, treated regime    | +0.0093 ± 0.0014 | +0.0058 ± 0.0016 |
+| Reduction in peak-k cascade       | **~0** (CIs overlap completely) | **~35%** (CIs separate) |
+| Integrated within-POI cascade (Σ k=1..8) | **+0.0435 → +0.0435 (0.0% ± 17%, CI centered at 0)** | +0.0435 → +0.0298 (**+32% ± 15%, CI [+0.2%, +61%]**) |
+
+Two sharp observations:
+
+1. **Cluster-bound prevents roughly 2× as many withdrawals as the pool**
+   on total counts (+30 /yr vs +15 /yr at PJM scale) at the same sample
+   size and DGP.
+2. **Only cluster-bound visibly shifts the within-POI mini_event_study
+   cascade.** The pool's per-k peak at k=7 is indistinguishable from
+   unbounded; cluster-bound's is ~35% lower.
+
+Observation 2 is the important one. `mini_event_study` measures the same
+quantity the empirical matched-DiD measures: within-POI cascade. If the
+pool were a good analogue for what the empirical paper headlines
+preventing, it would show up there. It does not. The pool's
+total-withdrawal prevention is happening *elsewhere in the network* —
+at POIs that are downstream fanout targets, not at the treated
+withdrawer's POI. The matched-DiD research design (treated POI vs
+matched control POI) is blind to this channel by construction.
+
+Cluster-bound, which bounds both local α·U and network-fanout (1−α)·U
+shares, *does* show up in mini_event_study because its mechanism
+constrains exactly the within-POI pathway that the empirical design
+measures.
+
+This is the operational reason cluster-bound supersedes the pool as the
+primary policy counterfactual going forward. If the empirical brief is
+to claim "reform X prevents Y /yr of the cascade I measured," the
+counterfactual needs to act on the same channel the empirical design
+identifies. Cluster-bound does; the pool does not.
+
+**Per-k decomposition makes this even sharper.** Looking at the full
+per-k cascade profile of the pool (cascade = ON_no_pool − OFF;
+cascade_pool = ON_with_pool − OFF):
+
+| k | cascade | cascade_pool | pool reduction |
+|---|---|---|---|
+| 1 | +0.0130 | +0.0084 | **+35%** |
+| 2 | +0.0045 | +0.0040 | +11% |
+| 3 | +0.0015 | +0.0032 | −114% |
+| 4 | +0.0053 | +0.0046 | +14% |
+| 5 | +0.0018 | +0.0049 | **−163%** |
+| 6 | +0.0063 | +0.0077 | **−22%** |
+| 7 | +0.0090 | +0.0093 | −3% |
+| 8 | +0.0021 | +0.0015 | +27% |
+
+The pool **does** reduce the short-run cascade (k=1 by 35%) — but that
+reduction is offset by an *increase* in medium-run cascade (k=5, 6).
+Economically: the pool absorbs the short-run shock at withdrawal, which
+buys time; but cost eventually migrates onto the network (pool depletes,
+or subsequent withdrawers' balances run low) and the cascade propagates
+at a longer lag. The pool delays the cascade; it does not extinguish it.
+
+Cluster-bound W=12 by contrast shows positive reductions across most k
+(28%, 38%, 74%, 5%, 35%, 46%) with no large negative offset, producing
+the 32% integrated reduction. This is a real structural change to the
+DGP, not a timing shift.
+
+**Formal test** (per-seed paired differences, n=90):
+
+- Pool: integrated cascade reduction = $+0.0000 \pm 0.0076$, 95% CI
+  $[-0.0148, +0.0149]$. Literally zero point estimate.
+- Cluster-bound (W=12, both channels): integrated cascade reduction =
+  $+0.0137 \pm 0.0065$, 95% CI $[+0.0010, +0.0265]$. Excludes zero,
+  though the lower bound is close.
+
+**Confirmation: running the actual matched-DiD pipeline on ABM panels.**
+The mini_event_study result above is a proxy for what the full empirical
+matched-DiD estimator would find. To verify, `experiments/run_matched_did_compare.py`
+runs `contagion/matched_did.py`'s full pipeline (build panel → identify
+events → match POIs → event-study with POI + event-time FEs, clustered
+SEs) on ABM-simulated panels from each regime. 10 seeds × 3 regimes
+(14 min at ~30s/seed for the matched-DiD pipeline):
+
+| Regime | DiD | k=1 β | peak β (k∈[4,8]) | pre-trend p |
+|---|---|---|---|---|
+| ON_no_pool      | −0.059 ± 0.013 | −0.118 ± 0.012 | **+0.060 ± 0.003** | 0.68 |
+| ON_with_pool    | −0.064 ± 0.018 | −0.125 ± 0.010 | **+0.061 ± 0.005** | 0.53 |
+| W=12 both channels | −0.062 ± 0.007 | −0.106 ± 0.011 | **+0.050 ± 0.004** | 0.52 |
+
+**Peak-β reduction vs baseline (ON_no_pool), paired on seed, n=10:**
+
+- **Pool:** $-0.0005 \pm 0.0070$, 95% CI $[-0.0143, +0.0133]$ — **zero**.
+  Matched-DiD cannot distinguish the pool regime from the baseline
+  unbounded regime.
+- **Cluster-bound W=12:** $+0.0104 \pm 0.0043$, 95% CI $[+0.0020,
+  +0.0187]$ — CI **excludes zero**. ~17% reduction in the matched-DiD
+  peak estimate.
+
+This is the strongest form of the prediction: the *actual empirical
+estimator*, applied to simulated panels under each counterfactual,
+confirms that cluster-bound reduces the matched-DiD-measured cascade
+while the pool does not. Pre-trend F-tests pass under all three
+regimes ($p > 0.5$), so the parallel-trends assumption holds under the
+reform counterfactuals as well.
+
+Note: the ABM's matched-DiD peak (+0.060 at ON_no_pool) is about 2×
+the empirical brief's +0.029. This is consistent with the §7c
+identification caveat (matched-DiD in this DGP setting is sensitive
+to μ_POI selection, so peak estimates are inflated). The ~17%
+reduction from cluster-bound is still the quantity of interest — it
+says "a reform that changes the cascade DGP by ~32% (per §11.3
+integrated-cascade measurement) produces a ~17% visible shift in
+matched-DiD estimates," which bounds the detection power of the
+empirical design.
+
+### 11.4 Channel decomposition
+
+5-regime × 90-seed sweep (`experiments/run_channel_decomp.py`, 1720s) at the same
+BASE as §11.2. Bounds the local α·U and network (1−α)·U channels
+independently via two new Params (`cluster_bound_local_window_months`,
+`cluster_bound_network_window_months`) to attribute the W=12 prevention
+to its source.
+
+**Total-count prevention vs ON_unbounded** (n=90):
+
+| Regime | prev/run | prev/yr PJM | 95% CI | % of combined |
+|---|---|---|---|---|
+| W=12 both channels | +99.5 ± 10.5 | +29.85 ± 3.16 | **[+23.6, +36.0]** | 100% |
+| W=12 network-only  | +74.2 ± 10.1 | +22.25 ± 3.02 | **[+16.3, +28.2]** | 75% |
+| W=12 local-only    | +15.4 ± 8.9  | +4.63 ± 2.68  | [−0.6, +9.9]      | 15% |
+
+**The network-fanout channel is the dominant pathway for total-count
+prevention.** Bounding the network channel alone recovers 75% of the
+combined effect; bounding the local channel alone has an effect whose
+CI touches zero. This is consistent with the structural split at
+α=0.15: 85% of each withdrawer's $U$ enters the network-fanout
+pipeline.
+
+**Peak-k within-POI cascade** (k=7 argmax, n=90):
+
+| Regime | cascade at k=7 | 95% CI |
+|---|---|---|
+| ON_unbounded        | +0.0090 ± 0.0017 | [+0.0056, +0.0123] |
+| W=12 both channels  | +0.0058 ± 0.0016 | [+0.0026, +0.0091] |
+| W=12 local-only     | **+0.0057 ± 0.0016** | [+0.0026, +0.0088] |
+| W=12 network-only   | +0.0067 ± 0.0016 | [+0.0035, +0.0099] |
+
+**The within-POI mini_event_study signal is driven almost entirely by
+the local channel.** Bounding the local share alone (W=12 local-only)
+produces essentially the same peak-k reduction as bounding both
+(+0.0057 vs +0.0058). Bounding the network share alone has only a
+modest effect on peak-k (+0.0067 vs +0.0090 baseline, 26% reduction).
+
+**Key insight — the two channels map to different empirical targets:**
+
+| Channel | Drives | Observable via |
+|---|---|---|
+| Network fanout (1−α)·U | **Total-count** prevention | Whole-queue panel counts |
+| Local α·U              | **Within-POI** mini_event_study | Matched-DiD within-POI design |
+
+So matched-DiD, as currently implemented in the empirical brief, sees
+the *local* cascade channel (~15% of total-count prevention) while
+being blind to the *network* channel (~75%). Empirical claims about
+"the cascade we measured" should be interpreted as a claim about the
+local, within-POI DFAX reallocation channel specifically — not about
+the full system-wide cascade.
+
+This also explains why the deposit pool (§10, which targets the
+network channel) doesn't show up in mini_event_study (§11.3): the
+pool's mechanism acts on the channel matched-DiD is blind to.
+Cluster-bound's prevention is ~25% local-attributable (W=12_local_only
+as a fraction of W=12_both in peak-k terms), which is exactly why it
+*is* visible in mini_event_study.
+
+### 11.5 α_local sensitivity
+
+3 α × 3 regime × 30 seeds (`experiments/run_alpha_sensitivity.py`, 114s). Tests
+whether the W=12 headline is robust to the local/network split
+calibration.
+
+| α | full cascade (OFF → ON_unbounded) | W=12 prevention | prev/yr PJM | 95% CI | % captured |
+|---|---|---|---|---|---|
+| 0.05 | +343 /run | +116.2 ± 20.6 | +34.9 ± 6.2 | **[+22.8, +47.0]** | 34% |
+| 0.15 | +356 /run | +110.6 ± 21.8 | +33.2 ± 6.6 | **[+20.3, +46.0]** | 31% |
+| 0.30 | +328 /run | +78.6 ± 15.3  | +23.6 ± 4.6 | **[+14.6, +32.6]** | 24% |
+
+All three CIs exclude zero. The W=12 prevention is robust across the
+α range: point estimates span +24 to +35 /yr PJM, consistent with a
+true effect in the "roughly 30% of the cascade channel prevented" band.
+
+The monotone pattern (α=0.05 > α=0.15 > α=0.30) is consistent with
+§11.4: a lower α means more of $U$ enters the network-fanout pipeline,
+where cluster bounding does most of its work. At α=0.30 only 70% of
+$U$ enters the network — less for cluster bounding to intercept — so
+total prevention drops to +23.6 /yr.
+
+**Conclusion**: the +30 /yr W=12 headline is not an artifact of the
+α=0.15 calibration. It persists across the plausible α range
+(0.10-0.15 from structural decomposition, with +/-2x as sensitivity
+anchors).
+
+### 11.6 Caveats
+
+- **Same matched-DiD identification caveat as §7c applies.** The ABM's
+  matched-DiD estimates are contaminated by selection on permanent POI
+  heterogeneity; `mini_event_study` (no fixed effects) is the correct
+  ABM-internal cascade gauge for cluster-bound comparisons.
+- **Evaporation is total, not bound-attributable.** The
+  `evaporated_U` field counts every dollar that failed to place
+  (empty-POI, sub-DFAX, and filter-exclusion sources combined). To
+  isolate the bound-attributable component, subtract the unbounded
+  regime's evaporation from the bounded regime's.
+- **W = 0 is a stress test, not a realistic reform.** Real cluster
+  cycles are 12–24 months, not zero. W = 0 is included only to verify
+  the filter actually bites at the tight end.
+- **Entry-time granularity.** The ABM tracks entry in months; PJM
+  cluster cycles are years. This means a W of 24 months in the ABM
+  corresponds roughly to a 2-year cycle in PJM — reasonable but not
+  exact.

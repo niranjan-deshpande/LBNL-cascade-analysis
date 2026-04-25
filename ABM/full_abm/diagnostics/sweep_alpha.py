@@ -13,8 +13,8 @@ import pandas as pd
 
 warnings.filterwarnings("ignore")
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 from model import QueueModel, Params
 from validate_matched_did import abm_panel_to_lbnl_schema, run_did_on_df
 
@@ -83,7 +83,7 @@ def main():
     df = pd.DataFrame(summary_rows)
     print(df.to_string(index=False))
     print("\nEmpirical targets:  k=1: -0.038    k=4-8 peak: +0.029    pooled DiD: ~-0.008")
-    out_path = os.path.join(HERE, "output", "alpha_sweep.csv")
+    out_path = os.path.join(ROOT, "output", "alpha_sweep.csv")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     df.to_csv(out_path, index=False)
     print(f"\nSaved: {out_path}")
