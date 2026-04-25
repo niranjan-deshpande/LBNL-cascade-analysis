@@ -128,13 +128,3 @@ The full ABM (Mesa, PJM-calibrated) reproduces the two-channel empirical picture
 **Deposit-pool counterfactual — secondary** (`ABM/full_abm/experiments/run_deposit_pool.py`, 90 seeds, MODEL.md §10). Pool absorbs the `(1−α)·U` network share before cascade. Prevents **+15.1 ± 3.4 /yr at PJM scale, CI [+8.4, +21.8]** in total counts — but within-POI integrated cascade is **essentially zero** (+0.0000 ± 0.0076). Mechanism: pool reduces short-run cascade (k=1 by 35%) but offsets it with increased medium-run cascade (k=5 by 163%). Delays, doesn't extinguish. Because matched-DiD integrates within-POI, the pool's prevention is invisible to that estimator, while cluster-bound's is detectable. Confirmed by running the actual `contagion/matched_did.py` pipeline on ABM panels under both regimes (`run_matched_did_compare.py`, §11.3).
 
 See `ABM/full_abm/MODEL.md` for the full model specification, validation table, and counterfactual sections.
-
-## TODO
-
-- [x] Deposit-pool counterfactual (MODEL.md §10).
-- [x] Cluster-bounded reallocation counterfactual (MODEL.md §11) — primary, supersedes deposit pool.
-- [x] Channel decomposition and α-sensitivity (MODEL.md §11.4, §11.5).
-- [x] Validate on the actual empirical matched-DiD estimator (MODEL.md §11.3).
-- [ ] Additional policy counterfactuals: DFAX-threshold changes, regional cost-allocation shifts, mixed reforms (pool + cluster-bound).
-- [ ] Network-topology sensitivity (`network_fanout` sweep): §11.4 attributes 75% of total-count prevention to the network channel, which may be topology-dependent.
-- [ ] Redesign the empirical identification strategy to exploit network topology and PJM's actual DFAX reallocation matrices (the current matched-DiD's confound with persistent POI economics is structural, not fixable with parameter tuning).
