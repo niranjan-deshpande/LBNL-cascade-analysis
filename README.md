@@ -26,38 +26,46 @@ contagion/
 ├── visualizations.py                # main-pipeline figures
 ├── run_all.py                       # main pipeline
 ├── run_fixes.py, run_fixes2.py      # follow-up fixes and extensions
-├── briefs/                          # 2-page brief + full report + DiD writeup
 └── output/                          # figures, tables, DiD artifacts
 ABM/
-├── notes_for_self/                  # design notes, forward-path writeups, session synthesis
 ├── toy_one_poi/                     # proof-of-concept: single POI, 6 projects
 │   ├── model.py                     # Project, Params, simulate
 │   ├── calibrate.py                 # bootstrap samplers from LBNL data
 │   ├── run_toy.py                   # 500-rep ON vs OFF sweep
 │   └── output/                      # CSVs + withdrawal path figure
 └── full_abm/                        # PJM-calibrated multi-POI Mesa model
-    ├── MODEL.md                     # full model specification
     ├── model.py                     # Project (Mesa Agent), POI, QueueModel
     ├── validation.py                # completion rate, VR, dose response, mini event study
     ├── validate_matched_did.py      # library: runs contagion/matched_did.py on ABM panels
     ├── calibrate.py                 # PJM-only bootstrap samplers (cached)
     ├── experiments/
-    │   ├── run.py                   # multi-seed ON vs OFF sweep (entry point)
-    │   ├── run_cluster_bound.py     # cluster-bounded reallocation, 90-seed W sweep (primary, §11)
-    │   ├── run_deposit_pool.py      # deposit-pool counterfactual, 90 seeds (secondary, §10)
-    │   ├── run_channel_decomp.py    # local vs network channel decomposition (§11.4)
-    │   ├── run_alpha_sensitivity.py # α_local robustness (§11.5)
-    │   └── run_matched_did_compare.py # matched-DiD on ABM panels under 3 regimes (§11.3)
+    │   ├── run.py                       # multi-seed ON vs OFF sweep (entry point)
+    │   ├── run_cluster_bound.py         # cluster-bounded reallocation, 90-seed W sweep (primary)
+    │   ├── run_deposit_pool.py          # deposit-pool counterfactual, 90 seeds (secondary)
+    │   ├── run_channel_decomp.py        # local vs network channel decomposition
+    │   ├── run_alpha_sensitivity.py     # α_local robustness (3 values, 30 seeds)
+    │   ├── run_kernel_sensitivity.py    # network_distance_scale robustness (6 values, 30 seeds)
+    │   ├── run_fanout_sensitivity.py    # network_fanout k robustness (7 values, 30 seeds)
+    │   └── run_matched_did_compare.py   # matched-DiD on ABM panels under 3 regimes
     ├── diagnostics/
-    │   ├── diag_cascade_decomposition.py # matched-DiD ON vs OFF decomposition (§7c caveat)
-    │   ├── diag_off_k1.py           # diagnostic for k=1 dip under reallocation OFF
-    │   ├── sweep_alpha.py           # sensitivity over alpha_local
-    │   └── sweep_sigma_poi.py       # sensitivity over sigma_poi
+    │   ├── diag_cascade_decomposition.py  # matched-DiD ON vs OFF decomposition (ID caveat)
+    │   ├── diag_off_k1.py                 # k=1 dip under reallocation OFF
+    │   ├── sweep_alpha.py                 # sensitivity over alpha_local
+    │   ├── sweep_rho.py                   # sensitivity over rho_poi (OFF event-study shape)
+    │   └── sweep_sigma_poi.py             # sensitivity over sigma_poi
     └── output/                      # panel CSVs, sweep results, logs
-docs/
-├── contagion_plan.md                # design & rationale
-└── insights_from_data.md            # initial exploration
+paper_figures/                       # camera-ready figures (.py + .pdf + .png)
+├── fig1_event_study.py              # empirical vs ABM-ON vs ABM-OFF matched-DiD
+├── fig2_rho_sweep.py                # ρ-sweep small multiples (OFF shape robustness)
+├── fig3_cluster_bound_prevention.py # prevention/yr vs cluster-window W
+├── fig4_alpha_sensitivity.py        # α robustness panel (3 points)
+├── fig5_kernel_sensitivity.py       # s robustness panel (6 points, log-x)
+└── fig6_robustness_panel.py         # combined α / s / k / ρ 2×2 panel
 ```
+
+Briefs, design notes, and full model specification (`contagion/briefs/`,
+`ABM/notes_for_self/`, `ABM/full_abm/MODEL.md`, `docs/`, and the `writeup/`
+draft folder) are kept locally and gitignored.
 
 ## Running the pipeline
 
