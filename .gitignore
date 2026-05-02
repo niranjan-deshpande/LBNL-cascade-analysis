@@ -31,6 +31,13 @@ env/
 # Final-paper workspace (drafts, outlines, figures — local only)
 writeup/
 
+# Writeup-style notes, briefs, planning docs — local only
+ABM/notes_for_self/
+ABM/full_abm/MODEL.md
+contagion/briefs/
+contagion/output/brief/brief/
+docs/
+
 # Source data (not tracked)
 lbnl_ix_queue_data_file_thru2024_v2.xlsx
 CLAUDE.md
